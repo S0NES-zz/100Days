@@ -1,0 +1,44 @@
+body{
+    align-items: center;
+    background-color: #9BF3F0;
+    display: flex;
+    height: 90vh;
+}
+.container{
+    align-items: center;
+    background-color: #F7F0F5;
+    box-shadow: 0px 0px 50px -10px rgba(10, 9, 8, 0.37);
+    -webkit-box-shadow: 0px 0px 50px -10px rgba(10, 9, 8, 0.37); 
+    border-radius: 30px;
+    display: flex;
+    height: 60%;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 30%;
+}
+.flex-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+    width: 80%;
+}
+.titulo{
+    color: #FF6B35;
+    font-size: 1.9em;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 600;
+}
+#inputBinario, #inputDecimal{
+    width: 300px;
+    height: 2.5em;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+}
+#inputBinario:focus, #inputDecimal:focus{
+    outline: none;
+}
