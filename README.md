@@ -22,7 +22,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 ## Projetos Feitos 
 Day | Project
 --- | ------
-001 | [bin2dec](https://sones-bin2dec.netlify.app/bin2dec.html)
+001 | [bin2dec](https://sones-100days.netlify.app/bin2dec/bin2dec.html)
 002 | 
 003 |
 004 |
