@@ -10,27 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <form class="flex-container">
-            <!-- Form Name -->
-            <legend class="titulo">BINARIO PARA DECIMAL</legend>
+    <form class="grid-container">
+        <!-- Form Name -->
+        <legend class="titulo">BINARIO PARA DECIMAL</legend>
 
-            <!-- Text input-->
-            <div>
-                <div>
-                    <input id="inputDecimal" name="inputBinario" type="text" placeholder="Digite um numero Decimal" class="form-control">
-                </div>
-            </div>
+        <!-- Text input-->
+        <label for="inputDecimal" class="labelDecimal">Digite um numero Decimal: </label>
+        <input id="inputDecimal" name="inputDecimal" type="text">
 
-            <!-- Text input-->
-            <div>
-                <div>
-                    <input id="inputBinario" name="inputDecimal" type="text"  placeholder="Digite um numero Binario" class="form-control">
-                </div>
-            </div>
+        <!-- Text input-->
+        <label for="inputBinario" class="labelBinario">Digite um numero Binario: </label>
+        <input id="inputBinario" name="inputBinario" type="text" >
 
-        </form>
-    </div>
+    </form>
     <script src="bin2dec.js"></script>
 </body>
 </html>
