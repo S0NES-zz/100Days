@@ -6,6 +6,8 @@ body{
 .grid-container{
     align-items: center;
     background: #f7f0f5;
+    -webkit-box-shadow: 0px 0px 18px 6px rgba(36,35,49,0.57); 
+    box-shadow: 0px 0px 18px 6px rgba(36,35,49,0.57);
     display: grid;
     border-radius: 50px;
     grid-template-columns: 1fr 1.5fr;

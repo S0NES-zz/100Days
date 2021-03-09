@@ -1,0 +1,83 @@
+body{
+    background: #EFC7C2;
+    height: 100vh;
+    overflow: hidden;
+}
+.grid-container {
+    background: #B4E1FF ;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 18px 6px rgba(36,35,49,0.57); 
+    box-shadow: 0px 0px 18px 6px rgba(36,35,49,0.57);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+    gap: 15px 15px;
+    grid-template-areas:
+        "titulo titulo"
+        "labelMin inputMin"
+        "labelMax inputMax"
+        "btnGerar btnGerar";
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 45%;
+}
+
+
+#titulo, #labelMax, #labelMin, #inputMax, #inputMin, #btnGerar{
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+    
+#titulo, #labelMax, #labelMin{ 
+    color: #242331;
+    font-size: 1em;
+}
+#titulo { 
+    grid-area: titulo;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#inputMax, #inputMin{ 
+    margin-right: 40%;
+}
+#inputMax, #inputMin{ 
+    border-radius: 10px;
+    border: 0;
+    height: 60%;
+    text-align: center;
+    width: 80%;
+}
+#inputMax:focus, #inputMin:focus{
+    outline: none;
+}
+#inputMin { grid-area: inputMin; }
+#inputMax { grid-area: inputMax; }
+
+
+#labelMax, #labelMin{
+    margin-left: 40%;
+}
+#labelMax { grid-area: labelMax; }
+#labelMin { grid-area: labelMin; }
+
+#btnGerar {
+    background: #FFD23F;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    height: 50%;
+    grid-area: btnGerar;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+#btnGerar:hover{
+    outline: none;
+    color: white;
+    background: #E0AC00;
+}

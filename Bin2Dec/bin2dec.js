@@ -5,7 +5,7 @@ binNumber = document.getElementById("inputBinario")
 
  //DECIMAL PARA BINARIO
 decNumber.addEventListener("input", ()=>{
-   var restStack = [], rest, binaryString = '';
+    var restStack = [], rest, binaryString = '';
     var decValue = decNumber.value; 
     
     while (decValue > 0){
