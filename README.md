@@ -23,7 +23,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 Day | Project
 --- | ------
 001 | [bin2dec](https://sones-100days.netlify.app/bin2dec/bin2dec.html)
-002 | 
+002 | [random number generator](https://sones-100days.netlify.app/randomnumber/random)
 003 |
 004 |
 005 |
