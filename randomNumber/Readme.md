@@ -21,6 +21,6 @@ The generator allows the user to use the random property for purposes like games
 [What's this fuss about true randomness?](https://www.random.org/)
 
 
-## 1/100 3/8/2021 - DONE
+## 2/100 3/9/2021 - DONE
 
 ## #100DAYSCHALLENGE
