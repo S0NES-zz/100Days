@@ -51,12 +51,12 @@ function changeColor() {
 
 function animacao() {
   if(isLight == true){
-    red.style.animation = "glow-red " + (1 + duration) + "s infinite";
-    orange.style.animation = "glow-orange " + (1 + duration) + "s infinite";
-    yellow.style.animation = "glow-yellow " + (1 + duration) + "s infinite";
-    green.style.animation = "glow-green " + (1 + duration) + "s infinite";
-    blue.style.animation = "glow-blue " + (1 + duration) + "s infinite";
-    darkBlue.style.animation = "glow-darkBlue " + (1 + duration) + "s infinite";
+    red.style.animation = "glow-red " + (1 - duration) + "s infinite";
+    orange.style.animation = "glow-orange " + (1 - duration) + "s infinite";
+    yellow.style.animation = "glow-yellow " + (1 - duration) + "s infinite";
+    green.style.animation = "glow-green " + (1 - duration) + "s infinite";
+    blue.style.animation = "glow-blue " + (1 - duration) + "s infinite";
+    darkBlue.style.animation = "glow-darkBlue " + (1 - duration) + "s infinite";
   }else{
     red.style.animation = "none";
     orange.style.animation = "none";
