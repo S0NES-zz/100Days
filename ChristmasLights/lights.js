@@ -10,7 +10,7 @@ let red,
   inputSpeed,
   bolinhas,
   duration = 0,
-  isLight = true;
+  isLight = false;
 
 /* Cores */
 red = document.getElementById("red");
@@ -75,11 +75,10 @@ on.addEventListener("click", () => {
 off.addEventListener("click", () => {
     isLight = false;
     changeColor();
+    animacao();
 });
 inputSpeed.addEventListener("input", () => {
   duration = inputSpeed.value;
   duration = duration / 10;
-  if(isLight == true) {
-    animacao();
-  }
+  animacao();
 });
