@@ -9,7 +9,7 @@ btn.addEventListener("click", (e)=>{
     e.preventDefault();
     min = Math.ceil(min.value);
     max = Math.floor(max.value);
-    result = Math.floor(Math.random() * (max - min + 1));
+    result = Math.floor(((Math.random() * (max - min)) + min) + 1);
     txt.innerHTML = ("O Número gerado é "+ result);
 });
 
