@@ -24,7 +24,7 @@ Day | Project
 --- | ------
 001 | [bin2dec](https://sones-100days.netlify.app/bin2dec/bin2dec.html)
 002 | [random number generator](https://sones-100days.netlify.app/randomnumber/random)
-003 | [Christmas Lights](https://sones-100days.netlify.app/ChristmasLights/light.html)
+003 | [Christmas Lights](https://sones-100days.netlify.app/christmaslights/lights.html)
 004 |
 005 |
 006 | 
