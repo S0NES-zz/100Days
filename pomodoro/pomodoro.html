@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="pomodoro.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Pomodoro Timer</h1>
+      <div class="grid-container">
+        <!-- Work timer -->
+        <div id="work-timer" class="timer">
+          <p id="w-minutes">25</p>
+          <div class="semicolon">:</div>
+          <div id="w-seconds">00</div>
+        </div>
+
+        <!-- Break timer -->
+        <div id="break-timer" class="timer">
+          <p id="b-minutes">05</p>
+          <div class="semicolon">:</div>
+          <div id="b-seconds">00</div>
+        </div>
+
+        <p id="start" class="btn">Start</p>
+        <p id="stop" class="btn">Stop</p>
+        <p id="reset" class="btn">Reset</p>
+      </div>
+    </div>
+    <script src="pomodoro.js"></script>
+  </body>
+</html>

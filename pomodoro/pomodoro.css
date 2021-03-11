@@ -1,0 +1,77 @@
+body {
+    background-color: #F7EBE8;
+    color: #1E1E24;
+    font-family: 'Redressed', cursive;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+#container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    width: 50%;
+}
+.grid-container {
+  display: grid;
+  background: url(unnamed-removebg-preview-removebg-preview.png) no-repeat;
+  width: 76%;
+  height: 69%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "work-timer break-timer"
+    "btnArea btnArea";
+}
+#work-timer, #break-timer  { 
+    align-items: center;
+    color: #F7EBE8;
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    position: absolute;
+    top: 48%;
+    justify-content: center;
+    text-align: center;
+}
+#work-timer {
+    left: 42%;
+    grid-area: work-timer;
+}
+#break-timer {
+    left: 50%;
+    grid-area: break-timer;
+}
+
+.btn{ 
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #F7EBE8;
+    display: flex;
+    text-transform: uppercase;
+    position: absolute;
+    height: 10%;
+    justify-content: center;
+    top: 60%;
+    transition: 0.5s ease;
+    width:5%;
+}
+
+#start {
+    left: 40%;
+}
+#stop {
+    left: 47%;
+}
+#reset {
+    left: 54%;
+}
+#start:hover, #stop:hover, #reset:hover{  
+    background: #FFA987;
+    color: #444140;
+}

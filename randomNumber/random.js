@@ -12,4 +12,3 @@ btn.addEventListener("click", (e)=>{
     result = Math.floor(((Math.random() * (max - min)) + min) + 1);
     txt.innerHTML = ("O Número gerado é "+ result);
 });
-

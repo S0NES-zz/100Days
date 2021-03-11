@@ -18,7 +18,6 @@ decNumber.addEventListener("input", ()=>{
     };
     binNumber.value = binaryString;
 });
-
 //BINARIO PARA DECIMAL
 binNumber.addEventListener("input", ()=>{
   let decimal = 0;
