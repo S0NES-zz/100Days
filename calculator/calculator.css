@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "RocknRoll One", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(237, 28, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 28, 36, 1) 18%,
+    rgba(241, 211, 2, 1) 100%
+  );
+  overflow: hidden;
+}
+.grid-calculator {
+  border-radius: 1.5em 1.5em 2.5em 2.5em;
+  padding: 1em;
+  display: grid;
+  height: 80%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    "display display display display"
+    "clear clear del div"
+    "seven eight nine mult"
+    "four five six minus"
+    "one two three plus"
+    "dot zero equals equals";
+  margin: 4% auto;
+  width: 25%;
+}
+
+#display {
+  align-items: flex-end;
+  background-color: #181c25;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  grid-area: display;
+  justify-content: space-around;
+  padding: 5px 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+#display #previousOperation {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+#display #currentOperation {
+  color: white;
+  font-size: 2.5rem;
+}
+.button {
+  border-radius: 50px;
+  background-color: #fdfffc;
+  color: #101218;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.button:hover { 
+  color: #fdfffc;
+  background-color: #101218;
+}
+.button:focus {
+  outline: none;
+  color: #fdfffc;
+  background-color: #101218;
+}
+
+#div,
+#minus,
+#plus,
+#equals {font-size: 2em;}
+
+#clear {grid-area: clear;}
+#del {grid-area: del;}
+#div {grid-area: div;}
+#mult {grid-area: mult;}
+#minus {grid-area: minus;}
+#plus {grid-area: plus;}
+#equals {grid-area: equals;}
+#one {grid-area: one;}
+#two {grid-area: two;}
+#three {grid-area: three;}
+#four {grid-area: four;}
+#five {grid-area: five;}
+#six {grid-area: six;}
+#seven {grid-area: seven;}
+#eight {grid-area: eight;}
+#nine {grid-area: nine;}
+#dot {grid-area: dot;}
+#zero {grid-area: zero;}
+

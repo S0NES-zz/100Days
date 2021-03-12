@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="calculator.js" defer></script>
+  </head>
+  <body>
+    <div class="grid-calculator">
+      <div id="display">
+        <div data-previous-operand id="previousOperation"></div>
+        <div data-current-operand id="currentOperation"></div>
+      </div>
+      <button class="button" data-all-clear id="clear">AC</button>
+      <button class="button" data-delete id="del">C</button>
+      <button class="button" data-operation id="div">/</button>
+      <button class="button" data-operation id="mult">X</button>
+      <button class="button" data-operation id="minus">-</button>
+      <button class="button" data-operation id="plus">+</button>
+      <button class="button" data-equals id="equals">=</button>
+      <button class="button" data-number id="zero">0</button>
+      <button class="button" data-number id="one">1</button>
+      <button class="button" data-number id="two">2</button>
+      <button class="button" data-number id="three">3</button>
+      <button class="button" data-number id="four">4</button>
+      <button class="button" data-number id="five">5</button>
+      <button class="button" data-number id="six">6</button>
+      <button class="button" data-number id="seven">7</button>
+      <button class="button" data-number id="eight">8</button>
+      <button class="button" data-number id="nine">9</button>
+      <button class="button" data-number id="dot">.</button>
+    </div>
+  </body>
+</html>
