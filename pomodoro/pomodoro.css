@@ -16,13 +16,10 @@ body {
   width: 50%;
 }
 #pomodoroImg{
-  position: absolute;
+  position: fixed;
   z-index: -1;
-  top: 18%;
-  left: 31%;
 }
 .grid-container {
-  background: url(pomodoro.png) no-repeat;
   background-size: fill;
   height: 65%;
   width: 60%;
