@@ -4,6 +4,8 @@ start = document.getElementById("start");
 stop = document.getElementById("stop");
 reset = document.getElementById("reset");
 
+workTimer = document.getElementById("work-timer");
+breakTimer = document.getElementById("break-timer");
 wMinutes = document.getElementById("w-minutes");
 wSeconds = document.getElementById("w-seconds");
 bMinutes = document.getElementById("b-minutes");
@@ -48,6 +50,9 @@ function timer() {
 
   //Break Timer Countdown
   if (wMinutes.innerText == 0 && wSeconds.innerText == 0) {
+    workTimer.style.display = none;
+    breakTimer.style.display = flex;
+    
     if (bSeconds.innerText != 0) {
       bSeconds.innerText--;
     } else if (bMinutes.innerText != 0 && bSeconds.innerText == 0) {
@@ -63,6 +68,9 @@ function timer() {
     bMinutes.innerText == 0 &&
     bSeconds.innerText == 0
   ) {
+    
+    workTimer.style.display = flex;
+    breakTimer.style.display = none;
     wMinutes.innerText = 25;
     wSeconds.innerText = "00";
 

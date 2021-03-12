@@ -22,64 +22,56 @@ body {
   left: 31%;
 }
 .grid-container {
-  display: grid;
-  width: 100%;
-  height: 70%;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "work-timer break-timer"
-    "btnArea btnArea";
+  background: url(pomodoro.png) no-repeat;
+  background-size: fill;
+  height: 65%;
+  width: 60%;
 }
 #work-timer,
 #break-timer {
   align-items: center;
   color: #f7ebe8;
-  display: flex;
   flex-direction: row;
-  font-size: 2em;
-  position: absolute;
-  top: 48%;
+  font-size: 3em;
+  position: relative;
+  height: 20%;
   justify-content: center;
-  text-align: center;
+  top: 30%;
+  left: 38%;
+  width: 25%;
 }
 #work-timer {
-  left: 42%;
-  grid-area: work-timer;
+  display: flex;
 }
 #break-timer {
-  left: 50%;
-  grid-area: break-timer;
+  display: none;
 }
 
+.btnArea{ 
+  align-items: center;
+  display: flex;
+  height: 12%;
+  justify-content: space-evenly;
+  position: relative;
+  top: 35%;
+}
 .btn {
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
   color: #f7ebe8;
   display: flex;
-  text-transform: uppercase;
-  position: absolute;
-  height: 10%;
+  height: 100%;
+  font-size: 1.1em;
   justify-content: center;
-  top: 60%;
+  text-transform: uppercase;
   transition: 0.5s ease;
-  width: 5%;
+  width: 13%;
 }
-
-#start {
-  left: 40%;
+.btn:hover {
+  background: #f7ebe8;
+  color: #f60000;
 }
-#stop {
-  left: 47%;
-}
-#reset {
-  left: 54%;
-}
-#start:hover,
-#stop:hover,
-#reset:hover {
-  background: rgba(255, 169, 135, 0.5);
-  color: #444140;
+#stop{
+  margin-top: 20%;
 }

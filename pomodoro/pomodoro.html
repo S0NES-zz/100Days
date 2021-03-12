@@ -15,25 +15,25 @@
   <body>
     <div id="container">
       <h1>Pomodoro Timer</h1>
-      <img id="pomodoroImg" src="pomodoro.png" alt="pomodoro" />
       <div class="grid-container">
         <!-- Work timer -->
         <div id="work-timer" class="timer">
           <p id="w-minutes">25</p>
-          <div class="semicolon">:</div>
-          <div id="w-seconds">00</div>
+          <p class="semicolon">:</p>
+          <p id="w-seconds">00</p>
         </div>
 
         <!-- Break timer -->
         <div id="break-timer" class="timer">
           <p id="b-minutes">05</p>
-          <div class="semicolon">:</div>
-          <div id="b-seconds">00</div>
+          <p class="semicolon">:</p>
+          <p id="b-seconds">00</p>
         </div>
-
-        <p id="start" class="btn">Start</p>
-        <p id="stop" class="btn">Stop</p>
-        <p id="reset" class="btn">Reset</p>
+        <div class="btnArea">
+          <p id="start" class="btn">Start</p>
+          <p id="stop" class="btn">Stop</p>
+          <p id="reset" class="btn">Reset</p>
+        </div>
       </div>
     </div>
     <script src="pomodoro.js"></script>
