@@ -17,6 +17,8 @@ body {
 }
 #pomodoroImg{
   position: fixed;
+  top: 25%;
+  left: 35%;
   z-index: -1;
 }
 .grid-container {
