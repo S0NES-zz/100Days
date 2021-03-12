@@ -15,11 +15,14 @@ body {
   margin: auto;
   width: 50%;
 }
+#pomodoroImg{
+  position: absolute;
+  z-index: -1;
+  top: 18%;
+  left: 31%;
+}
 .grid-container {
   display: grid;
-  background: url(unnamed-removebg-preview-removebg-preview.png) no-repeat;
-  background-position: center;
-  background-size: fill;
   width: 100%;
   height: 70%;
   grid-template-columns: 1fr 1fr;
@@ -77,6 +80,6 @@ body {
 #start:hover,
 #stop:hover,
 #reset:hover {
-  background: #ffa987;
+  background: rgba(255, 169, 135, 0.5);
   color: #444140;
 }

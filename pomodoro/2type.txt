@@ -1,0 +1,55 @@
+const work = 26;
+const short = 0.05;
+
+
+let workTime = work * 60;
+let shortRest = short * 60;
+
+const countdownEl = document.getElementById("countdown");
+
+function intervalWork() {
+    setInterval(getWork, 1000);
+};
+function shortInterval() {
+  setInterval(getShort, 1000);
+};
+
+function clearWork() {
+    clearInterval(intervalWork());
+}
+function clearShort() {
+    clearInterval(shortInterval());
+}
+
+function getWork() {
+  let minutes = Math.floor(workTime / 60);
+  let seconds = workTime % 60;
+
+  minutes = minutes < 10 ? "0" + minutes : minutes;
+  seconds = seconds < 10 ? "0" + seconds : seconds;
+
+  countdownEl.innerHTML = minutes + ":" + seconds;
+  workTime--;
+
+  if (workTime === 0) {
+      clearWork();
+      shortInterval();
+  }
+}
+
+function getShort() {
+  let minutes = Math.floor(shortRest / 60);
+  let seconds = shortRest % 60;
+
+  minutes = minutes < 10 ? "0" + minutes : minutes;
+  seconds = seconds < 10 ? "0" + seconds : seconds;
+
+  countdownEl.innerHTML = minutes + ":" + seconds;
+
+  shortRest--;
+
+  if (shortRest === 0) {
+      clearShort();
+      intervalWork();
+  }
+}
