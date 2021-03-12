@@ -99,3 +99,8 @@ body {
 #dot {grid-area: dot;}
 #zero {grid-area: zero;}
 
+@media (max-width: 800px){
+  .grid-calculator{
+    width: 80%;
+  }
+}
