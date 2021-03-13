@@ -33,7 +33,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 003 | [Christmas Lights](https://sones-100days.netlify.app/christmaslights/lights.html) |
 | 004 | [Pomodoro Timer](https://sones-100days.netlify.app/pomodoro/pomodoro.html)        |
 | 005 | [Calculadora](https://sones-100days.netlify.app/calculator/calculator.html)        |
-| 006 | [dice](https://sones-100days.netlify.app/dice/dice.html)        |
+| 006 | [Dice](https://sones-100days.netlify.app/dicegame/dice.html)        |
 | 007 |
 | 008 |
 | 009 |
