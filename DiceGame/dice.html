@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dice</title>
+    <link rel="stylesheet" href="dice.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <h1 id="title">Click to change players name</h1>
+
+      <div class="dice" id="dice1">
+        <p class="player" id="player1" contenteditable="true">Player 1</p>
+        <img id="img1" src="images/dice6.png" alt="" />
+      </div>
+
+      <div class="dice" id="dice2">
+        <p class="player" id="player2" contenteditable="true">Player 2</p>
+        <img id="img2" src="images/dice6.png" alt="" />
+      </div>
+
+      <button id="jogar">Jogar</button>
+    </div>
+  </body>
+
+  <script src="dice.js"></script>
+</html>
