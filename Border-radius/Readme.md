@@ -6,9 +6,9 @@ The border-radius property can have multiple values changed. Preview how the sha
 
 ## User Stories
 
--   [ ] User can see a box which has a `border-radius` property applied to it
--   [ ] User can change the 4 `border-radius` values that are applied to the box (top-left, top-right, bottom-left, bottom-right)
--   [ ] User can copy the resulting CSS to the clipboard
+-   [✔️] User can see a box which has a `border-radius` property applied to it
+-   [✔️] User can change the 4 `border-radius` values that are applied to the box (top-left, top-right, bottom-left, bottom-right)
+-   [✔️] User can copy the resulting CSS to the clipboard
 
 ## Bonus features
 
@@ -18,3 +18,7 @@ The border-radius property can have multiple values changed. Preview how the sha
 
 -   [CSS3 Borders](https://www.w3schools.com/css/css3_borders.asp)
 -   [Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+
+## 7/100 3/14/2021 - DONE
+
+## #100DAYSCHALLENGE

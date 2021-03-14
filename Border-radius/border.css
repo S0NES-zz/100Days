@@ -1,0 +1,98 @@
+wi* {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+body {
+  align-items: center;
+  background-color: #f8f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+}
+#title {
+  font-size: 3em;
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  margin: 0 auto;
+}
+#borderBox {
+  background: linear-gradient(
+    55deg,
+    rgba(13, 33, 161, 1) 0%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60%;
+  width: 30%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.inputR {
+  border: none;
+  background-color: #686767;
+  color: #f8f6f6;
+  outline: none;
+  height: 20px;
+  position: fixed;
+  width: 30px;
+}
+
+#topLeft {
+  top: 25%;
+  left: 32%;
+}
+#bottomLeft {
+  bottom: 6%;
+  left: 32%;
+}
+#topRight {
+  top: 25%;
+  right: 32%;
+}
+#bottomRight {
+  bottom: 6%;
+  right: 32%;
+}
+#preview,
+#copy {
+  cursor: pointer;
+  margin: 2% auto;
+}
+#preview:focus,
+#copy:focus {
+  outline: none;
+}
+#copy:hover {
+  background-color: #052c66;
+}
+#preview {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #f8f6f6;
+  height: 68%;
+  top: 10%;
+  text-align: center;
+  left: 10%;
+  width: 80%;
+}
+#copy {
+  background-color: #031d44;
+  border: none;
+  border-radius: 20px;
+  color: #f8f6f6;
+  height: 8%;
+  transition: 0.5s;
+  width: 15%;
+}

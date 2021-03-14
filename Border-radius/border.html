@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Radius Previewer</title>
+    <link rel="stylesheet" href="border.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Border Radius</h1>
+    <div id="borderBox">
+      <input type="text" name="preview" id="preview"/>
+      <button id="copy">Copy</button>      
+    </div>
+    <input
+      type="number"
+      class="inputR"
+      id="topLeft"
+      min="0"
+      max="100"
+      maxlength="3"
+    />
+    <input
+      type="number"
+      class="inputR"
+      id="bottomLeft"
+      min="0"
+      max="100"
+      maxlength="3"
+    />
+    <input
+      type="number"
+      class="inputR"
+      id="topRight"
+      min="0"
+      max="100"
+      maxlength="3"
+    />
+    <input
+      type="number"
+      class="inputR"
+      id="bottomRight"
+      min="0"
+      max="100"
+      maxlength="3"
+    />
+    <script src="border.js"></script>
+  </body>
+</html>
