@@ -27,7 +27,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 ## Projetos Feitos
 
 | Day | Project                                                                           |
-| --- | --------------------------------------------------------------------------------- |      |
+| --- | --------------------------------------------------------------------------------- |   
 | 001 | [bin2dec](https://s0nes.github.io/100Days/Bin2Dec/bin2dec.html)                 |
 | 002 | [random number generator](https://s0nes.github.io/100Days/randomNumber/random)  |
 | 003 | [Christmas Lights](https://s0nes.github.io/100Days/ChristmasLights/lights.html) |
