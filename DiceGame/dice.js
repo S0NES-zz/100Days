@@ -5,7 +5,6 @@ title = document.getElementById("title");
 player1 = document.getElementById("player1");
 player2 = document.getElementById("player2");
 
-
 btn.addEventListener("click", () => {
   dice1 = Math.floor(Math.random() * 6) + 1;
   dice2 = Math.floor(Math.random() * 6) + 1;
@@ -21,3 +20,19 @@ btn.addEventListener("click", () => {
     title.innerText = player2.innerText + " won";
   }
 });
+
+/* 2 way maybe?
+
+let btn, img;
+
+btn = document.getElementById("jogar");
+imgs = document.querySelectorAll("img");
+
+btn.addEventListener("click", () => {
+  for (img of imgs) {
+    let value = Math.floor(Math.random() * 6) + 1;
+    img.src = "images/dice" + value + ".png";
+    img.alt = "" + value;
+  }
+});
+*/
