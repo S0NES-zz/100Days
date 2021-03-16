@@ -25,14 +25,18 @@ function handleTxt(e) {
   textArea.scrollTop = textArea.scrollHeight;
 }
 function titleChange(e) {
-  title.innerText = e.key;
+  if (e.key == " ") {
+    title.innerText = "SPACE";
+  } else {
+    title.innerText = e.key;
+  }
 }
 reset.addEventListener("click", () => {
   textArea.style = "animation: disappear 0.35s;";
   title.style = "animation: disappear 0.35s;";
   setTimeout(() => {
     title.innerText = "Keyboard Event";
-    title.style = "aniamtion: none"
+    title.style = "aniamtion: none";
     textArea.innerText = "";
     textArea.style = "animation: none";
   }, 500);
