@@ -16,14 +16,12 @@ h1 {
   font-size: 5rem;
   color: #111518;
 }
-
 .set {
   margin: 0 auto;
   height: 100%;
   background: url("images/drum.png") no-repeat;
   background-position: center bottom;
 }
-
 .drum {
   display: inline-block;
   color: black;
