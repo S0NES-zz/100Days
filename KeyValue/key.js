@@ -28,10 +28,12 @@ function titleChange(e) {
   title.innerText = e.key;
 }
 reset.addEventListener("click", () => {
-  title.innerText = "Keyboard Event";
-  textArea.innerText = "";
-  textArea.style = "animation: disappear 0.5s;";
+  textArea.style = "animation: disappear 0.35s;";
+  title.style = "animation: disappear 0.35s;";
   setTimeout(() => {
+    title.innerText = "Keyboard Event";
+    title.style = "aniamtion: none"
+    textArea.innerText = "";
     textArea.style = "animation: none";
   }, 500);
 });

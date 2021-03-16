@@ -18,17 +18,17 @@ body {
 @keyframes disappear {
   0% {
   }
-  20% {
-    transform: translate(0, 1500px);
+  20% {/*translate(0, 1500px)*/
+    transform: rotate(15deg);
   }
   40% {
-    transform: translate(0, 3000px);
+    transform: rotate(-15deg);
   }
   60% {
-    transform: translate(0, -3000px);
+    transform: rotate(15deg);
   }
   80% {
-    transform: translate(0, -1500px);
+    transform: rotate(15deg);
   }
   100% {
   }
