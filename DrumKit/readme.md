@@ -2,7 +2,7 @@
 
 **Tier:** 1-Beginner
 
-Drum is a wonderful instrument, used for various musical types 
+Drum is a wonderful instrument, used for various musical types, so in this challenge i tried to simulate his sound using key events ou mouse click
 
 ## User Stories
 
