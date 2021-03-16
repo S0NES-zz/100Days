@@ -1,0 +1,65 @@
+* {
+  color: #ffffff;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  align-items: center;
+  background: linear-gradient(90deg, #f46036 0%, #2667ff 100%);
+  display: flex;
+  flex-direction: column;
+  font-family: "Exo", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+@keyframes disappear {
+  0% {
+  }
+  20% {
+    transform: translate(0, 1500px);
+  }
+  40% {
+    transform: translate(0, 3000px);
+  }
+  60% {
+    transform: translate(0, -3000px);
+  }
+  80% {
+    transform: translate(0, -1500px);
+  }
+  100% {
+  }
+}
+#title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+#textArea {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  height: 55%;
+  padding: 20px 30px;
+  text-align: center;
+  overflow: auto;
+  width: 45%;
+}
+#textArea::-webkit-scrollbar {
+  opacity: 0;
+}
+#textArea::-webkit-scrollbar:hover {
+  opacity: 1;
+}
+#reset {
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: #555358;
+  border-radius: 30px;
+  transition: 0.4s ease;
+}
+#reset:hover {
+  background-color: #1b1b1e;
+}
