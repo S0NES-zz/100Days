@@ -28,12 +28,12 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 
 | Day | Project                                                                           |
 | --- | --------------------------------------------------------------------------------- |   
-| 001 | [bin2dec](https://s0nes.github.io/100Days/Bin2Dec/bin2dec.html)                 |
-| 002 | [random number generator](https://s0nes.github.io/100Days/randomNumber/random)  |
-| 003 | [Christmas Lights](https://s0nes.github.io/100Days/ChristmasLights/lights.html) |
-| 004 | [Pomodoro Timer](https://s0nes.github.io/100Days/pomodoro/pomodoro.html)        |
-| 005 | [Calculadora](https://s0nes.github.io/100Days/calculator/calculator.html)        |
-| 006 | [Dice](https://s0nes.github.io/100Days/DiceGame/dice.html)        
-| 007 | [Border Radius](https://s0nes.github.io/100Days/Border-radius/border.html)
-| 008 |
+| 001 | [bin2dec](https://sones-100days.netlify.app/bin2dec/bin2dec.html)                 |
+| 002 | [random number generator](https://sones-100days.netlify.app/randomNumber/random.html)  |
+| 003 | [Christmas Lights](https://sones-100days.netlify.app/christmaslights/lights.html) |
+| 004 | [Pomodoro Timer](https://sones-100days.netlify.app/pomodoro/pomodoro.html)        |
+| 005 | [Calculadora](https://sones-100days.netlify.app/calculator/calculator.html)        |
+| 006 | [Dice](https://sones-100days.netlify.app/dicegame/dice.html)        
+| 007 | [Border Radius](https://sones-100days.netlify.app/border-radius/border)
+| 008 | [Drum Kit](https://sones-100days.netlify.app/drumkit/drum.html)
 | 009 |
