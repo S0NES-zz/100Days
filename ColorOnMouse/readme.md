@@ -16,6 +16,10 @@ an RGB color specification (e.g. `#000000` color code).
 
 -   [✔️] User change the background color by moving the mouse around the page.
 
+## Bonus Feature
+
+-   [✔️] User can see the section object move.
+
 ## Useful links and resources
 
 [CSS Color Codes](https://qhmit.com/css/css_color_codes.cfm) 
