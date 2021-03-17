@@ -1,25 +1,25 @@
 body{
+    background: #3b3b3b;
     margin: 0;
     padding: 0;
-    background: #9c9c9c;
+    overflow: hidden;
 }
 section{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    margin: 0 auto;
     cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 5px 5px 50px #000;
+    height: 90vh;
+    justify-content: center;
+    margin: 2.5% auto;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    width: 80%;
 }
 p{
     font-family: 'Permanent Marker', cursive;
     font-size: 4em;
     text-align: center;
     color: #fff;
-}
-@keyframes color{
-    0%{ color: #000}
-    50%{ color: #fff}
-    100%{ color: #000}
 }

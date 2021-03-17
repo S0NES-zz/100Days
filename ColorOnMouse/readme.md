@@ -14,8 +14,12 @@ an RGB color specification (e.g. `#000000` color code).
 
 ## User Stories
 
--   [ ] User change the background color by moving the mouse around the page.
+-   [✔️] User change the background color by moving the mouse around the page.
 
 ## Useful links and resources
 
-[CSS Color Codes](https://qhmit.com/css/css_color_codes.cfm)
+[CSS Color Codes](https://qhmit.com/css/css_color_codes.cfm) 
+
+## 10/100 3/17/2021 - DONE
+
+## #100DAYSCHALLENGE
