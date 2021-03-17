@@ -10,16 +10,22 @@ section{
     border-radius: 10px;
     display: flex;
     box-shadow: 5px 5px 50px #000;
-    height: 90vh;
+    height: 80vh;
     justify-content: center;
-    margin: 2.5% auto;
+    margin: 5% auto;
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    width: 80%;
+    width: 70%;
 }
 p{
     font-family: 'Permanent Marker', cursive;
     font-size: 4em;
+    text-shadow: 5px 5px 40px #000;
     text-align: center;
+    display: none;
     color: #fff;
+}
+section:hover p {
+    display: block;
+    transform: translateZ(80px);  
 }
