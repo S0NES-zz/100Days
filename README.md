@@ -26,15 +26,25 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 
 ## Projetos Feitos
 
-| Day | Project                                                                           |
-| --- | --------------------------------------------------------------------------------- |   
-| 001 | [bin2dec](https://sones-100days.netlify.app/bin2dec/bin2dec.html)                 |
-| 002 | [random number generator](https://sones-100days.netlify.app/randomNumber/random.html)  |
-| 003 | [Christmas Lights](https://sones-100days.netlify.app/christmaslights/lights.html) |
-| 004 | [Pomodoro Timer](https://sones-100days.netlify.app/pomodoro/pomodoro.html)        |
-| 005 | [Calculadora](https://sones-100days.netlify.app/calculator/calculator.html)       |
-| 006 | [Dice](https://sones-100days.netlify.app/dicegame/dice.html)                      |      
-| 007 | [Border Radius](https://sones-100days.netlify.app/border-radius/border)           | 
-| 008 | [Drum Kit](https://sones-100days.netlify.app/drumkit/drum.html)                   | 
-| 009 | [Key Value](https://sones-100days.netlify.app/keyvalue/key.html)                  | 
-| 010 | [Color on Mouse](https://sones-100days.netlify.app/coloronmouse/color)            |
+| Day | Project                                                                               |
+| --- | ------------------------------------------------------------------------------------- |
+| 001 | [bin2dec](https://sones-100days.netlify.app/bin2dec/bin2dec.html)                     |
+| 002 | [random number generator](https://sones-100days.netlify.app/randomNumber/random.html) |
+| 003 | [Christmas Lights](https://sones-100days.netlify.app/christmaslights/lights.html)     |
+| 004 | [Pomodoro Timer](https://sones-100days.netlify.app/pomodoro/pomodoro.html)            |
+| 005 | [Calculadora](https://sones-100days.netlify.app/calculator/calculator.html)           |
+| 006 | [Dice](https://sones-100days.netlify.app/dicegame/dice.html)                          |
+| 007 | [Border Radius](https://sones-100days.netlify.app/border-radius/border)               |
+| 008 | [Drum Kit](https://sones-100days.netlify.app/drumkit/drum.html)                       |
+| 009 | [Key Value](https://sones-100days.netlify.app/keyvalue/key.html)                      |
+| 010 | [Color on Mouse](https://sones-100days.netlify.app/coloronmouse/color)                |
+| 011 | [Polygons](https://sones-100days.netlify.app/polygons/polygons)                       |
+| 012 |                                                                                       |
+| 013 |                                                                                       |
+| 014 |                                                                                       |
+| 015 |                                                                                       |
+| 016 |                                                                                       |
+| 017 |                                                                                       |
+| 018 |                                                                                       |
+| 019 |                                                                                       |
+| 020 |                                                                                       |

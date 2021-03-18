@@ -12,7 +12,7 @@ Rendering 3D graphics on the web has been around for years. First there was Flas
 
 ## Bonus Feature
 
--   [] User can change the shape to others polygons ().
+-   [] User can change the shape to others polygons.
 
 ## Useful links and resources
 

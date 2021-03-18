@@ -1,9 +1,10 @@
-let inpX, inpY, inpZ, cube;
+let input, inpX, inpY, inpZ, cube;
 
 cube = document.querySelector(".cube");
 inpX = document.getElementById("inputX");
 inpY = document.getElementById("inputY");
 inpZ = document.getElementById("inputZ");
+
 
 cube.style.transform = "";
 
