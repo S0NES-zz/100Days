@@ -5,9 +5,6 @@ body {
   margin: 0;
   background: #759fbc;
 }
-#cube {
-  transform: none;
-}
 .preview {
   align-items: center;
   display: flex;
@@ -28,8 +25,7 @@ body {
   position: relative;
   transform-style: preserve-3d;
   width: 100%;
-
-  transform-origin: 50% 20%;
+  transform-origin: 50% 25%;
 }
 .cube_face {
   align-items: center;
