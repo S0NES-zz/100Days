@@ -1,11 +1,20 @@
-cube = document.getElementById("cube");
+let inpX, inpY, inpZ, cube;
 
-preview = document.querySelector("body");
+cube = document.querySelector(".cube");
+inpX = document.getElementById("inputX");
+inpY = document.getElementById("inputY");
+inpZ = document.getElementById("inputZ");
 
-preview.addEventListener("mousemove", (e) => {
-  var val1 = e.pageX;
-  var rotateX = "rotateX(" + Math.floor(val1 / 5) + "deg)";
-  var val2 = e.pageY;
-  var rotateY = "rotateY(" + Math.floor(val2 / 5) + "deg)";
-  cube.style = "transform: " + rotateX + " " + rotateY + " ;";
+cube.style.transform = "";
+
+inpX.addEventListener("input", () => {
+    cube.style = "transform: rotateX( " + inpX.value + "deg);";
+});
+
+inpY.addEventListener("input", () => {
+    cube.style = "transform: rotateY( " + inpY.value + "deg);";
+});
+
+inpZ.addEventListener("input", () => {
+    cube.style = "transform: rotateZ( " + inpZ.value + "deg);";
 });

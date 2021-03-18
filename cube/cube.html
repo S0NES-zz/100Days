@@ -14,7 +14,7 @@
   </head>
   <body>
     <section class="preview">
-      <div class="scene">
+      <article class="scene">
         <div class="cube" id="cube">
           <div class="cube_face front">front</div>
           <div class="cube_face back">back</div>
@@ -23,7 +23,17 @@
           <div class="cube_face top">top</div>
           <div class="cube_face bottom">bottom</div>
         </div>
-      </div>
+      </article>
+      <article class="change-container">
+        <label id="labelX" for="rotX">Rotate X</label>
+        <input type="range" id="inputX" name="rotX" min="-90" max="90">
+
+        <label id="labelY" for="rotY">Rotate Y</label>
+        <input type="range" id="inputY" name="rotY" min="-90" max="90">
+
+        <label id="labelZ" for="rotZ">Rotate Z</label>
+        <input type="range" id="inputZ" name="rotZ" min="-90" max="90">
+      </article>
     </section>
     <script src="cube.js"></script>
   </body>
