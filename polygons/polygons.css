@@ -28,6 +28,8 @@ body {
   position: relative;
   transform-style: preserve-3d;
   width: 100%;
+
+  transform-origin: 50% 20%;
 }
 .cube_face {
   align-items: center;
