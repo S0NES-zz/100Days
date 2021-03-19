@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 3d Cube</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bgCube.css" />
+  </head>
+  <body>
+    <section>
+      <video
+        autoplay
+        muted
+        loop
+        class="videos"
+        id="bgVideo"
+        src=""
+      ></video>
+      <div class="box">
+        <div>
+          <span class="side">
+            <video autoplay muted loop class="videos" src=""></video>
+          </span>
+          <span class="side">
+            <video autoplay muted loop class="videos" src=""></video>
+          </span>
+          <span class="side">
+            <video autoplay muted loop class="videos" src=""></video
+          ></span>
+        </div>
+      </div>
+      <label for="inpFile" id="file">Upload</label>
+      <input type="file" id="inpFile"  value="" name="inpFile">
+    </section>
+    <script src="bgCube.js"></script>
+  </body>
+</html>
