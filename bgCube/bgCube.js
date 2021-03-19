@@ -17,6 +17,8 @@ function handleFile(e) {
       handleImg(src);
     } else if (file[0].type === "video/mp4") {
       handleVideo(src);
+    }else{
+        alert("Invalid Format");
     }
   }
 }
