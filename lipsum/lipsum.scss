@@ -86,6 +86,8 @@ nav {
 }
 #generate {
   grid-area: generate;
+  -ms-overflow-style: none;
+  overflow: hidden;
   @include btn;
 }
 #copy:hover, #generate:hover{
