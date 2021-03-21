@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lipsum.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Syne+Mono&display=swap" rel="stylesheet"> 
+    <title>Lipsum</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Lorem Ipsum Generator</h4>
+      <h1>Create your own nonsense frases with this tool.</h1>
+      <section class="main">
+        <nav>
+            <input type="number" id="value" min="0" />
+            <select name="select" id="select">
+                <option class="option" value="paragraph">Paragraph</option>
+                <option class="option" value="words">Words</option>
+                <option class="option" value="sentence">Sentence</option>
+            </select>
+            <button id="copy">copy</button>
+            <button id="generate">generate</button>
+        </nav>
+        <textarea type="text" id="generated">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptate culpa a fugiat doloremque, veniam obcaecati quas delectus voluptates sed adipisci possimus nemo ex deserunt aut ipsum nobis dolore reprehenderit.    
+        </textarea>
+      </section>
+    </div>
+    <script type="module" type="text/javascript" src="lipsum.js"></script>
+  </body>
+</html>

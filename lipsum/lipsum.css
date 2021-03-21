@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #0f0816;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.container h1 {
+  color: #ffff;
+  font-size: 2em;
+  font-family: "Syne Mono", monospace;
+  text-align: left;
+  min-height: 30px;
+  width: 90%;
+}
+
+.container h3 {
+  color: #d2d4c8;
+  font-size: 0.9em;
+  font-family: "Syne Mono", monospace;
+  text-align: left;
+  min-height: 30px;
+  width: 90%;
+}
+
+.main {
+  height: 70%;
+  margin: 5% auto;
+  width: 95%;
+}
+
+nav {
+  background-color: #141414;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  min-height: 15%;
+  display: -ms-grid;
+  display: grid;
+  padding: 1% 3%;
+  width: 89%;
+  -ms-grid-columns: 50px 0.5fr 1fr;
+      grid-template-columns: 50px 0.5fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 15px;
+      grid-template-areas: "value select generate" "copy copy copy";
+}
+
+#copy {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: copy;
+  background: #e55812;
+  color: #ffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+#generate {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: generate;
+  background: #e55812;
+  color: #ffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+#copy:hover, #generate:hover {
+  background: black;
+}
+
+#select {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: select;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  border-radius: 5px;
+}
+
+#value {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: value;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  border-radius: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#generated {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: repeating-linear-gradient(-45deg, #181a1b, #181a1b 8px, #1d2021 8px, #1d2021 16px);
+  color: #ffff;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  padding: 3% 3%;
+  resize: none;
+  text-align: left;
+  min-height: 80%;
+  min-width: 89%;
+  overflow-wrap: normal;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    -ms-grid-columns: 50px 1fr 1fr;
+        grid-template-columns: 50px 1fr 1fr;
+        grid-template-areas: "copy copy copy" "value select generate";
+  }
+}
+/*# sourceMappingURL=lipsum.css.map */

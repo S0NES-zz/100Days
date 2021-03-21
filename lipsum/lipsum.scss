@@ -1,0 +1,141 @@
+$background: #0f0816;
+$lightBg: #d2d4c8;
+$textColor: #ffff;
+$btnColor: #e55812;
+$suportColor: #d2d4c8;
+$txtFont: "Raleway", sans-serif;
+$headFont: "Syne Mono", monospace;
+
+@mixin flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@mixin txt {
+  font-family: $headFont;
+  text-align: left;
+  min-height: 30px;
+  width: 90%;
+}
+@mixin btn {
+  background: $btnColor;
+  color: $textColor;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: $txtFont;
+  transition: 0.5s ease;
+}
+@mixin input {
+  text-align: center;
+  font-family: $txtFont;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background: $background;
+}
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  @include flex;
+  width: 50%;
+}
+.container h1 {
+  color: $textColor;
+  font-size: 2em;
+  @include txt;
+}
+.container h3 {
+  color: $suportColor;
+  font-size: 0.9em;
+  @include txt;
+}
+.main {
+  height: 70%;
+  margin: 5% auto;
+  width: 95%;
+}
+nav {
+  background-color: rgb(20, 20, 20);
+  border-radius: 5px;
+  margin-bottom: 8px;
+  min-height: 15%;
+  display: grid;
+  padding: 1% 3%;
+  width: 89%;
+  grid-template-columns: 50px 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  grid-template-areas:
+    "value select generate"
+    "copy copy copy";
+}
+
+#copy {
+  grid-area: copy;
+  @include btn;
+}
+#generate {
+  grid-area: generate;
+  @include btn;
+}
+#copy:hover, #generate:hover{
+    background: black;
+}
+#select {
+  grid-area: select;
+  @include input;
+}
+#value {
+  grid-area: value;
+  @include input;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#generated {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(24, 26, 27),
+    rgb(24, 26, 27) 8px,
+    rgb(29, 32, 33) 8px,
+    rgb(29, 32, 33) 16px
+  );
+  color: $textColor;
+  font-size: 1em;
+  font-family: $txtFont;
+  padding: 3% 3%;
+  resize: none;
+  text-align: left;
+  min-height: 80%;
+  min-width: 89%;
+  overflow-wrap: normal;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 50px 1fr 1fr;
+    grid-template-areas:
+      "copy copy copy"
+      "value select generate";
+  }
+}
