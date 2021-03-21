@@ -1,5 +1,5 @@
 node_modules/
 lipsum.scss.
-lipsum/lipsum.css.map
-lipsum/package-lock.json
+lipsum.css.map
+package-lock.json
 *.json
