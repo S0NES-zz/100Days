@@ -41,7 +41,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 011 | [Polygons](https://sones-100days.netlify.app/polygons/polygons)                       |
 | 012 | [Background Cube](https://sones-100days.netlify.app/bgcube/bgcube.html)               |
 | 013 | [Lorem ipsum generator](https://sones-100days.netlify.app/lipsum/lipsum.html)         |
-| 014 | [Random mealGenerator](https://sones-100days.netlify.app/mealGenerator/random.html)   |
+| 014 | [Random mealGenerator](https://sones-100days.netlify.app/mealgenerator/meal.html)   |
 | 015 |                                                                                       |
 | 016 |                                                                                       |
 | 017 |                                                                                       |
