@@ -89,6 +89,8 @@ nav {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: generate;
+  -ms-overflow-style: none;
+  overflow: hidden;
   background: #e55812;
   color: #ffff;
   text-transform: uppercase;

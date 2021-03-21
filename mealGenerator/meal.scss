@@ -1,0 +1,164 @@
+$background: #1e152a;
+$btnColor: #e94f37;
+$txtPrimary: #f1f9f0;
+$txtSecondary: #e4f3e2;
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+  overflow: hidden;
+}
+@mixin h {
+  font-family: "Chango", cursive;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+@mixin flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.container {
+  background: $background;
+  @include flex;
+  height: 100vh;
+  width: 100%;
+}
+.container nav {
+  min-height: 150px;
+  @include flex;
+  text-align: center;
+}
+.container nav h1 {
+  color: $txtPrimary;
+  font-size: 2em;
+  font-weight: bold;
+  @include h;
+}
+
+.container nav h2 {
+  color: $txtSecondary;
+  font-size: 1.2em;
+  font-weight: lighter;
+  @include h;
+}
+.container #gerar {
+  background: $btnColor;
+  border-radius: 40px;
+  color: $txtPrimary;
+  cursor: pointer;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  height: 20%;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 500ms ease;
+  width: 60%;
+
+  &:hover {
+    background: white;
+    color: black;
+  }
+}
+#main { 
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "receita receita receita receita"
+    "image image modoPreparo modoPreparo"
+    "image image modoPreparo modoPreparo"
+    "ingredientes ingredientes modoPreparo modoPreparo";
+  height: 80%;
+  position: relative;
+  width: 70%;
+}
+#receita {
+  grid-area: receita;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: $txtPrimary;
+}
+#image {
+  grid-area: image;
+  text-transform: uppercase;
+  color: $txtPrimary;
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+#ingredientes {
+  grid-area: ingredientes;
+  text-transform: uppercase;
+  color: $txtPrimary;
+  text-align: center;
+  padding: 15px 10px;
+}
+#modoPreparo {
+  grid-area: modoPreparo;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px 10px;
+  color: $txtPrimary;
+}
+#close {
+  background: 0;
+  cursor: pointer;
+  font-size: 1.2em;
+  position: absolute;
+  text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+  top: 4px;
+  right: 4px;
+}
+
+@keyframes boxIn {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  25% {
+    height: 20%;
+    width: 10%;
+  }
+  50% {
+    height: 40%;
+    width: 30%;
+  }
+  75% {
+    height: 60%;
+    width: 50%;
+  }
+  100% {
+    height: 80%;
+    width: 70%;
+  }
+}
+
+@keyframes boxOut {
+  0% {
+    height: 80%;
+    width: 70%;
+  }
+  25% {
+    height: 60%;
+    width: 50%;
+  }
+  50% {
+    height: 40%;
+    width: 30%;
+  }
+  75% {
+    height: 20%;
+    width: 10%;
+  }
+  100% {
+    height: 0;
+    width: 0;
+  }
+}
