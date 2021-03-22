@@ -6,6 +6,9 @@ let form = document.getElementById("form");
 let image = document.getElementById("result");
 const root = document.documentElement;
 
+console.log("email: dia13@gmail.com");
+console.log("senha: 123456");
+
 login.addEventListener("click", (e) => {
   e.preventDefault();
   if (email.value == "dia13@gmail.com" && pass.value == "123456") {
