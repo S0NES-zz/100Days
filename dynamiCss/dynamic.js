@@ -13,10 +13,8 @@ login.addEventListener("click", (e) => {
   e.preventDefault();
   if (email.value == "dia13@gmail.com" && pass.value == "123456") {
     sucess();
-    setTimeout(() => alert("YOU ARE IN"), 5000); 
   } else {
     fail();
-    setTimeout(() => alert("EMAIL OR PASSWORD INVALID"), 5000);
   }
   
     email.textContent = null;
