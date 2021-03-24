@@ -1,0 +1,75 @@
+body {
+  background-color: #4a494e;
+  height: 100vh;
+  overflow: hidden;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.grid-container {
+  align-items: center;
+  background: #f7f0f5;
+  -webkit-box-shadow: 0px 0px 18px 6px rgba(36, 35, 49, 0.57);
+  box-shadow: 0px 0px 18px 6px rgba(36, 35, 49, 0.57);
+  display: grid;
+  border-radius: 50px;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  gap: 0px 30px;
+  grid-template-areas:
+    "titulo titulo"
+    "labelDecimal inputDecimal"
+    "labelRomano inputRomano";
+  height: 50%;
+  left: 50%;
+  position: absolute;
+  padding: 10px 35px 35px 15px;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  width: 35%;
+}
+.titulo {
+  color: #000000;
+  font-size: 1.9em;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  grid-area: titulo;
+}
+.labelDecimal {
+  grid-area: labelDecimal;
+}
+.inputDecimal {
+  grid-area: inputDecimal;
+}
+.labelRomano {
+  grid-area: labelRomano;
+}
+.inputRomano {
+  grid-area: inputRomano;
+}
+
+#inputRomano,
+#inputDecimal,
+.labelRomano,
+.labelDecimal {
+  font-size: 1em;
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
+}
+#inputRomano,
+#inputDecimal {
+  border: 0.5px solid rgba(53, 52, 53, 0.133);
+  border-radius: 5px;
+}
+#inputRomano:focus,
+#inputDecimal:focus {
+  outline: none;
+}

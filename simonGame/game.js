@@ -50,8 +50,6 @@ function checkAnswer(currentLevel) {
     }, 200);
 
     $("#level-title").text("Game Over, to Restard press the keyboad");
-
-    //2. Call startOver() if the user gets the sequence wrong.
     startOver();
   }
 }
