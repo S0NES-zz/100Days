@@ -65,12 +65,12 @@ function convertDecimal(decimalNumber) {
 console.log("Roman: " + convertDecimal(250));
 console.log("Decimal: " + convertRoman("CCL"));
 
-function convertRoman(decimal) {
+function convertRoman(roman) {
   let total = 0;
-
-  for (let i = 0; i < decimal.length; i++) {
-    let currentInt = romanToInt[decimal.charAt(i)];
-    let nextInt = romanToInt[decimal.charAt(i + 1)];
+  
+  for (let i = 0; i < roman.length; i++) {
+    let currentInt = romanToInt[roman.charAt(i)];
+    let nextInt = romanToInt[roman.charAt(i + 1)];
 
     if (nextInt) {
       if (currentInt >= nextInt) {
