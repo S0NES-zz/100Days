@@ -5,6 +5,7 @@ year.value = nextYear;
 let countDate = new Date("Jan 1," + year.value + " 00:00:00").getTime();
 year.addEventListener("change", () => {
   if (year.value < nextYear) return year.value = nextYear;
+  if (year.value.length > 3) return year.value = nextYear;
   year.value;
   countDate = new Date("Jan 1," + year.value + " 00:00:00").getTime();
 });
