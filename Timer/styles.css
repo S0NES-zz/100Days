@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+body {
+  background: rgb(27, 27, 27) url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-blend-mode: hard-light;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.container {
+  align-items: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 30px;
+  display: grid;
+  height: 75%;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "title title title title"
+    ". year year ."
+    "day hour minute second";
+  padding-top: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 80%;
+}
+.container p::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 35%;
+  left: 32%;
+  box-shadow: 0px -9px 0px -6px rgba(50, 50, 50, 1);
+  border-top: 1px solid #fff;
+  font-size: 12px;
+}
+#day {
+  grid-area: day;
+  text-align: center;
+  font-size: 1.5em;
+}
+#day::after {
+  content: "Days";
+}
+#hour {
+  grid-area: hour;
+  text-align: center;
+  font-size: 1.5em;
+}
+#hour::after {
+  content: "hours";
+}
+#minute {
+  grid-area: minute;
+  text-align: center;
+  font-size: 1.5em;
+}
+#minute::after {
+  content: "minutes";
+}
+#second {
+  grid-area: second;
+  text-align: center;
+  font-size: 1.5em;
+}
+#second::after {
+  content: "Seconds";
+}
+#title {
+  grid-area: title;
+  text-align: center;
+  font-size: 3em;
+}
+#year {
+  grid-area: year;
+  text-align: center;
+  font-size: 4em;
+  min-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
