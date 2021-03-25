@@ -45,6 +45,6 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 015 | [Dynamic Css](https://sones-100days.netlify.app/dynamicss/dynamic)                    |
 | 016 | [Simon Game](https://sones-100days.netlify.app/simongame)                             |
 | 017 | [Romano to decimal](https://sones-100days.netlify.app/roman2decimal)                  |
-| 018 |                                                                                       |
+| 018 | [New Year timer](https://sones-100days.netlify.app/timer)                             |
 | 019 |                                                                                       |
 | 020 |                                                                                       |

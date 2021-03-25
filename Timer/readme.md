@@ -23,9 +23,9 @@ own original implementation.
 
 ## User Stories
 
--   [ ] User can see the coundown changing;
--   [ ] User can change the countdown to the next year
--   [ ] always display the next year;
+-   [✔️] User can see the coundown changing;
+-   [✔️] User can change the countdown to the next year
+-   [✔️] always display the next year;
 
 ## Useful links and resources
 
