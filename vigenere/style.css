@@ -1,0 +1,111 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  outline: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(68, 68, 68);
+}
+.container {
+  border-radius: 40px;
+  height: 80%;
+  margin: calc(50% - 46%) auto 0;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "title title title"
+    "inputEncrypt . inputDecrypt"
+    "inputEncrypt . inputDecrypt"
+    "buttonArea buttonArea buttonArea";
+}
+.title {
+  grid-area: title;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+#inputEncrypt,
+#inputDecrypt {
+  background-color: #fff rgba(0, 0, 0, 0);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #0a0a0a,
+    #0f0f0f 8px,
+    #3b3b3b 8px,
+    #3b3b3b 16px
+  );
+  border-radius: 25px;
+  color: #fff;
+  padding: 1em 2em;
+  resize: none;
+}
+#inputEncrypt {
+  grid-area: inputEncrypt;
+}
+#inputDecrypt {
+  grid-area: inputDecrypt;
+}
+.buttonArea {
+  display: grid;
+  grid-area: buttonArea;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "key key"
+    "btnEncrypt btnDecrypt";
+}
+#btnDecrypt {
+  grid-area: btnDecrypt;
+}
+#btnEncrypt {
+  grid-area: btnEncrypt;
+}
+
+#btnEncrypt,
+#btnDecrypt {
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 20px;
+  width: 100px;
+  position: absolute;
+  top: 75%;
+  height: 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: #ff0000;
+}
+#btnDecrypt {
+    left: 54%;
+}
+
+#btnEncrypt {
+    left: 46%;
+}
+#btnEncrypt:hover,
+#btnDecrypt:hover {
+  background: rgb(22, 22, 22);
+}
+#key {
+  grid-area: key;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 10px 0 25px;
+  border-bottom: 1px solid #fff;
+  background: url(key.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
