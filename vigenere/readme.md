@@ -31,32 +31,29 @@ themselves these questions:
 
 ## User Stories
 
--   [ ] User can see the app window with these components:
+-   [✔️] User can see the app window with these components:
     - Plain text message input field
     - Encryption key input field
     - Action buttons - 'Encrypt' and 'Decrypt'
     - Resulting encrypted or decrypted message
--   [ ] User can enter the text to be encrypted in the plain text message input
+-   [✔️] User can enter the text to be encrypted in the plain text message input
 field
--   [ ] User can enter the Encryption key the Vigenere algorithm will use to
+-   [✔️] User can enter the Encryption key the Vigenere algorithm will use to
 encrypt the plain text message.
--   [ ] User can click see see the 'Decrypt' button disabled until the plain
+-   [✔️] User can click see see the 'Decrypt' button disabled until the plain
 text has been encrypted.
--   [ ] User can click the 'Encrypt' button to encrypt the plain text message
--   [ ] User can see the encrypted message displayed in the result field.
--   [ ] User can see the 'Decrypt' button enabled after the encrypted message
+-   [✔️] User can click the 'Encrypt' button to encrypt the plain text message
+-   [✔️] User can see the encrypted message displayed in the result field.
+-   [✔️] User can see the 'Decrypt' button enabled after the encrypted message
 has been displayed.
--   [ ] User can click the 'Decrypt' button to decrypt the encrypted message
+-   [✔️] User can click the 'Decrypt' button to decrypt the encrypted message
 and to display its contents in the result field.
-
-## Bonus features
-
--   [ ] User can see a 'Compare' button after decryption that compares the 
-original plain text message with the decrypted message
--   [ ] User can see an error message if the 'Compare' detects differences
-in the contents of these two fields.
 
 ## Useful links and resources
 
 - [Bad Actors](http://solutionsreservoir.com/resources/introduction-to-cybersecurity/part-1-cybersecurity-overview)
 - [Vigenere Cypher](https://www.geeksforgeeks.org/vigenere-cipher/)
+
+## 19/100 3/26/2021 - DONE
+
+## #100DAYSCHALLENG

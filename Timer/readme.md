@@ -34,3 +34,7 @@ own original implementation.
 - [`clearInterval` MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 - [`setInterval` MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 - [Date MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+
+## 18/100 3/25/2021 - DONE
+
+## #100DAYSCHALLENGE
