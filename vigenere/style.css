@@ -31,8 +31,16 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-#inputEncrypt,
-#inputDecrypt {
+.container img{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#input,
+#result {
   background-color: #fff rgba(0, 0, 0, 0);
   background-image: repeating-linear-gradient(
     -45deg,
@@ -46,10 +54,10 @@ body {
   padding: 1em 2em;
   resize: none;
 }
-#inputEncrypt {
+#input {
   grid-area: inputEncrypt;
 }
-#inputDecrypt {
+#result {
   grid-area: inputDecrypt;
 }
 .buttonArea {

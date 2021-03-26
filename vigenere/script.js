@@ -91,17 +91,17 @@ var VigenereCipher = {
   },
 };
 
-let inputEncrypt = document.getElementById("inputEncrypt");
-let inputDecrypt = document.getElementById("inputDecrypt");
+let input = document.getElementById("input");
+let result = document.getElementById("result");
 let btnEncrypt = document.getElementById("btnEncrypt");
 let btnDecrypt = document.getElementById("btnDecrypt");
 let key = document.getElementById("key");
 
 btnEncrypt.addEventListener("click", () => {
-  let encrypt = VigenereCipher.encrypt(inputEncrypt.value, key.value);
-  inputDecrypt.value = encrypt;
+  let encrypt = VigenereCipher.encrypt(input.value, key.value);
+  result.value = encrypt;
 });
 btnDecrypt.addEventListener("click", () => {
-  let decrypt = VigenereCipher.decrypt(inputEncrypt.value, key.value);
-  inputDecrypt.value = decrypt;
+  let decrypt = VigenereCipher.decrypt(input.value, key.value);
+  result.value = decrypt;
 });
