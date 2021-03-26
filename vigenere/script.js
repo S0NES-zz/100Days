@@ -102,6 +102,6 @@ btnEncrypt.addEventListener("click", () => {
   inputDecrypt.value = encrypt;
 });
 btnDecrypt.addEventListener("click", () => {
-  let decrypt = VigenereCipher.decrypt(inputDecrypt.value, key.value);
-  inputEncrypt.value = decrypt;
+  let decrypt = VigenereCipher.decrypt(inputEncrypt.value, key.value);
+  inputDecrypt.value = decrypt;
 });
