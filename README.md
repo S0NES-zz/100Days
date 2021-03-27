@@ -47,4 +47,4 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 017 | [Romano to decimal](https://sones-100days.netlify.app/roman2decimal)                  |
 | 018 | [New Year timer](https://sones-100days.netlify.app/timer)                             |
 | 019 | [Vigenere cypher](https://sones-100days.netlify.app/vigenere)                         |
-| 020 |                                                                                       |"
+| 020 | [Weather App](https://sones-100days.netlify.app/weather)                              |
