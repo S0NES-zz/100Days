@@ -28,23 +28,34 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 
 | Day | Project                                                                               |
 | --- | ------------------------------------------------------------------------------------- |
-| 001 | [bin2dec](https://sones-100days.netlify.app/bin2dec/bin2dec.html)                     |
-| 002 | [random number generator](https://sones-100days.netlify.app/randomNumber/random.html) |
-| 003 | [Christmas Lights](https://sones-100days.netlify.app/christmaslights/lights.html)     |
-| 004 | [Pomodoro Timer](https://sones-100days.netlify.app/pomodoro/pomodoro.html)            |
-| 005 | [Calculadora](https://sones-100days.netlify.app/calculator/calculator.html)           |
-| 006 | [Dice](https://sones-100days.netlify.app/dicegame/dice.html)                          |
-| 007 | [Border Radius](https://sones-100days.netlify.app/border-radius/border)               |
-| 008 | [Drum Kit](https://sones-100days.netlify.app/drumkit/drum.html)                       |
-| 009 | [Key Value](https://sones-100days.netlify.app/keyvalue/key.html)                      |
-| 010 | [Color on Mouse](https://sones-100days.netlify.app/coloronmouse/color)                |
-| 011 | [Polygons](https://sones-100days.netlify.app/polygons/polygons)                       |
-| 012 | [Background Cube](https://sones-100days.netlify.app/bgcube/bgcube.html)               |
-| 013 | [Lorem ipsum generator](https://sones-100days.netlify.app/lipsum/lipsum.html)         |
-| 014 | [Random mealGenerator](https://sones-100days.netlify.app/mealgenerator/meal.html)     |
-| 015 | [Dynamic Css](https://sones-100days.netlify.app/dynamicss/dynamic)                    |
-| 016 | [Simon Game](https://sones-100days.netlify.app/simongame)                             |
-| 017 | [Romano to decimal](https://sones-100days.netlify.app/roman2decimal)                  |
-| 018 | [New Year timer](https://sones-100days.netlify.app/timer)                             |
-| 019 | [Vigenere cypher](https://sones-100days.netlify.app/vigenere)                         |
-| 020 | [Weather App](https://sones-100days.netlify.app/weather)                              |
+| 001 | [bin2dec](https://sones-100days.netlify.app/day1to10/bin2dec/)                        |
+| 002 | [random number generator](https://sones-100days.netlify.app/day1to10/randomNumber)    |
+| 003 | [Christmas Lights](https://sones-100days.netlify.app/day1to10/christmaslights)        |
+| 004 | [Pomodoro Timer](https://sones-100days.netlify.app/day1to10/pomodoro)                 |
+| 005 | [Calculadora](https://sones-100days.netlify.app/day1to10//calculator)                 |
+| 006 | [Dice](https://sones-100days.netlify.app/day1to10/dice)                               |
+| 007 | [Border Radius](https://sones-100days.netlify.app/day1to10/border-radius)             |
+| 008 | [Drum Kit](https://sones-100days.netlify.app/day1to10/drumkit)                        |
+| 009 | [Key Value](https://sones-100days.netlify.app/day1to10/keyvalue)                      |
+| 010 | [Color on Mouse](https://sones-100days.netlify.app/day1to10/coloronmouse)             |
+| 011 | [Polygons](https://sones-100days.netlify.app/day11to20/polygons/polygons)             |
+| 012 | [Background Cube](https://sones-100days.netlify.app/day11to20/bgcube)                 |
+| 013 | [Lorem ipsum generator](https://sones-100days.netlify.app/day11to20/lipsum)           |
+| 014 | [Random mealGenerator](https://sones-100days.netlify.app/day11to20/mealgenerator)     |
+| 015 | [Dynamic Css](https://sones-100days.netlify.app/day11to20/dynamicss)                  |
+| 016 | [Simon Game](https://sones-100days.netlify.app/day11to20/simongame)                   |
+| 017 | [Romano to decimal](https://sones-100days.netlify.app/day11to20/roman2decimal)        |
+| 018 | [New Year timer](https://sones-100days.netlify.app/day11to20/timer)                   |
+| 019 | [Vigenere cypher](https://sones-100days.netlify.app/day11to20/vigenere)               |
+| 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                    |
+| 030 |            |
+| 031 |            |
+| 032 |            |
+| 033 |            |
+| 034 |            |
+| 035 |            |
+| 036 |            |
+| 037 |            |
+| 038 |            |
+| 039 |            |
+| 040 |            |
