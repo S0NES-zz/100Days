@@ -48,14 +48,14 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 018 | [New Year timer](https://sones-100days.netlify.app/day11to20/timer)                   |
 | 019 | [Vigenere cypher](https://sones-100days.netlify.app/day11to20/vigenere)               |
 | 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                    |
-| 030 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)               |
-| 031 |            |
-| 032 |            |
-| 033 |            |
-| 034 |            |
-| 035 |            |
-| 036 |            |
-| 037 |            |
-| 038 |            |
-| 039 |            |
-| 040 |            |
+| 020 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)               |
+| 021 | [Hero page](https://sones-100days.netlify.app/day21to30/curvedsection)                |
+| 022 |            |
+| 023 |            |
+| 024 |            |
+| 025 |            |
+| 026 |            |
+| 027 |            |
+| 028 |            |
+| 029 |            |
+| 030 |            |
