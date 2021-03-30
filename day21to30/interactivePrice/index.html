@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32"
+  href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+
+  <div id="head-top">
+    <h1 class="title strong-text">Simple, traffic-based pricing</h1>
+    <p>
+      Sign-up for our 30-day trial. No credit card required.    
+    </p>
+    
+  </div>
+
+  <div id="pricing-component" class="pricing-component">
+    <div class="pageviews grid-item">
+      <span id="pageviews"> 100K Pageviews </span>
+    </div>
+    
+    <div id="slider-container" class="slider-container grid-item">
+      <input type="range" min="1" max="5" value="3" id="slider-range" class="slider-bar">
+    </div>
+
+    <div class="pricing grid-item"> 
+      <span class="price strong-text"> 
+        $ 16.00
+      </span>
+      <span class="price-period">/month</span>
+    </div>
+     
+    <div class="toggle-price-plan grid-item">
+      <span>Monthly Billing</span>
+      <label class="switch">
+        <input type="checkbox" checked class="switch-input">
+        <span class="switch-slider"></span>
+      </label>
+      <span> Yearly Billing </span>   
+      <div class="discount"> 
+        <span class="amount-discount">25%</span>
+        <span class="discount-text" aria-hidden="false"> discount </span>
+      </div>
+    </div>
+
+    <div class="perks">
+      <div class="perk">
+        <img src="./images/icon-check.svg" alt="check">
+      <span class="perk-text"> Unlimited websites </span>  
+      </div>
+      <div class="perk">
+        <img src="./images/icon-check.svg" alt="check">
+        <span class="perk-text"> 100% data ownership </span>  
+      </div>
+      <div class="perk">
+        <img src="./images/icon-check.svg" alt="check">
+        <span class="perk-text"> Email reports </span>  
+      </div>
+    </div>
+
+    <div class="btn-start grid-item">
+      <button id="start"> Start my trial </button>
+    </div>
+    
+    
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/s0nes">Vinicius</a>.
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
