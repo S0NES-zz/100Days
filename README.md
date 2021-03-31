@@ -50,7 +50,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                    |
 | 020 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)               |
 | 021 | [Hero page](https://sones-100days.netlify.app/day21to30/curvedsection)                |
-| 022 |            |
+| 022 | [Interactive Price](https://sones-100days.netlify.app/day21to30/interactiveprice/)    |
 | 023 |            |
 | 024 |            |
 | 025 |            |
