@@ -51,7 +51,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 020 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)               |
 | 021 | [Hero page](https://sones-100days.netlify.app/day21to30/curvedsection)                |
 | 022 | [Interactive Price](https://sones-100days.netlify.app/day21to30/interactiveprice/)    |
-| 023 |            |
+| 023 | [Theme Switch](https://sones-100days.netlify.app/day21to30/themeswitch/)              |
 | 024 |            |
 | 025 |            |
 | 026 |            |
