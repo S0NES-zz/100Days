@@ -1,0 +1,340 @@
+:root {
+  --limeGreen: hsl(163, 72%, 41%);
+  --brightRed: hsl(356, 69%, 56%);
+  --toggle: linear-gradient(
+    120deg,
+    hsl(210, 78%, 56%) 0%,
+    hsl(146, 68%, 55%) 100%
+  );
+
+  --facebook: hsl(208, 92%, 53%);
+  --twitter: hsl(203, 89%, 53%);
+  --instagram: linear-gradient(
+    90deg,
+    hsl(37, 97%, 70%) 0%,
+    hsl(329, 70%, 58%) 100%
+  );
+  --youTube: hsl(348, 97%, 39%);
+
+  --bg: hsl(230, 17%, 14%); /*(BG)*/
+  --cardBg: hsl(228, 28%, 20%); /*(Card BG)*/
+  --text: hsl(228, 34%, 66%); /*(Text)*/
+  --headline: hsl(0, 0%, 100%); /*(Text)*/
+}
+* {
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  transition: 0.1rus;
+}
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+}
+h1,
+h2 {
+  color: var(--headline);
+}
+input[type="checkbox"] {
+  display: none;
+}
+.grid-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 93%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.7fr 2fr 0.3fr 1fr 1fr;
+  gap: 1rem 1rem;
+
+  grid-template-areas:
+    "nav nav nav nav"
+    "facebook twitter instagram youtube"
+    "subittle subittle subittle subittle"
+    "facebookViews facebookLikes instagramLikes instagramViews"
+    "retweets twitterLikes youtubeLikes youtubeViews";
+}
+.grid-container p {
+  color: var(--text);
+}
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  grid-area: nav;
+  flex-direction: row;
+}
+.nav label {
+  cursor: pointer;
+  margin: 0 5px;
+  color: var(--text);
+}
+.nav div {
+  display: flex;
+  width: 50%;
+}
+.nav div:first-child {
+  flex-direction: column;
+  justify-content: center;
+}
+.nav div:last-child {
+  align-items: center;
+  justify-content: flex-end;
+}
+.switch {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--toggle);
+  padding: 0 3px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.slider::before {
+  position: absolute;
+  content: "";
+  top: calc(50% - 7px);
+  bottom: calc(50% - 7px);
+  background-color: var(--bg);
+  transition: 0.5s;
+}
+.slider.round {
+  border-radius: 30px;
+}
+.slider.round:before {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+input:checked + .slider:before {
+  transform: translateX(19px);
+}
+.facebook,
+.twitter,
+.instagram,
+.youtube,
+.facebookViews,
+.facebookLikes,
+.instagramViews,
+.instagramLikes,
+.retweets,
+.twitterLikes,
+.youtubeViews,
+.youtubeLikes {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--cardBg);
+  border-radius: 5px;
+}
+.social h2 {
+  font-size: 3em;
+  margin-top: 20px;
+}
+.social p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social p:nth-of-type(2) {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+.social p:nth-of-type(3) {
+  color: var(--limeGreen);
+  font-size: 12px;
+  margin-top: 20px;
+}
+.social img {
+  margin-right: 10px;
+}
+.social::before {
+  content: " ";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 6px;
+  display: block;
+  position: absolute;
+  border-radius: 5px 5px 0 0;
+}
+.socialStatus {
+  padding: 10px;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr;
+}
+.socialStatus p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.socialStatus h4 {
+  position: relative;
+}
+.socialStatus h4 img {
+  position: absolute;
+  right: 0;
+}
+.socialStatus p:last-of-type {
+  justify-content: flex-end;
+  color: var(--limeGreen);
+}
+.socialStatus p:last-of-type img {
+  margin-right: 5px;
+}
+.facebook {
+  position: relative;
+  grid-area: facebook;
+}
+.facebook::before {
+  background: var(--facebook);
+}
+.twitter {
+  position: relative;
+  grid-area: twitter;
+}
+.twitter::before {
+  background: var(--twitter);
+}
+.instagram {
+  grid-area: instagram;
+  position: relative;
+}
+.instagram::before {
+  background: var(--instagram);
+}
+.youtube {
+  position: relative;
+  grid-area: youtube;
+}
+.youtube::before {
+  background: var(--youTube);
+}
+.youtube p:nth-of-type(3) {
+  color: var(--brightRed);
+}
+.subittle {
+  grid-area: subittle;
+  display: flex;
+  align-items: center;
+}
+.facebookViews {
+  grid-area: facebookViews;
+}
+.facebookLikes {
+  grid-area: facebookLikes;
+}
+.facebookLikes p:last-of-type {
+  color: var(--brightRed);
+}
+.instagramViews {
+  grid-area: instagramViews;
+}
+.instagramLikes {
+  grid-area: instagramLikes;
+}
+.retweets {
+  grid-area: retweets;
+}
+.twitterLikes {
+  grid-area: twitterLikes;
+}
+.youtubeViews {
+  grid-area: youtubeViews;
+}
+.youtubeViews p:last-of-type {
+  color: var(--brightRed);
+}
+.youtubeLikes {
+  grid-area: youtubeLikes;
+}
+.youtubeLikes p:last-of-type {
+  color: var(--brightRed);
+}
+.grid-container * {
+  color: headline;
+}
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 0;
+  color: var(--headline);
+}
+.attribution a {
+  color: var(--text);
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .grid-container {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .grid-container {
+    width: 80%;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10em repeat(4, 20em) 5em repeat(8, 10em);
+
+    grid-template-areas:
+      "nav"
+      "facebook"
+      "twitter"
+      "instagram"
+      "youtube"
+      "subittle"
+      "facebookViews"
+      "facebookLikes"
+      "instagramLikes"
+      "instagramViews"
+      "retweets"
+      "twitterLikes"
+      "youtubeLikes"
+      "youtubeViews";
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav div {
+    width: 100%;
+    height: 50%;
+  }
+  .nav div:first-child {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav div:last-child {
+    border-top: 1px solid grey;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .social h2{
+    font-size: 60px;
+  }
+  .socialStatus {
+    padding: 20px;
+  }
+  .socialStatus h2{
+    font-size: 40px;
+  }
+}

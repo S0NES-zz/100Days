@@ -1,20 +1,36 @@
-# Frontend Mentor - Profile card component
+# Frontend Mentor - Profile card component solution
 
-Your challenge is to build out this profile card component and get it looking as close to the design as possible.
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Table of contents
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My process](#my-process)
+- [Built with](#built-with)
+- [Author](#author)
 
-## Where to find everything
+### The challenge
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Build out the project to the designs provided
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Links
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+[Live Site URL](https://sones-100days.netlify.app/day21to30/cardprofile/);
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+## Author
+
+[Linkedin](https://www.linkedin.com/in/scarabelli/)
+[@S0Soneca](https://www.twitter.com/S0Soneca)
 
 ## 21/100 3/28/2021 - DONE
 
