@@ -7,8 +7,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [The challenge](#the-challenge)
 - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[Front end mentor](https://www.frontendmentor.io/solutions/responsive-testimonial-grid-8lyY8XHnv)
+[Live Site URL](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)
 
 ### Built with
 
@@ -35,6 +35,6 @@ Users should be able to:
 [Linkedin](https://www.linkedin.com/in/scarabelli/)
 [@S0Soneca](https://www.twitter.com/S0Soneca)
 
-## 23/100 3/31/2021 - DONE
+## 24/100 3/31/2021 - DONE
 
 ## #100DAYSCHALLENGE
