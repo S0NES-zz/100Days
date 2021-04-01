@@ -1,0 +1,189 @@
+:root {
+  --moderateViolet: hsl(263, 55%, 52%);
+  --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --veryDarkBlackishBlue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --lightGray: hsl(0, 0%, 81%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  width: 100%;
+}
+
+body {
+  background: var(--lightGrayishBlue);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  width: 80%;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+      grid-template-areas: "comment1 comment1 comment2 comment5" "comment3 comment4 comment4 comment5";
+}
+
+.testimonial {
+  border: 5px solid var(--White);
+  border-radius: 10px;
+  color: var(--veryDarkGrayishBlue);
+  font-size: 15px;
+  font-weight: 500;
+  background: var(--White);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 10px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.testimonial h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--veryDarkBlackishBlue);
+}
+
+.testimonial figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.testimonial figure figcaption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.testimonial figure figcaption span {
+  font-weight: 600;
+  color: var(--veryDarkBlackishBlue);
+}
+
+.testimonial figure img {
+  border-radius: 50%;
+}
+
+#comment1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: comment1;
+  color: var(--lightGray);
+  border-color: var(--moderateViolet);
+  background: var(--moderateViolet);
+}
+
+#comment1 h2,
+#comment1 figure figcaption span {
+  color: var(--White);
+}
+
+#comment2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: comment2;
+  color: var(--lightGray);
+  border-color: var(--veryDarkGrayishBlue);
+  background: var(--veryDarkGrayishBlue);
+}
+
+#comment2 h2,
+#comment2 figure figcaption span {
+  color: var(--White);
+}
+
+#comment3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: comment3;
+}
+
+#comment4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: comment4;
+  color: var(--lightGray);
+  border-color: var(--veryDarkBlackishBlue);
+  background: var(--veryDarkBlackishBlue);
+}
+
+#comment4 h2,
+#comment4 figure figcaption span {
+  color: var(--White);
+}
+
+#comment5 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  grid-area: comment5;
+}
+
+#comment6 {
+  grid-area: comment6;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (auto)[3];
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "comment1 comment1 comment2" "comment3 comment4 comment4" "comment5 comment5 comment5";
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (auto)[8];
+        grid-template-rows: repeat(8, auto);
+        grid-template-areas: "comment1" "comment1" "comment2" "comment3" "comment4" "comment4" "comment5" "comment5";
+  }
+}
+/*# sourceMappingURL=style.css.map */

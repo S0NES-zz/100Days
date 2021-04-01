@@ -1,0 +1,134 @@
+:root {
+  --moderateViolet: hsl(263, 55%, 52%);
+  --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --veryDarkBlackishBlue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --lightGray: hsl(0, 0%, 81%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  width: 100%;
+}
+body {
+  background: var(--lightGrayishBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  grid-template-areas:
+    "comment1 comment1 comment2 comment5"
+    "comment3 comment4 comment4 comment5";
+}
+.testimonial {
+  border: 5px solid var(--White);
+  border-radius: 10px;
+  color: var(--veryDarkGrayishBlue);
+  font-size: 15px;
+  font-weight: 500;
+  background: var(--White);
+  display: flex;
+  padding: 20px 10px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.testimonial h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--veryDarkBlackishBlue);
+}
+.testimonial figure {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.testimonial figure figcaption {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+.testimonial figure figcaption span {
+  font-weight: 600;
+  color: var(--veryDarkBlackishBlue);
+}
+.testimonial figure img {
+  border-radius: 50%;
+}
+#comment1 {
+  grid-area: comment1;
+  color: var(--lightGray);
+  border-color: var(--moderateViolet);
+  background: var(--moderateViolet);
+}
+#comment1 h2,
+#comment1 figure figcaption span {
+  color: var(--White);
+}
+#comment2 {
+  grid-area: comment2;
+  color: var(--lightGray);
+  border-color: var(--veryDarkGrayishBlue);
+  background: var(--veryDarkGrayishBlue);
+}
+#comment2 h2,
+#comment2 figure figcaption span {
+  color: var(--White);
+}
+#comment3 {
+  grid-area: comment3;
+}
+#comment4 {
+  grid-area: comment4;
+  color: var(--lightGray);
+  border-color: var(--veryDarkBlackishBlue);
+  background: var(--veryDarkBlackishBlue);
+}
+#comment4 h2,
+#comment4 figure figcaption span {
+  color: var(--White);
+}
+#comment5 {
+  grid-area: comment5;
+}
+#comment6 {
+  grid-area: comment6;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "comment1 comment1 comment2"
+      "comment3 comment4 comment4"
+      "comment5 comment5 comment5";
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+      "comment1"
+      "comment1"
+      "comment2"
+      "comment3"
+      "comment4"
+      "comment4"
+      "comment5"
+      "comment5";
+  }
+}
