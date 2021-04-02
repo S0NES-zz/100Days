@@ -106,7 +106,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .container {
-    background-image: url(../images/bg-pattern-mobile.svg);
+    background-image: url(images/bg-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-position: center -1%;
     width: calc(85% - 1em);
