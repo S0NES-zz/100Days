@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[Frontend Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-pR4bE9ZpL)
+[Live Site](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)
 
 ### Built with
 
