@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-[Solution URL](https://your-solution-url.com)
+[Solution URL](https://www.frontendmentor.io/solutions/responsive-using-flexgrow-and-shrink-GMcTINdIQ)
 [Live Site URL](https://sones-100days.netlify.app/day21to30/3columncard/)
 
 ## My process
@@ -43,6 +43,6 @@ main > * {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+[FrontEndMentor](https://www.frontendmentor.io/profile/S0NES)
+[Linkedin](https://www.linkedin.com/in/scarabelli/)
+[@S0Soneca](https://www.twitter.com/S0Soneca)
