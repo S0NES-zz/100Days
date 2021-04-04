@@ -54,12 +54,8 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 023 | [Theme Switch](https://sones-100days.netlify.app/day21to30/themeswitch/)              |
 | 024 | [Grid Testimonial](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)     |
 | 025 | [FAQ accordion card](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)   |
-<<<<<<< HEAD
-| 026 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
-=======
 | 026 | [Slider testimonial](https://sones-100days.netlify.app/day21to30/slidertestimonial/)  |
->>>>>>> c8267ed812665975af96ac407f843efb5c976b7d
-| 027 |            |
+| 027 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
 | 028 |            |
 | 029 |            |
 | 030 |            |
