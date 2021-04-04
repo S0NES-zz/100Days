@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[Solution URL](https://www.frontendmentor.io/solutions/slider-with-a-little-animation-on-image-i4Azx7XQX)
+[Live Site URL](https://sones-100days.netlify.app/day21to30/slidertestimonial/)
 
 ### Built with
 
@@ -33,3 +33,8 @@ Users should be able to:
 [FrontEndMentor](https://www.frontendmentor.io/profile/S0NES)
 [Linkedin](https://www.linkedin.com/in/scarabelli/)
 [@S0Soneca](https://www.twitter.com/S0Soneca)
+
+## 26/100 3/31/2021 - DONE
+
+## #100DAYSCHALLENGE
+
