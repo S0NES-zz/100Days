@@ -128,20 +128,22 @@ body {
   background: var(--moderateViolet);
 }
 
-#comment1::after {
+#comment1::before {
   content: "";
   width: 100px;
   height: 100px;
-  top: 2%;
+  top: 10%;
   right: 10%;
   position: absolute;
   background: url(../images/bg-pattern-quotation.svg) no-repeat;
   background-size: fill;
+  z-index: 1;
 }
 
 #comment1 h2,
 #comment1 figure figcaption span {
   color: var(--White);
+  z-index: 2;
 }
 
 #comment2 {
