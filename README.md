@@ -55,10 +55,6 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 024 | [Grid Testimonial](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)     |
 | 025 | [FAQ accordion card](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)   |
 | 026 | [Slider testimonial](https://sones-100days.netlify.app/day21to30/slidertestimonial/)  |
-<<<<<<< HEAD
->>>>>>> c8267ed812665975af96ac407f843efb5c976b7d
-=======
->>>>>>> 822f2f8e46c655e36af6263e91d26ac12ebc74d2
 | 027 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
 | 028 |            |
 | 029 |            |
