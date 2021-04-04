@@ -56,6 +56,7 @@ main > * {
 .items h1 {
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
+  font-size: 3rem;
 }
 .items button {
   background-color: var(--veryLightGray);
