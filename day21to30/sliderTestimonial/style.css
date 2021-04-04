@@ -125,15 +125,25 @@ main{
 .prev::after {
 	background-image: url(images/icon-prev.svg);
 }
+.attribution {
+  position: absolute;
+  font-size: 15px;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.attribution a {
+  text-decoration: none;
+}
 @keyframes tilt{
 	0%{
-		transform: rotateZ(1deg);
+		transform: rotateZ(.1deg);
 	}
 	50%{
-		transform: rotateZ(-1deg);
+		transform: rotateZ(-.2deg);
 	}
 	100%{
-		transform: rotateZ(1deg);
+		transform: rotateZ(.1deg);
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -161,6 +171,7 @@ main{
 	}
 }
 @media only screen and (max-width: 400px) {
+	.attribution{ display: none;}
 	.slide-img img {
 		width: 200px;
 	}

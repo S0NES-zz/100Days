@@ -320,6 +320,15 @@ body {
   margin: 20px auto;
   padding: 10px 10%;
 }
+.attribution {
+  position: absolute;
+  color: var(--veryPaleBlue);
+  bottom: 1%;
+}
+.attribution a {
+  text-decoration: none;
+  color: #04d8fd;
+}
 /*Media 2 Cell*/
 @media (max-width: 500px) {
   .container {

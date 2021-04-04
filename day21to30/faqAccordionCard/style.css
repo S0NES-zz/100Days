@@ -104,6 +104,15 @@ body {
   transform: rotate(180deg);
   transition: all 0.3s ease;
 }
+.attribution {
+  position: absolute;
+  color: var(--lightGrayBlue);
+  bottom: 1%;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--veryDarkBlue);
+}
 @media screen and (max-width: 600px) {
   .container {
     background-image: url(images/bg-pattern-mobile.svg);

@@ -7,6 +7,13 @@
   --lightGrayishBlue: hsl(210, 46%, 95%);
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html,
 body {
   border: none;
@@ -34,16 +41,16 @@ body {
   display: -ms-grid;
   display: grid;
   width: 80%;
+  position: relative;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-rows: (250px)[2];
+      grid-template-rows: repeat(2, 250px);
   gap: 20px;
       grid-template-areas: "comment1 comment1 comment2 comment5" "comment3 comment4 comment4 comment5";
 }
 
 .testimonial {
-  border: 5px solid var(--White);
   border-radius: 10px;
   color: var(--veryDarkGrayishBlue);
   font-size: 15px;
@@ -52,7 +59,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 10px;
+  padding: 0 15px;
   font-family: "Barlow Semi Condensed", sans-serif;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -67,8 +74,12 @@ body {
 
 .testimonial h2 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1rem;
   color: var(--veryDarkBlackishBlue);
+}
+
+.testimonial p {
+  font-size: 0.8rem;
 }
 
 .testimonial figure {
@@ -114,19 +125,18 @@ body {
   grid-area: comment1;
   position: relative;
   color: var(--lightGray);
-  border-color: var(--moderateViolet);
   background: var(--moderateViolet);
 }
 
 #comment1::after {
-  content: '';
+  content: "";
   width: 100px;
   height: 100px;
-  top: 5%;
+  top: 2%;
   right: 10%;
   position: absolute;
   background: url(../images/bg-pattern-quotation.svg) no-repeat;
-  background-size: cover;
+  background-size: fill;
 }
 
 #comment1 h2,
@@ -139,7 +149,6 @@ body {
   -ms-grid-column: 3;
   grid-area: comment2;
   color: var(--lightGray);
-  border-color: var(--veryDarkGrayishBlue);
   background: var(--veryDarkGrayishBlue);
 }
 
@@ -160,7 +169,6 @@ body {
   -ms-grid-column-span: 2;
   grid-area: comment4;
   color: var(--lightGray);
-  border-color: var(--veryDarkBlackishBlue);
   background: var(--veryDarkBlackishBlue);
 }
 
@@ -180,6 +188,16 @@ body {
   grid-area: comment6;
 }
 
+.attribution {
+  position: absolute;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  bottom: 1%;
+}
+
+.attribution a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1200px) {
   .container {
     -ms-grid-columns: 1fr;
@@ -187,6 +205,9 @@ body {
     -ms-grid-rows: (auto)[3];
         grid-template-rows: repeat(3, auto);
         grid-template-areas: "comment1 comment1 comment2" "comment3 comment4 comment4" "comment5 comment5 comment5";
+  }
+  .attribution {
+    display: none;
   }
 }
 

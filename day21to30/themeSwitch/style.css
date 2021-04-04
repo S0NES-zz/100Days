@@ -47,7 +47,7 @@ input[type="checkbox"] {
 .grid-container {
   width: 80%;
   margin: 0 auto;
-  height: 93%;
+  height: 90%;
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
