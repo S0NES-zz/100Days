@@ -103,22 +103,31 @@ main {
   top: 5%;
   left: 15%;
 }
-#text{
+#text {
   display: none;
   color: var(--softRed);
   bottom: -50%;
   left: 5%;
   position: absolute;
 }
-.invalid #input{
+.invalid #input {
   border: 1.5px solid var(--softRed);
   background: url(images/icon-error.svg) no-repeat;
   background-position: 80% center;
 }
-.invalid #text{
+.invalid #text {
   display: block;
 }
+.attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 @media screen and (max-width: 500px) {
+  .attribution {
+    display: none;
+  }
   main {
     flex-direction: column;
     min-height: 100vh;
