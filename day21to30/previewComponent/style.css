@@ -18,7 +18,7 @@ body {
   height: 100vh;
   font-family: "Manrope", sans-serif;
   font-size: 13px;
-  background-color: var(--grayishBlue);
+  background-color: var(--lightGrayishBlue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +85,7 @@ main section figure img {
   height: 25px;
   cursor: pointer;
   border-radius: 100px;
-  background: url("images/icon-share.svg"), var(--desaturatedDarkBlue);
+  background: url("images/icon-share.svg"), var(--lightGrayishBlue);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
