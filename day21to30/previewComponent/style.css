@@ -1,0 +1,162 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+:root {
+  --veryDarkGrayishBlue: hsl(217, 19%, 25%);
+  --desaturatedDarkBlue: hsl(214, 17%, 51%);
+  --grayishBlue: hsl(212, 23%, 69%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+body {
+  color: var(--desaturatedDarkBlue);
+  width: 100%;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  background-color: var(--grayishBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+main > * {
+  flex: 1 1 auto;
+}
+main img {
+  flex-basis: 200px;
+  height: 100%;
+}
+main section {
+  background-color: white;
+  flex-basis: 300px;
+  margin-left: -6%;
+  padding: 0 30px;
+  z-index: 2;
+  height: 100%;
+}
+main section h1 {
+  font-weight: 700;
+  color: var(--veryDarkGrayishBlue);
+  margin: 20px 0;
+}
+
+main section p {
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+main section figure {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+main section figure figcaption {
+  margin-left: 15px;
+}
+
+main section figure figcaption span {
+  color: var(--veryDarkGrayishBlue);
+  font-weight: 500;
+}
+main section figure img {
+  max-width: 40px;
+  border-radius: 100px;
+}
+#shareLabel {
+  position: absolute;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 100px;
+  background: url("images/icon-share.svg"), var(--desaturatedDarkBlue);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+#shareCheck {
+  display: none;
+}
+.shareDiv {
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  background: var(--desaturatedDarkBlue);
+  width: 15%;
+  top: 54%;
+  right: 20%;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: none;
+  z-index: 2;
+}
+.shareDiv::after {
+  content: "";
+  border-top: 10px solid var(--desaturatedDarkBlue);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -45%;
+}
+.shareDiv p {
+  color: var(--grayishBlue);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.shareDiv img {
+  cursor: pointer;
+  max-width: 10%;
+}
+@media (max-width: 800px) {
+  main {
+    width: 80%;
+    height: auto;
+    min-height: 80%;
+  }
+
+  main img {
+    flex-basis: 200px;
+    max-height: 300px;
+  }
+  main section {
+    margin-top: -10%;
+  }
+  .shareDiv {
+    width: 80%;
+    top: 74%;
+    padding-top: 15px;
+    right: 10%;
+  }
+
+  .shareDiv::after {
+    right: 10%;
+    bottom: -30%;
+  }
+}
+@media (max-width: 400px) {
+  .shareDiv {
+    top: 75%;
+  }
+}

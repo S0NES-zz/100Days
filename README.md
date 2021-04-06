@@ -57,5 +57,5 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 026 | [Slider testimonial](https://sones-100days.netlify.app/day21to30/slidertestimonial/)  |
 | 027 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
 | 028 | [Email Verification](https://sones-100days.netlify.app/day21to30/emailverification/)  |
-| 029 |            |
+| 029 | [Preview Component](https://sones-100days.netlify.app/day21to30/previewcomponent/)    |
 | 030 |            |
