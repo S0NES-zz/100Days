@@ -22,9 +22,6 @@ Users should be able to:
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-using-flexgrow-and-shrink-GMcTINdIQ)
 - [Live Site URL](https://sones-100days.netlify.app/day21to30/3columncard/)
 
-
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
