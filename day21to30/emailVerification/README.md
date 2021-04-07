@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL](https://www.frontendmentor.io/solutions/responsive-email-verification-aNNxDw7PX)
-[Live Site URL](https://sones-100days.netlify.app/day21to30/emailverification/)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-email-verification-aNNxDw7PX)
+- [Live Site URL](https://sones-100days.netlify.app/day21to30/emailverification/)
 
 ### Built with
 
