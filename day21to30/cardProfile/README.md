@@ -17,7 +17,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-[Live Site URL](https://sones-100days.netlify.app/day21to30/cardprofile/)
+- [Live Site URL](https://sones-100days.netlify.app/day21to30/cardprofile/)
 
 ## My process
 
