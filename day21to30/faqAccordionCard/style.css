@@ -146,4 +146,5 @@ body {
   .question h3 {
     font-size: 1rem;
   }
+  .attribution{ display: none; }
 }
