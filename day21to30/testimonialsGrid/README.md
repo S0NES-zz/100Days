@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-[Front end mentor](https://www.frontendmentor.io/solutions/responsive-testimonial-grid-8lyY8XHnv)
-[Live Site URL](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)
+- [Solution URL(https://www.frontendmentor.io/solutions/responsive-testimonial-grid-8lyY8XHnv)
+- [Live Site URL](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)
 
 ### Built with
 
