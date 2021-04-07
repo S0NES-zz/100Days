@@ -161,6 +161,7 @@ main section figure img {
     right: 10%;
     bottom: -30%;
   }
+  .attribution{ display: none; }
 }
 @media (max-width: 400px) {
   .shareDiv {
