@@ -31,6 +31,7 @@ Users should be able to:
 
 ### What I learned
   I learned how to make the best out of SVG components while using pseudo elements like '::before' and '::after' .
+  
 ## Author
 
 - Linkedin - [Scarabelli](https://www.linkedin.com/in/scarabelli/)

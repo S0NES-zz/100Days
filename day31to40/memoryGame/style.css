@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bgColor: #f9f9f9;
+  --txtColor: rgb(75, 75, 75);
+  --h1Color: rgb(27, 27, 27);
+  --linearFront: linear-gradient(
+    120deg,
+    rgb(19, 2, 248) 0%,
+    rgb(0, 170, 248) 100%
+  );
+  --linearBack: linear-gradient(
+    120deg,
+    rgb(27, 27, 27) 0%,
+    rgb(75, 75, 75) 100%
+  );
+}
+body {
+  height: 100vh;
+  background: var(--bgColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-family: "New Tegomin", serif;
+}
+h1 {
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+h1 span {
+  text-transform: capitalize;
+}
+.memory-game {
+  max-width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-height: 20%;
+  padding: 20px;
+}
+.memory-game > .card {
+  flex: 0 0 150px;
+}
+.card {
+  height: 175px;
+  background: var(--linearBack);
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100px;
+  height: 200px;
+}
+@media (max-width: 1000px) {
+  .memory-game {
+    max-width: 82%;
+  }
+}
+
+@media (max-width: 600px) {
+  .memory-game {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .memory-game {
+    max-width: 100%;
+  }
+}
