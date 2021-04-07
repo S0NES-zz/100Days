@@ -4,10 +4,10 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ## Table of contents
 
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
 
 ### The challenge
@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-[Frontend Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-pR4bE9ZpL)
-[Live Site](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)
+- [Frontend Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-pR4bE9ZpL)
+- [Live Site](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)
 
 ### Built with
 
