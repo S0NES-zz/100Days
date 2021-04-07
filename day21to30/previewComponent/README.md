@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL](https://www.frontendmentor.io/solutions/responsive-preview-component-ST42kYKXM)
-[Live Site URL](https://sones-100days.netlify.app/day21to30/previewcomponent/)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-preview-component-ST42kYKXM)
+- [Live Site URL](https://sones-100days.netlify.app/day21to30/previewcomponent/)
 
 ### Built with
 
