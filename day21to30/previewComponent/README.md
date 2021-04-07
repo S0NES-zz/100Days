@@ -34,6 +34,6 @@ Users should be able to:
 - Twitter - [@S0Soneca](https://www.twitter.com/S0Soneca)
 - Github - [S0NES](https://github.com/S0NES)
 
-## 30/100 3/31/2021 - DONE
+## 30/100 4/06/2021 - DONE
 
 ## #100DAYSCHALLENGE
