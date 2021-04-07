@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL](https://www.frontendmentor.io/solutions/slider-with-a-little-animation-on-image-i4Azx7XQX)
-[Live Site URL](https://sones-100days.netlify.app/day21to30/slidertestimonial/)
+- [Solution URL](https://www.frontendmentor.io/solutions/slider-with-a-little-animation-on-image-i4Azx7XQX)
+- [Live Site URL](https://sones-100days.netlify.app/day21to30/slidertestimonial/)
 
 ### Built with
 
