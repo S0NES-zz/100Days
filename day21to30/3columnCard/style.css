@@ -87,3 +87,6 @@ main > * {
   text-decoration: none;
   color: var(--darkCyan);
 }
+@media (max-width: 768px) {
+  .attribution{ display: none; }
+}
