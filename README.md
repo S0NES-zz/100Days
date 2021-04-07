@@ -48,14 +48,13 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 018 | [New Year timer](https://sones-100days.netlify.app/day11to20/timer)                   |
 | 019 | [Vigenere cypher](https://sones-100days.netlify.app/day11to20/vigenere)               |
 | 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                    |
-| 020 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)               |
-| 021 | [Hero page](https://sones-100days.netlify.app/day21to30/curvedsection)                |
-| 022 | [Interactive Price](https://sones-100days.netlify.app/day21to30/interactiveprice/)    |
-| 023 | [Theme Switch](https://sones-100days.netlify.app/day21to30/themeswitch/)              |
-| 024 | [Grid Testimonial](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)     |
-| 025 | [FAQ accordion card](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)   |
-| 026 | [Slider testimonial](https://sones-100days.netlify.app/day21to30/slidertestimonial/)  |
-| 027 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
-| 028 | [Email Verification](https://sones-100days.netlify.app/day21to30/emailverification/)  |
-| 029 | [Preview Component](https://sones-100days.netlify.app/day21to30/previewcomponent/)    |
-| 030 |            |
+| 021 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)               |
+| 022 | [Hero page](https://sones-100days.netlify.app/day21to30/curvedsection)                |
+| 023 | [Interactive Price](https://sones-100days.netlify.app/day21to30/interactiveprice/)    |
+| 024 | [Theme Switch](https://sones-100days.netlify.app/day21to30/themeswitch/)              |
+| 025 | [Grid Testimonial](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)     |
+| 026 | [FAQ accordion card](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)   |
+| 027 | [Slider testimonial](https://sones-100days.netlify.app/day21to30/slidertestimonial/)  |
+| 028 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
+| 029 | [Email Verification](https://sones-100days.netlify.app/day21to30/emailverification/)  |
+| 030 | [Preview Component](https://sones-100days.netlify.app/day21to30/previewcomponent/)    |
