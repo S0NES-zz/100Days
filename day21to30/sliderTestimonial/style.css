@@ -147,7 +147,7 @@ main{
 	}
 }
 @media only screen and (min-width: 768px) {
-  .attribution{ display: none; }
+
 	.slide {
 		flex-direction: row;
 		text-align: left;
@@ -171,7 +171,7 @@ main{
 		left: calc(100% - 400px);
 	}
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 750px) {
 	.attribution{ display: none;}
 	.slide-img img {
 		width: 200px;

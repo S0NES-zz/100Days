@@ -116,12 +116,10 @@ input[type="file"] {
   bottom: 1%;
   right: 1%;
 }
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .container {
     width: 300px;
     height: 370px;
   }
-  .attribution {
-    font-size: 8px;
-  }
+  .attribution{ display: none; }
 }
