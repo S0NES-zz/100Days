@@ -21,11 +21,9 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
 
-### Screenshot
-
 ### Links
-
-[Live Site URL](https://sones-100days.netlify.app/day21to30/themeswitch)
+- [Solution URL](https://www.frontendmentor.io/solutions/social-media-w-theme-switcher-wnnv48x0Z)
+- [Live Site URL](https://sones-100days.netlify.app/day21to30/themeswitch)
 
 ## My process
   I started by making the layout design while being responsive. after that I made the switch theme in Js and finlized styling everythin.
