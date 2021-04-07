@@ -85,10 +85,10 @@ main section figure img {
   height: 25px;
   cursor: pointer;
   border-radius: 100px;
-  background: url("images/icon-share.svg"), var(--lightGrayishBlue);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50%;
+  background: var(--lightGrayishBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #shareCheck {
   display: none;
@@ -128,6 +128,13 @@ main section figure img {
 .shareDiv img {
   cursor: pointer;
   max-width: 10%;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  text-decoration: none;
 }
 @media (max-width: 800px) {
   main {
