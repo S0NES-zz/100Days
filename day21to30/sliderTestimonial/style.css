@@ -147,6 +147,7 @@ main{
 	}
 }
 @media only screen and (min-width: 768px) {
+  .attribution{ display: none; }
 	.slide {
 		flex-direction: row;
 		text-align: left;

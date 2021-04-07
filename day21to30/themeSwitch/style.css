@@ -247,6 +247,9 @@ input:checked + .slider:before {
 .facebookLikes p:last-of-type {
   color: var(--brightRed);
 }
+.attribution {
+  display: none;
+}
 .instagramViews {
   grid-area: instagramViews;
 }
@@ -328,13 +331,13 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: space-between;
   }
-  .social h2{
+  .social h2 {
     font-size: 60px;
   }
   .socialStatus {
     padding: 20px;
   }
-  .socialStatus h2{
+  .socialStatus h2 {
     font-size: 40px;
   }
 }

@@ -214,6 +214,7 @@ button#start:hover {
 }
 
 @media (max-width: 600px) {
+  .attribution{ display: none; }
   body {
     position: relative;
   }
