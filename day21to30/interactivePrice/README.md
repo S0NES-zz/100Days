@@ -21,7 +21,8 @@ Users should be able to:
 
 ### Links
 
-[Live Site URL](https://sones-100days.netlify.app/day21to30/interactiveprice/)
+- [Solution URL](https://www.frontendmentor.io/solutions/mobile-first-using-css-flexbox-in-responsive-1BdJ3_abb)
+- [Live Site URL](https://sones-100days.netlify.app/day21to30/interactiveprice/)
 
 ## My process
 
