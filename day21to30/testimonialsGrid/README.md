@@ -31,10 +31,11 @@ Users should be able to:
 
 ## Author
 
-[FrontEndMentor](https://www.frontendmentor.io/profile/S0NES)
-[Linkedin](https://www.linkedin.com/in/scarabelli/)
-[@S0Soneca](https://www.twitter.com/S0Soneca)
+- Linkedin - [Scarabelli](https://www.linkedin.com/in/scarabelli/)
+- Frontend Mentor - [@S0NES](https://www.frontendmentor.io/profile/S0NES)
+- Twitter - [@S0Soneca](https://www.twitter.com/S0Soneca)
+- Github - [S0NES](https://github.com/S0NES)
 
-## 24/100 3/31/2021 - DONE
+## 25/100 3/31/2021 - DONE
 
 ## #100DAYSCHALLENGE

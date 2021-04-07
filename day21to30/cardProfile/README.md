@@ -29,8 +29,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-[Linkedin](https://www.linkedin.com/in/scarabelli/)
-[@S0Soneca](https://www.twitter.com/S0Soneca)
+- Linkedin - [Scarabelli](https://www.linkedin.com/in/scarabelli/)
+- Frontend Mentor - [@S0NES](https://www.frontendmentor.io/profile/S0NES)
+- Twitter - [@S0Soneca](https://www.twitter.com/S0Soneca)
+- Github - [S0NES](https://github.com/S0NES)
 
 ## 21/100 3/28/2021 - DONE
 

@@ -34,10 +34,12 @@ Users should be able to:
   I learned how to make the best out of SVG components while using pseudo elements like '::before' and '::after' .
 ## Author
 
-[Linkedin](https://www.linkedin.com/in/scarabelli/)
-[@S0Soneca](https://www.twitter.com/S0Soneca)
+- Linkedin - [Scarabelli](https://www.linkedin.com/in/scarabelli/)
+- Frontend Mentor - [@S0NES](https://www.frontendmentor.io/profile/S0NES)
+- Twitter - [@S0Soneca](https://www.twitter.com/S0Soneca)
+- Github - [S0NES](https://github.com/S0NES)
 
-## 21/100 3/29/2021 - DONE
+## 22/100 3/29/2021 - DONE
 
 ## #100DAYSCHALLENGE
 

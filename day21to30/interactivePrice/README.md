@@ -39,9 +39,11 @@ I learned how to style input ranges while making good responsive websites.
 
 ## Author
 
-[Linkedin](https://www.linkedin.com/in/scarabelli/)
-[@S0Soneca](https://www.twitter.com/S0Soneca)
+- Linkedin - [Scarabelli](https://www.linkedin.com/in/scarabelli/)
+- Frontend Mentor - [@S0NES](https://www.frontendmentor.io/profile/S0NES)
+- Twitter - [@S0Soneca](https://www.twitter.com/S0Soneca)
+- Github - [S0NES](https://github.com/S0NES)
 
-## 22/100 3/30/2021 - DONE
+## 23/100 3/30/2021 - DONE
 
 ## #100DAYSCHALLENGE
