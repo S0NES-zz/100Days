@@ -23,8 +23,6 @@ Users should be able to:
 - [Solution URL](https://www.frontendmentor.io/solutions/hundle-landing-page-w-curved-section-SotXpT1-5)
 - [Live Site URL](https://sones-100days.netlify.app/day21to30/curvedsection/)
 
-## My process
-  I decided to do everything in flex components so I customized each individual thing.
 ### Built with
 
 - Semantic HTML5 markup
