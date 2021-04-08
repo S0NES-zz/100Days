@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://sones-100days.netlify.app/day31to40/social-proof)
+- Live Site URL: [social proof](https://sones-100days.netlify.app/day31to40/social-proof)
 
 ### Built with
 
