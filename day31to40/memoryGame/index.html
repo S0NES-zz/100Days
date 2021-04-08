@@ -13,8 +13,34 @@
     <title>Memory Game</title>
   </head>
   <body>
+    <section class="mode-page">
+      <h1>Choose Mode:</h1>
+      <label
+        ><input type="radio" name="mode" id="mode" value="ease" />Easy</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="mode"
+          id="mode"
+          value="normal"
+        />Normal</label
+      >
+      <label
+        ><input type="radio" name="mode" id="mode" value="hard" />Hard</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="mode"
+          id="mode"
+          value="extreme"
+        />Extreme</label
+      >
+    </section>
     <h1>Score: <span id="result"></span></h1>
-    <main class="memory-game"></main>
+    <section class="info"></section>
+    <section class="memory-game"></section>
     <script src="script.js"></script>
   </body>
 </html>

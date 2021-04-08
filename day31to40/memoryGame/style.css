@@ -5,6 +5,7 @@
 }
 :root {
   --bgColor: #f9f9f9;
+  --bg2Color: #ff1053;
   --txtColor: rgb(75, 75, 75);
   --h1Color: rgb(27, 27, 27);
   --linearFront: linear-gradient(
@@ -17,6 +18,7 @@
     rgb(27, 27, 27) 0%,
     rgb(75, 75, 75) 100%
   );
+  --width: 100%;
 }
 body {
   height: 100vh;
@@ -28,7 +30,7 @@ body {
   font-family: "New Tegomin", serif;
 }
 h1 {
-  margin: 20px 0;
+  margin: 10px 0;
   text-transform: uppercase;
   font-size: 2.5rem;
 }
@@ -36,7 +38,7 @@ h1 span {
   text-transform: capitalize;
 }
 .memory-game {
-  max-width: 75%;
+  max-width: var(--width);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,20 +63,41 @@ img {
   width: 100px;
   height: 200px;
 }
-@media (max-width: 1000px) {
-  .memory-game {
-    max-width: 82%;
-  }
+input[type="radio"] {
+  display: none;
 }
-
-@media (max-width: 600px) {
-  .memory-game {
-    max-width: 90%;
-  }
+.mode-page {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+  grid-template-rows: repeat(auto-fit, 100px);
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100%;
+  background: var(--bgColor);
 }
-
-@media (max-width: 400px) {
-  .memory-game {
-    max-width: 100%;
-  }
+.mode-page h1{
+  position: absolute;
+  align-self: flex-start;
+  justify-self: center;
+}
+.mode-page label {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-size: 2.5rem;
+  background: var(--bg2Color);
+  transition: 2px;
+}
+.mode-page label:hover{
+  filter: grayscale(80%)
 }
