@@ -58,8 +58,8 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 028 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
 | 029 | [Email Verification](https://sones-100days.netlify.app/day21to30/emailverification/)  |
 | 030 | [Preview Component](https://sones-100days.netlify.app/day21to30/previewcomponent/)    |
-| 031 | [Memory Card](https://sones-100days.netlify.app/day31to40/memorygame/)               |
-| 032 |     |
+| 031 | [Memory Card](https://sones-100days.netlify.app/day31to40/memorygame/)                |
+| 032 | [Social Proof](https://sones-100days.netlify.app/day31to40/social-proof/)             |
 | 033 |     |
 | 034 |     |
 | 035 |     |
