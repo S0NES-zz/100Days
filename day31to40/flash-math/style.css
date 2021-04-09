@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+  font-family: 'Roboto Slab', serif;
+}
+body {
+  background: -webkit-linear-gradient(to right, #4CE0B3, #00291C);
+  background: linear-gradient(to right, #4CE0B3, #00291C);
+  color: rgba(0, 0, 0, .85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 310px;
+  margin: 0 auto;
+}
+
+#flashcard {
+  background: #FDFBEC;
+  border-radius: 15px;
+  display: block;
+  max-width: 310px;
+  padding-bottom: 25px;
+  width: 98%;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2.5% 0px;
+  width: 95%;
+}
+
+span#a, span#b {
+  font-size: 12rem;
+  line-height: 11rem;
+  padding-right: 10%;
+  text-align: center;
+  width: 60%;
+}
+
+span#a {
+  display: block;
+}
+
+span#b {
+  display: inline-block;
+}
+
+span#x {
+  align-self: flex-end;
+  color: rgba(0, 0, 0, .8);
+  float: left;
+  font-size: 5rem;
+  padding-left: 10%;
+  width: 20%;
+}
+
+#divider {
+  background: rgba(0, 0, 0, .85);
+  border-radius: 3px;
+  display: block;
+  height: 10px;
+  margin: 0 auto 5px;
+  width: 90%;
+}
+
+.row2 {
+  display: block;
+  margin: 0 5% 0px;
+  width: 90%;
+}
+
+.square {
+  border: #FDFBEC 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 3rem;
+  width: 33.3333333%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.button {
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-size: 1.25rem;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.correct {
+  color: #004FFF;
+}
+
+.again {
+  background: #004FFF;
+  border-radius: 5px;
+  color: #FDFBEC;
+  padding: 4px;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.incorrect {
+  color: #FF4B0A;
+}
+
+.selected {
+  background: rgba(0, 0, 0, .85);
+  color: #FDFBEC;
+}
