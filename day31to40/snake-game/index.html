@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Snake Game</title>
   </head>
   <body>
+    <div id="header">
+      <h1>Snake Game</h1>
+    </div>
+
     <div id="game-board"></div>
+    <div class="reset-page">
+      <h3>You Lost</h3>
+      <button id="reset">Reset</button>
+    </div>
     <script type="module" type="text/javascript" src="src/script.js"></script>
   </body>
 </html>

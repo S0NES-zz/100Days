@@ -2,18 +2,40 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  outline: none;
+}
+:root {
+  --bg: hsl(0, 0%, 100%);
+  --gameBg: hsl(227, 47%, 96%);
+  --txtColor: hsl(230, 17%, 14%);
 }
 body {
+  background: var(--bg);
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: 0;
 }
-
+#header {
+  width: 50vmin;
+  height: 10vmin;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#header h1 {
+  text-align: center;
+  color: var(--txtColor);
+  font-size: 6vmin;
+  text-transform: uppercase;
+  font-family: "New Tegomin", serif;
+}
 #game-board {
-  background: #f2f2f2;
+  background: var(--gameBg);
   background-size: 30px 30px;
   width: 50vmin;
   height: 50vmin;
@@ -22,7 +44,6 @@ body {
   border-radius: 2%;
   grid-template-columns: repeat(21, 1fr);
 }
-
 .snake {
   background-color: hsl(200, 100%, 50%);
   border-radius: 10%;
@@ -30,4 +51,29 @@ body {
 .food {
   background-color: hsl(0, 100%, 50%);
   border-radius: 50%;
+}
+.reset-page{
+  position: absolute;
+  display: none;
+  background-color: var(--gameBg);
+  top: calc(55% - 25vmin);
+  left: calc(50% - 25vmin);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 2%;
+  width: 50vmin;
+  height: 50vmin;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+#reset{
+  width: 30%;
+  height: 15%;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  background-color: #f43;
 }
