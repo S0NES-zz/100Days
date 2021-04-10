@@ -17,9 +17,9 @@ let btn = document.getElementById("header");
 let toggle = false;
 let root = document.body;
 let reset = document.getElementById("reset");
-reset.addEventListener("click", () =>{
+reset.addEventListener("click", () => {
   window.location.reload();
-})
+});
 btn.addEventListener("click", (e) => {
   e.preventDefault();
   if (toggle == false) {
@@ -35,9 +35,12 @@ function lightMode() {
   root.style.setProperty("--bg", "hsl(0, 0%, 100%)");
   root.style.setProperty("--gameBg", "hsl(227, 47%, 96%)");
   root.style.setProperty("--txtColor", "hsl(230, 17%, 14%)");
+
+  root.style.setProperty("--txtColorLight", "hsl(230, 17%, 50%)");
 }
 function darkMode() {
   root.style.setProperty("--bg", " hsl(230, 17%, 14%)");
+  root.style.setProperty("--txtColorLight", "hsl(227, 47%, 96%)");
   root.style.setProperty("--gameBg", "hsl(227, 47%, 96%)");
   root.style.setProperty("--txtColor", "hsl(0, 0%, 100%)");
 }
