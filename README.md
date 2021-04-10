@@ -60,8 +60,8 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 030 | [Preview Component](https://sones-100days.netlify.app/day21to30/previewcomponent/)    |
 | 031 | [Memory Card](https://sones-100days.netlify.app/day31to40/memorygame/)                |
 | 032 | [Social Proof](https://sones-100days.netlify.app/day31to40/social-proof/)             |
-| 033 | [Flash Math](https://sones-100days.netlify.app/day31to40/flash-math/)             |
-| 034 |     |
+| 033 | [Flash Math](https://sones-100days.netlify.app/day31to40/flash-math/)                 |
+| 034 | [Snake Game](https://sones-100days.netlify.app/day31to40/snake-game/)                 |
 | 035 |     |
 | 036 |     |
 | 037 |     |
