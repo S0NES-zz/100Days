@@ -55,9 +55,6 @@ body {
   border-radius: 20%;
   border: none;
 }
-.snake:last-of-type{
-  border-radius: 50%;
-}
 .food {
   background-image: url('apple.svg');
   background-position: center;
