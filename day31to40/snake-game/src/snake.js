@@ -21,6 +21,9 @@ export function draw(gameBoard) {
     snakeElement.style.gridRowStart = segment.y;
     snakeElement.style.gridColumnStart = segment.x;
     snakeElement.classList.add("snake");
+    if(snakeElement[0]){
+      snakeElement.style.backgroundColor = "green";
+    };
     gameBoard.appendChild(snakeElement);
   });
 }

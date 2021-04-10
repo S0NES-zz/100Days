@@ -46,11 +46,23 @@ body {
   grid-template-columns: repeat(21, 1fr);
 }
 .snake {
-  background-color: hsl(200, 100%, 50%);
-  border-radius: 10%;
+  background-color: hsl(113, 100%, 30%);
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+.snake:first-of-type{
+  background-color: hsl(113, 100%, 10%);
+  border-radius: 20%;
+  border: none;
+}
+.snake:last-of-type{
+  border-radius: 50%;
 }
 .food {
-  background-color: hsl(0, 100%, 50%);
+  background-image: url('apple.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 50%;
 }
 .reset-page {
