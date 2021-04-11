@@ -1,7 +1,7 @@
 import { getInputDirection } from "./input.js";
 
 export const SNAKE_SPEED = 10;
-const snakeBody = [{ x: 10, y: 11 }];
+let snakeBody = [{ x: 10, y: 11 }];
 let newSegments = 0;
 
 export function update() {
@@ -21,13 +21,16 @@ export function draw(gameBoard) {
     snakeElement.style.gridRowStart = segment.y;
     snakeElement.style.gridColumnStart = segment.x;
     snakeElement.classList.add("snake");
-    if(snakeElement[0]){
+    if (snakeElement[0]) {
       snakeElement.style.backgroundColor = "green";
-    };
+    }
     gameBoard.appendChild(snakeElement);
   });
 }
-
+export function start() {
+  snakeBody = [{ x: 10, y: 11 }];
+  newSegments = 0;
+}
 export function expandSnake(amount) {
   newSegments += amount;
 }

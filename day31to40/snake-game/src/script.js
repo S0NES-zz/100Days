@@ -2,11 +2,13 @@ import {
   update as updateSnake,
   draw as drawSnake,
   SNAKE_SPEED,
+  start as startSnake,
   getSnakeHead,
   snakeIntersection,
 } from "./snake.js";
 import { update as updateFood, draw as drawFood } from "./food.js";
 import { outsideGrid } from "./grid.js";
+import { resetDirection } from "./input.js";
 
 let lastRenderTime = 0;
 let gameOver = false;
@@ -17,9 +19,14 @@ let btn = document.getElementById("header");
 let toggle = false;
 let root = document.body;
 let reset = document.getElementById("reset");
+
 reset.addEventListener("click", () => {
-  window.location.reload();
+  startSnake();
+  resetDirection();
+  resetPage.classList.remove("visible");
+  resetPage.classList.add("hidden");
 });
+
 btn.addEventListener("click", (e) => {
   e.preventDefault();
   if (toggle == false) {
@@ -47,9 +54,12 @@ function darkMode() {
 
 function main(currentTime) {
   if (gameOver) {
-    resetPage.style.display = "flex";
+    resetPage.classList.remove("hidden");
+    resetPage.classList.add("visible");
   }
+
   window.requestAnimationFrame(main);
+
   const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000;
   if (secondsSinceLastRender < 1 / SNAKE_SPEED) return;
 

@@ -50,13 +50,13 @@ body {
   border-left: 1px solid transparent;
   border-top: 1px solid transparent;
 }
-.snake:first-of-type{
+.snake:first-of-type {
   background-color: hsl(113, 100%, 10%);
   border-radius: 20%;
   border: none;
 }
 .food {
-  background-image: url('apple.svg');
+  background-image: url("apple.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,6 @@ body {
 }
 .reset-page {
   position: absolute;
-  display: none;
   background-color: var(--gameBg);
   top: calc(55% - 25vmin);
   left: calc(50% - 25vmin);
@@ -75,6 +74,12 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
+}
+.visible {
+  display: flex;
+}
+.hidden {
+  display: none;
 }
 #reset {
   width: 30%;
@@ -97,7 +102,7 @@ body {
   bottom: 0;
   right: 5%;
 }
-.how2play svg path{
+.how2play svg path {
   fill: var(--txtColor);
 }
 .how2play h4 {
