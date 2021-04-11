@@ -58,8 +58,8 @@ svg .arrow {
   background: var(--bg);
 }
 .game {
-  width: 90vmin;
-  height: 90vmin;
+  width: 800px;
+  height: 600px;
   background: url(../img/background-blue.png);
   animation: scroll-background 5s linear infinite;
   box-shadow: 0 2px 10px var(--color1);

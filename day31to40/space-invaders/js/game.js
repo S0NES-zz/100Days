@@ -2,7 +2,7 @@ const keyLeft = 37;
 const keyRight = 39;
 const keySpace = 32;
 
-const gameWidth = 600;
+const gameWidth = 800;
 const gameHeight = 600;
 
 const playerWidth = 25;
