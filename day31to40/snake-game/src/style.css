@@ -64,6 +64,7 @@ body {
 }
 .reset-page {
   position: absolute;
+  display: none;
   background-color: var(--gameBg);
   top: calc(55% - 25vmin);
   left: calc(50% - 25vmin);
@@ -74,12 +75,6 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
-}
-.visible {
-  display: flex;
-}
-.hidden {
-  display: none;
 }
 #reset {
   width: 30%;

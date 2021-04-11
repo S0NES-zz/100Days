@@ -23,8 +23,7 @@ let reset = document.getElementById("reset");
 reset.addEventListener("click", () => {
   startSnake();
   resetDirection();
-  resetPage.classList.remove("visible");
-  resetPage.classList.add("hidden");
+    resetPage.style.display = "none";
 });
 
 btn.addEventListener("click", (e) => {
@@ -54,8 +53,7 @@ function darkMode() {
 
 function main(currentTime) {
   if (gameOver) {
-    resetPage.classList.remove("hidden");
-    resetPage.classList.add("visible");
+    resetPage.style.display = "flex";
   }
 
   window.requestAnimationFrame(main);
