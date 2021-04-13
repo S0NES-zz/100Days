@@ -64,7 +64,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 034 | [Snake Game](https://sones-100days.netlify.app/day31to40/snake-game/)                 |
 | 035 | [Space Invaders](https://sones-100days.netlify.app/day31to40/space-invaders/)         |
 | 036 | [Tetris](https://sones-100days.netlify.app/day31to40/tetris/)                         |
-| 037 |     |
+| 037 | [Dino Game](https://sones-100days.netlify.app/day31to40/dino-game/)                   |
 | 038 |     |
 | 039 |     |
 | 040 |     |
