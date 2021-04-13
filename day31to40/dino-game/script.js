@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const dino = document.querySelector(".dino");
 let tiles = [
   { x: 1, y: 10 },
