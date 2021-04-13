@@ -71,7 +71,7 @@ function drawTile(gameBoard) {
 }
 function drawEnemy() {
   let randomImage = Math.floor(Math.random() * 3) + 1;
-  let randomTime = Math.floor(Math.random() * 4000) + 1;
+  let randomTime = 2000;
   let enemyPosition = 1000;
 
   const enemy = document.createElement("div");
