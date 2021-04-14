@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#app {
+    width: 500px;
+    height: 500px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #222;
+}
+
+.header > * {
+    color: #eeeeee;
+    margin: 10px 20px;
+}
+
+
+.header__status {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__restart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.board {
+    display: grid;
+    background: #cccccc;
+    gap: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.board__tile {
+    background: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family: cursive;
+    color: #222222;
+}
+
+.board__tile:hover {
+    background: #eeeeee;
+}
+
+.board__tile--winner {
+    color: green;
+}
