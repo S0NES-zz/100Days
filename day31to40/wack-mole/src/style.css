@@ -1,0 +1,99 @@
+:root {
+  --white: #1b1b1b;
+  --black: rgb(250, 250, 250);
+  --bg: #20a320;
+  --hole: rgb(49, 49, 49);
+  --hammer: #c99a25;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sa ns-serif;
+  cursor: none;
+}
+body {
+  background-color: var(--bg);
+  color: var(--black);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 2em;
+  margin: 1em 0;
+  text-align: center;
+}
+.score {
+  font-size: 1.3em;
+  margin: 1em 0;
+  text-align: center;
+}
+.holesCont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  justify-items: center;
+}
+.hole {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: var(--hole);
+  overflow: hidden;
+}
+.mole {
+  position: absolute;
+  z-index: 1;
+  height: 60px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: appear 0.3s linear;
+  pointer-events: none;
+}
+@keyframes appear {
+  from {
+    bottom: -60px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+.buttons {
+  margin-top: 3em;
+  text-align: center;
+}
+.buttons button {
+  padding: 15px 45px;
+  background-color: inherit;
+  border: 1px solid var(--black);
+  color: var(--black);
+  border-radius: 3px;
+  outline: none;
+}
+.buttons button:hover {
+  background: var(--black);
+  color: var(--white);
+}
+button.stop {
+  display: none;
+}
+.cursor svg {
+  position: absolute;
+  height: 125px;
+  z-index: 2;
+  transform: rotate(-20deg);
+  pointer-events: none;
+  fill: var(--hammer);
+}
+@keyframes hit {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(-90deg);
+  }
+}
