@@ -66,5 +66,5 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 036 | [Tetris](https://sones-100days.netlify.app/day31to40/tetris/)                         |
 | 037 | [Dino Game](https://sones-100days.netlify.app/day31to40/dino-game/)                   |
 | 038 | [Tic Tac Toe](https://sones-100days.netlify.app/day31to40/tik-tak-toe/)               |
-| 039 | [Wack a mole](https://sones-100days.netlify.app/day31to40/wack-mole/)               |
-| 040 |     |
+| 039 | [Wack a mole](https://sones-100days.netlify.app/day31to40/wack-mole/)                 |
+| 040 | [rock paper scissor](https://sones-100days.netlify.app/day31to40/rock-paper-scissor/) |
