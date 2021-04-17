@@ -67,8 +67,8 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 037 | [Dino Game](https://sones-100days.netlify.app/day31to40/dino-game/)                   |
 | 038 | [Tic Tac Toe](https://sones-100days.netlify.app/day31to40/tik-tak-toe/)               |
 | 039 | [Wack a mole](https://sones-100days.netlify.app/day31to40/wack-mole/)                 |
-| 030 | [Empoyee manager Back-end](https://github.com/S0NES/EmployeeManager)                  |
-| 041 | |
+| 030 | [Rock paper scissors](https://sones-100days.netlify.app/day31to40/rock-paper-scissor/)|
+| 041 | [Employee manager Back-end](https://github.com/S0NES/EmployeeManager)                 |
 | 042 | |
 | 043 | |
 | 044 | |
