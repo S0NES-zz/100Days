@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+:root{
+    --color1: #003249;
+    --color2: #007EA7;
+    --bg: #CCDBDC;
+    
+}
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+    flex-direction: column;
+    font-family: 'Zilla Slab', serif;
+}
+
+#container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--color1);
+    padding:0.5em;
+}
+
+.currencySelector{
+    font-size: 1.5em;
+    border:0px;
+    outline:0px;
+    background-color:var(--color1);
+    margin: 0 10px;
+    color:white;
+}
+
+#fromName, #toName, #swapButton{
+    padding:0.5em;
+    font-size: 1.5em;
+    background-color:var(--color1);
+    margin-bottom: 16px;
+    margin-top: 0px;
+    color:white
+}
+
+
+#swapButton{
+    padding:0.5em;
+    font-size: 1.5em;
+    background-color:var(--color2);
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0px;
+    color:white;
+    cursor: pointer;
+}
+
+#swapButton:hover{
+    border-color: var(--color2);
+}
+
+#swapButton:active{
+    background-color:var(--color1);
+}
+
+#errorMessage{
+    display: none;
+    padding:0.5em;
+    font-size: 1em;
+    font-weight: 700;
+    background-color:#E71D36;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    color:white
+}
+
+
+.valueInput{
+    outline:0px;
+    width: 100%;
+    font-size:2em;
+    width: 100%;
+    background-color: white;
+}
+
+.formContainer{
+    width: 500px;
+    text-align: left;
+    background-color: var(--color1);
+    border-radius: 30px;
+    margin-top:1em;
+    margin-bottom:1em;
+    padding:1em;
+}
+
+@media only screen and (max-width: 600px) {
+    #fromForm, #toForm{
+        width:98vw;
+        box-sizing: border-box;
+    }
+  }
