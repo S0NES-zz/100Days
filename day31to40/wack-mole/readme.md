@@ -22,6 +22,6 @@ A typical Whac-A-Mole machine consists of a waist-level cabinet with a play area
 - Twitter - [@S0Soneca](https://www.twitter.com/S0Soneca)
 - Github - [S0NES](https://github.com/S0NES)
 
-## 39/100 4/14/2021 - DONE
+## 39/100 4/15/2021 - DONE
 
 ## #100DAYSCHALLENGE
