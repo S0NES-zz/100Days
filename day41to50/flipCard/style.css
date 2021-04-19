@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+.scene {
+  width: 100%;
+  height: 100%;
+  background: #737574;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  perspective: 800px;
+}
+.card-profile {
+  width: 300px;
+  height: 437px;
+  position: absolute;
+  border: 1px solid;
+  border-radius: 15px;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.card-profile:hover{
+  animation: flip 10s alternate infinite ease-in-out;
+}
+@keyframes flip {
+  0% { transform: rotateX(0); }
+  25% {transform: rotateX(180deg); }
+  50% { transform: rotateY(0); }
+  75% {transform: rotateY(180deg); }
+  100% { transform: rotateX(0) rotateY(0); } 
+
+}
+.front {
+  width: 300px;
+  height: 437px;
+  position: absolute;
+  background: red;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  backface-visibility: hidden;
+  background-image: url('front.png');
+  background-size: cover;
+  background-position: center;
+}
+.back {
+  width: 300px;
+  height: 437px;
+  position: absolute;
+  background: blue;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  transform: translateX(-180deg);
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+}
