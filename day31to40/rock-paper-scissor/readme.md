@@ -21,6 +21,6 @@ Rock paper scissors (also known by other orderings of the three items, with "roc
 - Twitter - [@S0Soneca](https://www.twitter.com/S0Soneca)
 - Github - [S0NES](https://github.com/S0NES)
 
-## 40/100 4/14/2021 - DONE
+## 40/100 4/16/2021 - DONE
 
 ## #100DAYSCHALLENGE
