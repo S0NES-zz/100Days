@@ -1,0 +1,128 @@
+/*---VARIABLES---*/
+$link-color: #3b86ff;
+$text-color: #43425d;
+$link-color-hover: #1062e5;
+$operations-background: #fafafa;
+$operations-backgroun2: #e2dfdf;
+
+/*---GLOBAL---*/
+:root {
+  font-size: 10px;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  color: $text-color;
+  font-family: "Source Sans Pro", sans-serif;
+  min-height: 100%;
+  a {
+    color: $link-color;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+/*---HEADER---*/
+.header {
+  text-align: center;
+  h1 {
+    font-weight: 400;
+    color: $link-color;
+  }
+}
+/*---STATUS---*/
+.statusContainer {
+  background: $operations-backgroun2;
+  display: flex;
+  border-radius: 10px;
+  gap: 2px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.statusContainer * {
+  flex: 1 1 350px;
+}
+.status {
+  display: flex;
+  background: $operations-background;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  &__name {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  &__flag {
+    font-size: 1rem;
+    background: rgba(3, 190, 97, 0.1);
+    padding: 8px;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: capitalize;
+
+    &--error {
+      background: rgba(255, 101, 101, 0.2);
+    }
+  }
+}
+
+/*---STATUS BUTTON---*/
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+.statusButton {
+  font-size: 1.8rem;
+  color: $link-color;
+  border: 1px solid $link-color;
+  background: none;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 4px;
+  width: 70vw;
+  margin-top: 30px;
+  padding: 8px 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.statusButton:hover {
+  color: #fff;
+  width: 10%;
+  background: $link-color;
+}
+
+/*---MEDIA QUERIES---*/
+@media (min-width: 600px) {
+  :root {
+    font-size: 15px;
+  }
+  .statusButton {
+    width: 50vw;
+  }
+  .status {
+    padding: 0 10vw;
+  }
+  .footer {
+    padding: 5vh 25vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .statusContainer {
+    margin: 0 10vw;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.17);
+  }
+  .status {
+    padding: 0 5vw;
+  }
+  .statusButton {
+    width: 30vw;
+  }
+}

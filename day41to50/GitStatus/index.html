@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GitHub Status</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>GitHub Status</h1>
+  </header>
+
+  <main>
+    <div class="statusContainer" id="statusContainer">
+      <div class="status">
+        <p class="status__name">Git Operations</p>
+        <p class="status__flag"></p>
+      </div>
+      <div class="status">
+        <p class="status__name">API Requests</p>
+        <p class="status__flag"></p>
+      </div>
+      <div class="status">
+        <p class="status__name">Issues, PRs, ....</p>
+        <p class="status__flag"></p>
+      </div>
+      <div class="status">
+        <p class="status__name">Notifications</p>
+        <p class="status__flag"></p>
+      </div>
+      <div class="status">
+        <p class="status__name">Gists</p>
+        <p class="status__flag"></p>
+      </div>
+      <div class="status">
+        <p class="status__name">GitHub Pages</p>
+        <p class="status__flag"></p>
+      </div>
+    </div>
+    <div class="buttonContainer">
+      <button type="button" class="statusButton" id="getStatus">Refresh</button>
+    </div>
+    
+  </main>
+
+  <script type="module" src="bundle.js"></script>
+</body>
+</html>
