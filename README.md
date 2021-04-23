@@ -38,13 +38,13 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 008 | [Drum Kit](https://sones-100days.netlify.app/day1to10/drumkit)                        |
 | 009 | [Key Value](https://sones-100days.netlify.app/day1to10/keyvalue)                      |
 | 010 | [Color on Mouse](https://sones-100days.netlify.app/day1to10/coloronmouse)             |
-| 011 | [Polygons](https://sones-100days.netlify.app/day11to20/polygons/polygons)             |
+| 011 | [Polygons](https://sones-100days.netlify.app/day11to20/polygons)             |
 | 012 | [Background Cube](https://sones-100days.netlify.app/day11to20/bgcube)                 |
 | 013 | [Lorem ipsum generator](https://sones-100days.netlify.app/day11to20/lipsum)           |
 | 014 | [Random mealGenerator](https://sones-100days.netlify.app/day11to20/mealgenerator)     |
 | 015 | [Dynamic Css](https://sones-100days.netlify.app/day11to20/dynamicss)                  |
 | 016 | [Simon Game](https://sones-100days.netlify.app/day11to20/simongame)                   |
-| 017 | [Romano to decimal](https://sones-100days.netlify.app/day11to20/roman2decimal)        |
+| 017 | [Romano to decimal](https://sones-100days.netlify.app/day11to20/romand2decimal)        |
 | 018 | [New Year timer](https://sones-100days.netlify.app/day11to20/timer)                   |
 | 019 | [Vigenere cypher](https://sones-100days.netlify.app/day11to20/vigenere)               |
 | 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                    |
