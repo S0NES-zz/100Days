@@ -73,7 +73,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 043 | [Flip Card](https://sones-100days.netlify.app/day41to50/flipcard/)                    |
 | 044 | [Git Status](https://sones-100days.netlify.app/day41to50/gitstatus/)                  |
 | 045 | [Background blur](https://sones-100days.netlify.app/day41to50/focuseffect/)           |
-| 046 | |
+| 046 | [Ink Effect](https://sones-100days.netlify.app/day41to50/inkcss/)                     |
 | 047 | |
 | 048 | |
 | 049 | |
