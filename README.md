@@ -74,7 +74,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 044 | [Git Status](https://sones-100days.netlify.app/day41to50/gitstatus/)                  |
 | 045 | [Background blur](https://sones-100days.netlify.app/day41to50/focuseffect/)           |
 | 046 | [Ink Effect](https://sones-100days.netlify.app/day41to50/inkcss/)                     |
-| 047 | |
+| 047 | [Podcastr](https://github.com/S0NES/Podcastrl)|
 | 048 | |
 | 049 | |
 | 050 | |
