@@ -1,0 +1,78 @@
+:root {
+  --color1: rgba(39, 39, 39);
+  --color2: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: var(--color1);
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: perspective(1000px) translate(-50%, -50%) skewY(15deg);
+          transform: perspective(1000px) translate(-50%, -50%) skewY(15deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.center:hover {
+  -webkit-transform: skewY(0deg);
+          transform: skewY(0deg);
+}
+
+.center:hover h1 b:nth-child(2),
+.center:hover h1 b:nth-child(3) {
+  -webkit-transform: translate(-50%, -50%) skewX(0deg);
+          transform: translate(-50%, -50%) skewX(0deg);
+  left: 0;
+}
+
+.center h1 b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--color2);
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 9em;
+  color: var(--color2);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.center h1 b:nth-child(1) {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+          clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+}
+
+.center h1 b:nth-child(2) {
+  color: #efeeee;
+  -webkit-transform: translate(-50%, -50%) skewX(-40deg);
+          transform: translate(-50%, -50%) skewX(-40deg);
+  left: -16px;
+  -webkit-clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+          clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+}
+
+.center h1 b:nth-child(3) {
+  left: -32px;
+  -webkit-clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+          clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+}
+
+.center h1 span {
+  border-bottom: 5px solid var(--color2);
+}
+/*# sourceMappingURL=style.css.map */
