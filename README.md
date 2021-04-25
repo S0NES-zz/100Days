@@ -76,5 +76,5 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 046 | [Ink Effect](https://sones-100days.netlify.app/day41to50/inkcss/)                     |
 | 047 | [Podcastr](https://github.com/S0NES/Podcastrl)                                        |
 | 048 | [Parallax Effect](https://sones-100days.netlify.app/day41to50/parallax/)              |
-| 049 | |
+| 049 | [Papper Fold](https://sones-100days.netlify.app/day41to50/paperfold/)                 |
 | 050 | |
