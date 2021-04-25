@@ -1,0 +1,140 @@
+:root {
+  --bg: #000;
+  --color: #fff;
+  --color2: rgba(134, 19, 168, 0.85);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background: var(--bg);
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+input{
+  display: none;
+}
+input:checked ~ li{
+  background-color: var(--color2);
+  color:  var(--color);
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+#header .logo {
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+#header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+#header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  font-weight: 300;
+  color:  var(--bg);
+  border-radius: 15px;
+}
+#header ul li a:hover{
+  background-color: var(--color2);
+  color:  var(--color);
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section img {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+  pointer-events: none;
+}
+#bg {
+  left: 0;
+  top: -10%;
+}
+#dragon {
+  left: -4%;
+  height: 395px;
+  top: 13%;
+}
+#sea {
+  left: 0;
+  bottom: -23%;
+}
+section #text {
+  position: absolute;
+  color: var(--color);
+  font-size: 8rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 0.6em;
+  font-family: "Rancho", cursive;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+section #text span {
+  font-size: 1rem;
+  letter-spacing: 7px;
+  font-weight: 400;
+  font-family: "Poppins", cursive;
+}
+#btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  color: var(--bg);
+  background: var(--color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 40px;
+  letter-spacing: 2px;
+  transform: translateY(50px);
+}
+#btn:hover {
+  background: var(--color);
+  transition: 0.2s ease-in-out;
+  color: var(--bg);
+}
+.sec {
+  position: relative;
+  padding: 100px;
+  background: var(--color);
+}
+.sec h2 {
+  font-size: 3.5rem;
+  color: var(--bg);
+  margin-bottom: 10px;
+}
+.sec p {
+  font-size: 1rem;
+  color: var(--bg);
+  text-align: justify;
+}
