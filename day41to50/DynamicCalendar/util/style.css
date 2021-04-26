@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-image: url("animal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+section .box {
+  position: relative;
+  z-index: 1000;
+}
+
+section .box .container {
+  position: relative;
+  width: 400px;
+  min-height: 450px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right-color: rgba(255, 255, 255, 0.2);
+  border-left-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .box .container #dycalendar {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+section .box .container #dycalendar table {
+  width: 100%;
+  margin-top: 40px;
+  border-spacing: 5px;
+}
+
+section .box .container #dycalendar table tr:nth-child(1) {
+  color: #111;
+  font-weight: 600;
+}
+
+section .box .container #dycalendar table td {
+  padding: 10px;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */

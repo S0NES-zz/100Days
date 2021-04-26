@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('animal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+
+  .box {
+    position: relative;
+    z-index: 1000;
+    .container {
+      position: relative;
+      width: 400px;
+      min-height: 450px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-right-color: rgba(255, 255, 255, 0.2);
+      border-left-color: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      display: flex;
+      backdrop-filter: blur(20px);
+      justify-content: center;
+      align-items: center;
+      
+      #dycalendar {
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+        table {
+          width: 100%;
+          margin-top: 40px;
+          border-spacing: 5px;
+          tr:nth-child(1) {
+            color: #111;
+            font-weight: 600;
+          }
+          td {
+            padding: 10px;
+            border-radius: 15px;
+          }
+        }
+      }
+    }
+  }
+}
