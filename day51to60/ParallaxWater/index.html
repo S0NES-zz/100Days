@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parallax Water Effect</title>
+  </head>
+  <body>
+    <section>
+        <div class="wave" id="wave1" style="--i:1"></div>
+        <div class="wave" id="wave2" style="--i:2"></div>
+        <div class="wave" id="wave3" style="--i:3"></div>
+        <div class="wave" id="wave4" style="--i:4"></div>
+    </section>
+    <div class="sec">
+      <h2>Water Effect</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+        praesentium provident dolor, laborum fuga aliquam fugit delectus id
+        ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
+        Expedita, ratione.<br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+        praesentium provident dolor, laborum fuga aliquam fugit delectus id
+        ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
+        Expedita, ratione.<br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+        praesentium provident dolor, laborum fuga aliquam fugit delectus id
+        ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
+        Expedita, ratione.<br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+        praesentium provident dolor, laborum fuga aliquam fugit delectus id
+        ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
+        Expedita, ratione.<br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+        praesentium provident dolor, laborum fuga aliquam fugit delectus id
+        ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
+        Expedita, ratione.<br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+        praesentium provident dolor, laborum fuga aliquam fugit delectus id
+        ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
+        Expedita, ratione.<br>
+      </p>
+    </div>
+    <script>
+        const wave1 = document.getElementById('wave1');
+        const wave2 = document.getElementById('wave2');
+        const wave3 = document.getElementById('wave3');
+        const wave4 = document.getElementById('wave4');
+        let time = 3;
+        window.addEventListener('scroll', ()=>{
+            let value = window.scrollY;
+            wave1.style.backgroundPositionX = `${400 + value * time}px`;
+            wave2.style.backgroundPositionX = `${200 + value * time}px`;
+            wave3.style.backgroundPositionX = `${100 + value * time}px`;
+            wave4.style.backgroundPositionX = `${10  + value * time}px`;
+        })
+    </script>
+  </body>
+</html>
