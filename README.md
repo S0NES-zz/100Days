@@ -38,13 +38,13 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 008 | [Drum Kit](https://sones-100days.netlify.app/day1to10/drumkit)                        |
 | 009 | [Key Value](https://sones-100days.netlify.app/day1to10/keyvalue)                      |
 | 010 | [Color on Mouse](https://sones-100days.netlify.app/day1to10/coloronmouse)             |
-| 011 | [Polygons](https://sones-100days.netlify.app/day11to20/polygons)             |
+| 011 | [Polygons](https://sones-100days.netlify.app/day11to20/polygons)                      |
 | 012 | [Background Cube](https://sones-100days.netlify.app/day11to20/bgcube)                 |
 | 013 | [Lorem ipsum generator](https://sones-100days.netlify.app/day11to20/lipsum)           |
 | 014 | [Random mealGenerator](https://sones-100days.netlify.app/day11to20/mealgenerator)     |
 | 015 | [Dynamic Css](https://sones-100days.netlify.app/day11to20/dynamicss)                  |
 | 016 | [Simon Game](https://sones-100days.netlify.app/day11to20/simongame)                   |
-| 017 | [Romano to decimal](https://sones-100days.netlify.app/day11to20/romand2decimal)        |
+| 017 | [Romano to decimal](https://sones-100days.netlify.app/day11to20/romand2decimal)       |
 | 018 | [New Year timer](https://sones-100days.netlify.app/day11to20/timer)                   |
 | 019 | [Vigenere cypher](https://sones-100days.netlify.app/day11to20/vigenere)               |
 | 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                    |
@@ -67,7 +67,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 037 | [Dino Game](https://sones-100days.netlify.app/day31to40/dino-game/)                   |
 | 038 | [Tic Tac Toe](https://sones-100days.netlify.app/day31to40/tik-tak-toe/)               |
 | 039 | [Wack a mole](https://sones-100days.netlify.app/day31to40/wack-mole/)                 |
-| 030 | [Rock paper scissors](https://sones-100days.netlify.app/day31to40/rock-paper-scissor/)|
+| 040 | [Rock paper scissors](https://sones-100days.netlify.app/day31to40/rock-paper-scissor/)|
 | 041 | [Employee manager Back-end](https://github.com/S0NES/EmployeeManager)                 |
 | 042 | [Currency Converter](https://sones-100days.netlify.app/day41to50/currencyconverter/)  |
 | 043 | [Flip Card](https://sones-100days.netlify.app/day41to50/flipcard/)                    |
@@ -77,4 +77,14 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 047 | [Podcastr](https://github.com/S0NES/Podcastrl)                                        |
 | 048 | [Parallax Effect](https://sones-100days.netlify.app/day41to50/parallax/)              |
 | 049 | [Papper Fold](https://sones-100days.netlify.app/day41to50/paperfold/)                 |
-| 050 | [Dynamic Calendar](https://sones-100days.netlify.app/day41to50/dynamiccalendar/)      |
+| 050 | [Water Effect](https://sones-100days.netlify.app/day51to60/parallaxwater)             |
+| 051 | |
+| 052 | |
+| 053 | |
+| 054 | |
+| 055 | |
+| 056 | |
+| 057 | |
+| 058 | |
+| 059 | |
+| 060 | |
