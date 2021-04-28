@@ -73,13 +73,13 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 043 | [Flip Card](https://sones-100days.netlify.app/day41to50/flipcard/)                    |
 | 044 | [Git Status](https://sones-100days.netlify.app/day41to50/gitstatus/)                  |
 | 045 | [Background blur](https://sones-100days.netlify.app/day41to50/focuseffect/)           |
-| 046 | [Ink Effect](https://sones-100days.netlify.app/day41to50/inkcss/)                     |
+| 046 | [Ink Effect](https://sones-100days.netlify.app/day41to50/inkcss/)     s               |
 | 047 | [Podcastr](https://github.com/S0NES/Podcastrl)                                        |
 | 048 | [Parallax Effect](https://sones-100days.netlify.app/day41to50/parallax/)              |
 | 049 | [Papper Fold](https://sones-100days.netlify.app/day41to50/paperfold/)                 |
-| 050 | [Water Effect](https://sones-100days.netlify.app/day51to60/parallaxwater)             |
-| 051 | |
-| 052 | |
+| 050 | [Podcastr](https://github.com/S0NES/100Days/tree/main/day41to50/podcastr)             |
+| 051 | [Water Effect](https://sones-100days.netlify.app/day51to60/parallaxwater)             |
+| 052 | [QR Code generator](https://sones-100days.netlify.app/day51to60/qrcode)               |
 | 053 | |
 | 054 | |
 | 055 | |
