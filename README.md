@@ -80,7 +80,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 050 | [Podcastr](https://github.com/S0NES/100Days/tree/main/day41to50/podcastr)             |
 | 051 | [Water Effect](https://sones-100days.netlify.app/day51to60/parallaxwater)             |
 | 052 | [QR Code generator](https://sones-100days.netlify.app/day51to60/qrcode)               |
-| 053 | |
+| 053 | [Draggable Nav](https://sones-100days.netlify.app/day51to60/draggablemenu)            |
 | 054 | |
 | 055 | |
 | 056 | |
