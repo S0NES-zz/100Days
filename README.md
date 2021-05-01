@@ -82,7 +82,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 052 | [QR Code generator](https://sones-100days.netlify.app/day51to60/qrcode)               |
 | 053 | [Draggable Nav](https://sones-100days.netlify.app/day51to60/draggablemenu)            |
 | 054 | [Toggle Flip](https://sones-100days.netlify.app/day51to60/toggleflip)                 |
-| 055 | |
+| 055 | [Neon Color](https://sones-100days.netlify.app/day51to60/neoneffect)                  |
 | 056 | |
 | 057 | |
 | 058 | |
