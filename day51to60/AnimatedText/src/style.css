@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #49bbfc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 1920px) {
+  .container {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  background: url(tod.gif) no-repeat;
+  background-size: 50%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container p {
+  font-size: 25px;
+  line-height: 10px;
+  background-clip: text;
+  color: #6f6c6c;
+}
+
+.container p span {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.active {
+  -webkit-animation: smoke 1s linear forwards;
+          animation: smoke 1s linear forwards;
+}
+
+@-webkit-keyframes smoke {
+  to {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+    -webkit-transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+            transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+  }
+}
+
+@keyframes smoke {
+  to {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+    -webkit-transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+            transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+  }
+}
+/*# sourceMappingURL=style.css.map */
