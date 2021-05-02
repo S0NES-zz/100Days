@@ -42,6 +42,7 @@ a {
   font-size: 34px;
   text-decoration: none;
   overflow: hidden;
+  border-radius: 5px;
   text-transform: uppercase;
   -webkit-transition: 0.5s;
   transition: 0.5s;
