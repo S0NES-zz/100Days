@@ -84,7 +84,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 054 | [Toggle Flip](https://sones-100days.netlify.app/day51to60/toggleflip)                 |
 | 055 | [Neon Color](https://sones-100days.netlify.app/day51to60/neoneffect)                  |
 | 056 | [Smoke Effect](https://sones-100days.netlify.app/day51to60/aniamtedtext)              |
-| 057 | |
+| 057 | [Planet Animation](https://sones-100days.netlify.app/day51to60/planetanimation/)      |
 | 058 | |
 | 059 | |
 | 060 | |
