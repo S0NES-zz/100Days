@@ -56,8 +56,8 @@ body {
   background-size: cover;
   background-repeat: repeat-x;
   border-radius: 50%;
-  -webkit-box-shadow: inset 0 0 15px black, 0 0 50px var(--colorBoxShadow);
-          box-shadow: inset 0 0 15px black, 0 0 50px var(--colorBoxShadow);
+  -webkit-box-shadow: inset -15px -45px 60px 4px black, 0 0 50px var(--colorBoxShadow);
+          box-shadow: inset -15px -45px 60px 4px black, 0 0 50px var(--colorBoxShadow);
   -webkit-animation: rotate 15s linear infinite;
           animation: rotate 15s linear infinite;
 }
