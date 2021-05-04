@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Planets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="text">Earth</h1>
+      <section id="planet"></section>
+      <div id="inputs">
+        <!-- //earth -->
+        <input class="planetInput" type="radio" name="planet" id="earth" checked value="#4069ff"/>
+        <label class="planetLabel" for="earth">
+          <img src="src/img/earth.svg" alt="earth" />
+          earth
+        </label>
+        <!-- //mars -->
+        <input class="planetInput" type="radio" name="planet" id="mars" value="#bb420e"/>
+        <label class="planetLabel" for="mars">
+          <img src="src/img/mars.svg" alt="mars" />
+          mars
+        </label>
+        <!-- //jupiter -->
+        <input class="planetInput" type="radio" name="planet" id="jupiter" value="#c99039"/>
+        <label class="planetLabel" for="jupiter">
+          <img src="src/img/jupiter.svg" alt="jupiter" />
+          jupiter
+        </label>
+        <!-- //neptune -->
+        <input class="planetInput" type="radio" name="planet" id="neptune" value="#3d51b4"/>
+        <label class="planetLabel" for="neptune">
+          <img src="src/img/neptune.svg" alt="neptune" id="neptune" />
+          Neptune
+        </label>
+      </div>
+    </div>
+    <script type="text/javascript" src="src/index.js"></script>
+    <!-- <footer> 
+        <div>
+        Ícones feitos por
+        <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="https://www.flaticon.com/br/" title="Flaticon"
+            >www.flaticon.com</a
+        >
+        </div>
+    </footer> -->
+  </body>
+</html>

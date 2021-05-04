@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --colorBoxShadow: #4069ff;
+  --planet: earth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: repeat no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 60%;
+  min-height: 100%;
+  position: relative;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.container #planet {
+  width: 380px;
+  height: 380px;
+  background: rgba(39, 38, 38, 0.357);
+  background-image: url(img/earth.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 0 15px black, 0 0 50px var(--colorBoxShadow);
+          box-shadow: inset 0 0 15px black, 0 0 50px var(--colorBoxShadow);
+  -webkit-animation: rotate 15s linear infinite;
+          animation: rotate 15s linear infinite;
+}
+
+.container div {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  width: 60%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container div input {
+  display: none;
+}
+
+.container div input:checked + label {
+  opacity: 1;
+}
+
+.container div label {
+  text-transform: uppercase;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0.3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container div label:hover {
+  opacity: 1;
+}
+
+.container div label img {
+  z-index: 2;
+}
+
+.active {
+  -webkit-animation: smokeIn 1s linear forwards;
+          animation: smokeIn 1s linear forwards;
+}
+
+.desactive {
+  -webkit-animation: smokeOut 1s linear forwards;
+          animation: smokeOut 1s linear forwards;
+}
+
+@-webkit-keyframes smokeIn {
+  to {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+    -webkit-transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+            transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+  }
+}
+
+@keyframes smokeIn {
+  to {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+    -webkit-transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+            transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+  }
+}
+
+@-webkit-keyframes smokeOut {
+  to {
+    opacity: 1;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    -webkit-transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+            transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+  }
+}
+
+@keyframes smokeOut {
+  to {
+    opacity: 1;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    -webkit-transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+            transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+  }
+}
+
+@-webkit-keyframes rotate {
+  to {
+    background-position: -800px 0;
+  }
+}
+
+@keyframes rotate {
+  to {
+    background-position: -800px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
