@@ -1,0 +1,116 @@
+:root {
+  --colorLevel: #6ede4f;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#6cb681), to(#2f7d6f));
+  background: linear-gradient(90deg, #6cb681 0%, #2f7d6f 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container p {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.container p span {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.container p b {
+  color: rgba(255, 255, 255, 0.638);
+  font-weight: 100;
+}
+
+.batteryContainer {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 0px 0px 5px #207258, 0px 0px 0px 4px #207258;
+          box-shadow: inset 0px 0px 0px 5px #207258, 0px 0px 0px 4px #207258;
+  z-index: 0;
+}
+
+.batteryContainer #percentage {
+  font-weight: 600;
+  font-size: 2.5rem;
+  z-index: 1000;
+}
+
+.batteryContainer .battery {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: var(--colorLevel);
+  z-index: -100;
+}
+
+.batteryContainer .battery::before, .batteryContainer .battery::after {
+  content: "";
+  position: absolute;
+  bottom: 99%;
+  width: 100%;
+  height: 50%;
+}
+
+.batteryContainer .battery::after {
+  background: url(img/wave1.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: scaleX(2);
+          transform: scaleX(2);
+}
+
+.batteryContainer .battery::before {
+  background: url(img/wave2.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: scaleX(-2);
+          transform: scaleX(-2);
+}
+/*# sourceMappingURL=style.css.map */
