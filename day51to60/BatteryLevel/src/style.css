@@ -16,6 +16,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#6cb681), to(#2f7d6f));
   background: linear-gradient(90deg, #6cb681 0%, #2f7d6f 100%);
   width: 100vw;
+  overflow: hidden;
   height: 100vh;
 }
 
