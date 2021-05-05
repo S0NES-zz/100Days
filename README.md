@@ -86,5 +86,5 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 056 | [Smoke Effect](https://sones-100days.netlify.app/day51to60/aniamtedtext)              |
 | 057 | [Planet Animation](https://sones-100days.netlify.app/day51to60/planetanimation/)      |
 | 058 | [Light Saber](https://sones-100days.netlify.app/day51to60/lightsaber/)                |
-| 059 | |
+| 059 | [Battery Level](https://sones-100days.netlify.app/day51to60/batterylevel/)            |
 | 060 | |
