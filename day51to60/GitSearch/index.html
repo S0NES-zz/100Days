@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Popping:wght@100;200;300;400;500;600;700;800;900&&display=swap"
+      rel="stylesheet"
+    />
+    <title>Github Search</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Find a Github user</p>
+      <section class="search">
+        <div class="icon"></div>
+        <div class="input">
+          <input type="text" placeholder="Search" id="textInput" />
+        </div>
+      </section>
+      <div class="result">
+        <div>
+          <img src="src/bg.svg" alt="user-img" id="userImg"/>
+        </div>
+        <ul>
+          <li>Username: <span id="user"></span></li>
+          <li>Country: <span id="country"></span></li>
+          <li>Url: <span id="url"></span></li>
+          <li>Followers: <span id="followers"></span></li>
+          <li>Repositories count: <span id="repositories"></span></li>
+        </ul>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
