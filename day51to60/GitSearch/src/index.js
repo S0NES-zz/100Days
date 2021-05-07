@@ -12,15 +12,6 @@ const repositories = document.getElementById("repositories");
 
 icon.addEventListener("click", () => {
   let searchValue = input.value;
-  handleSearch(searchValue);
-});
-window.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    let searchValue = input.value;
-    handleSearch(searchValue);
-  }
-});
-function handleSearch(searchValue) {
   fetch(`https://api.github.com/users/${searchValue}`)
     .then((result) => result.json())
     .then((data) => {
@@ -32,4 +23,10 @@ function handleSearch(searchValue) {
       followers.innerText = data.followers;
       repositories.innerText = data.public_repos;
     });
-}
+});
+// window.addEventListener("keydown", (e) => {
+//   if (e.key === "Enter") {
+//     let searchValue = input.value;
+//     handleSearch(searchValue);
+//   }
+// });
