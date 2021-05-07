@@ -83,7 +83,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 053 | [Draggable Nav](https://sones-100days.netlify.app/day51to60/draggablemenu)            |
 | 054 | [Toggle Flip](https://sones-100days.netlify.app/day51to60/toggleflip)                 |
 | 055 | [Neon Color](https://sones-100days.netlify.app/day51to60/neoneffect)                  |
-| 056 | [Smoke Effect](https://sones-100days.netlify.app/day51to60/aniamtedtext)              |
+| 056 | [Smoke Effect](https://sones-100days.netlify.app/day51to60/animatedtext/)              |
 | 057 | [Planet Animation](https://sones-100days.netlify.app/day51to60/planetanimation/)      |
 | 058 | [Light Saber](https://sones-100days.netlify.app/day51to60/lightsaber/)                |
 | 059 | [Battery Level](https://sones-100days.netlify.app/day51to60/batterylevel/)            |
