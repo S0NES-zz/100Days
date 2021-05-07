@@ -24,6 +24,7 @@ function handleSearch(searchValue) {
   fetch(`https://api.github.com/users/${searchValue}`)
     .then((result) => result.json())
     .then((data) => {
+      console.log(data);
       userImg.setProperty("src", data.avatar.url);
       url.innerText = data.html_url;
       country.innerText = data.location;
