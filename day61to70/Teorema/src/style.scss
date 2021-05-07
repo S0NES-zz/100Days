@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #292426;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .equation {
+    flex: 1 1 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .triangle {
+      width: 160px;
+      height: 160px;
+      position: relative;
+      #sideA,
+      #sideB,
+      #sideC {
+        position: absolute;
+        height: 5px;
+        cursor: pointer;
+        background: #fff;
+        color: #fff;
+        transition: transform 0.2s;
+      }
+      #sideA {
+        top: 74px;
+        left: -23px;
+        width: 95px;
+        transform: rotate(90deg);
+        &:hover {
+          transform: scale(1.5) rotate(90deg);
+        }
+        p {
+          position: absolute;
+          top: 5px;
+          left: 45px;
+          transform: rotate(-89.9deg);
+        }
+      }
+      #sideB {
+        top: 121px;
+        width: 123px;
+        left: 22px;
+        &:hover {
+          transform: scale(1.5);
+        }
+        p {
+          position: absolute;
+          top: 5px;
+          left: 53px;
+        }
+      }
+      #sideC {
+        top: 75px;
+        left: 10px;
+        transform: rotate(38deg);
+        width: 150px;
+        &:hover {
+          transform: scale(1.5) rotate(38deg);
+        }
+        p {
+          position: absolute;
+          top: -25px;
+          left: 70px;
+          transform: rotate(-35deg);
+        }
+      }
+    }
+    .calculate {
+      background-image: linear-gradient(
+        to right,
+        #314755 0%,
+        #26a0da 51%,
+        #314755 100%
+      );
+      font-weight: 600;
+      margin: 10px;
+      padding: 15px 45px;
+      border: none;
+      text-align: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      border-radius: 10px;
+      display: block;
+      &:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+  .results {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    flex: 1 1 250px;
+    min-height: 50%;
+
+    #inputNumber {
+      display: flex;
+      align-items: center;
+      width: 60%;
+      label {
+        padding: 0 25px;
+        background: #004944;
+        color: #fff;
+        font-weight: 300;
+        margin-left: 10px;
+        z-index: 50;
+        border-radius: 2px;
+        border: 1px solid #004944;
+      }
+      input {
+        width: 70px;
+        color: #004944;
+        font-weight: 500;
+        padding: 1px 20px;
+        border: none;
+        z-index: 0;
+        border-radius: 2px;
+        margin-left: -2px;
+        -moz-appearance: textfield;
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        &:focus {
+          outline: none;
+          z-index: 20;
+        }
+      }
+    }
+    #textResult {
+      width: 399px;
+      height: 199px;
+      border-radius: 5px;
+      color: #fff;
+      padding: 10px 20px;
+      overflow-y: scroll;
+      scrollbar-width: none;
+      background-image: linear-gradient(45deg, #6666663d 25%, transparent 25%),
+        linear-gradient(-45deg, #6666663d 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #6666663d 75%),
+        linear-gradient(-45deg, transparent 75%, #6666663d 75%);
+      background-size: 19px 19px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,242 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #292426;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .equation {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 150px;
+          flex: 1 1 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .equation .triangle {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.container .equation .triangle #sideA,
+.container .equation .triangle #sideB,
+.container .equation .triangle #sideC {
+  position: absolute;
+  height: 5px;
+  cursor: pointer;
+  background: #fff;
+  color: #fff;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.container .equation .triangle #sideA {
+  top: 74px;
+  left: -23px;
+  width: 95px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.container .equation .triangle #sideA:hover {
+  -webkit-transform: scale(1.5) rotate(90deg);
+          transform: scale(1.5) rotate(90deg);
+}
+
+.container .equation .triangle #sideA p {
+  position: absolute;
+  top: 5px;
+  left: 45px;
+  -webkit-transform: rotate(-89.9deg);
+          transform: rotate(-89.9deg);
+}
+
+.container .equation .triangle #sideB {
+  top: 121px;
+  width: 123px;
+  left: 22px;
+}
+
+.container .equation .triangle #sideB:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.container .equation .triangle #sideB p {
+  position: absolute;
+  top: 5px;
+  left: 53px;
+}
+
+.container .equation .triangle #sideC {
+  top: 75px;
+  left: 10px;
+  -webkit-transform: rotate(38deg);
+          transform: rotate(38deg);
+  width: 150px;
+}
+
+.container .equation .triangle #sideC:hover {
+  -webkit-transform: scale(1.5) rotate(38deg);
+          transform: scale(1.5) rotate(38deg);
+}
+
+.container .equation .triangle #sideC p {
+  position: absolute;
+  top: -25px;
+  left: 70px;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+.container .equation .calculate {
+  background-image: -webkit-gradient(linear, left top, right top, from(#314755), color-stop(51%, #26a0da), to(#314755));
+  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  font-weight: 600;
+  margin: 10px;
+  padding: 15px 45px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.container .equation .calculate:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.container .results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
+  min-height: 50%;
+}
+
+.container .results #inputNumber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.container .results #inputNumber label {
+  padding: 0 25px;
+  background: #004944;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 10px;
+  z-index: 50;
+  border-radius: 2px;
+  border: 1px solid #004944;
+}
+
+.container .results #inputNumber input {
+  width: 70px;
+  color: #004944;
+  font-weight: 500;
+  padding: 1px 20px;
+  border: none;
+  z-index: 0;
+  border-radius: 2px;
+  margin-left: -2px;
+  -moz-appearance: textfield;
+}
+
+.container .results #inputNumber input::-webkit-outer-spin-button, .container .results #inputNumber input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container .results #inputNumber input:focus {
+  outline: none;
+  z-index: 20;
+}
+
+.container .results #textResult {
+  width: 399px;
+  height: 199px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background-image: linear-gradient(45deg, #6666663d 25%, transparent 25%), linear-gradient(-45deg, #6666663d 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #6666663d 75%), linear-gradient(-45deg, transparent 75%, #6666663d 75%);
+  background-size: 19px 19px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+.container .results #textResult::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
