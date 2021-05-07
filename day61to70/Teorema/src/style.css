@@ -136,8 +136,8 @@ body {
 }
 
 .container .equation .calculate {
-  background-image: -webkit-gradient(linear, left top, right top, from(#314755), color-stop(51%, #26a0da), to(#314755));
-  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#004944), color-stop(51%, #219b93), to(#004944));
+  background-image: linear-gradient(to right, #004944 0%, #219b93 51%, #004944 100%);
   font-weight: 600;
   margin: 10px;
   padding: 15px 45px;
