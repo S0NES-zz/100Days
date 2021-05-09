@@ -90,7 +90,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 060 | [Git Profiles Search](https://sones-100days.netlify.app/day51to60/gitsearch/)         |
 | 061 | [Pytagoras Theorem](https://sones-100days.netlify.app/day61to70/teorema/)             |
 | 062 | [Book Api](https://sones-100days.netlify.app/day61to70/bookapi/)                      |
-| 063 | |
+| 063 | [Pixel Effect](https://sones-100days.netlify.app/day61to70/pixeleffect/)              |
 | 064 | |
 | 065 | |
 | 066 | |

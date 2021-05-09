@@ -6,9 +6,8 @@ searchBtn.addEventListener("click", handleInput);
 
 function handleInput() {
   let search = searchValue.value.replaceAll(" ", "+");
-  resultContainer.innerText = "";
   fetch(`https://www.googleapis.com/books/v1/volumes?q=${search}`)
-    .then((result) => result.json())
+    .then((response) => response.json())
     .then((data) => {
       handleData(data);
     });

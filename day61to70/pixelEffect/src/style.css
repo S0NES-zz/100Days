@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #201e1f;
+  min-height: 100vh;
+}
+
+body a {
+  position: relative;
+  width: 180px;
+  color: #fff;
+  height: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  font-size: 2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body a:hover {
+  background: #ec0b36 url(pixel.png);
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+  background-size: 180px;
+  -webkit-animation: animate 0.8s steps(8) forwards;
+          animation: animate 0.8s steps(8) forwards;
+}
+
+@-webkit-keyframes animate {
+  to {
+    background-position-y: -480px;
+  }
+}
+
+@keyframes animate {
+  to {
+    background-position-y: -480px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
