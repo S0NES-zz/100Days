@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(stars.jpg) repeat-x;
+  color: #fff;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+  animation: bg 10s linear infinite;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 0;
+}
+
+.container {
+  background: rgba(70, 70, 70, 0.6);
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  backdrop-filter: blur(1px);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 250px;
+  width: 400px;
+  max-width: 100%;
+}
+.result-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  #result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+  }
+  .btn {
+    border-radius: 10px;
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  background: transparent;
+  &:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+.far {
+  color: #f2f2f2;
+  transition: 0.5s;
+}
+.btn-large {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.165);
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.165);
+  overflow: hidden;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    filter: blur(10px);
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(45deg) translateX(-150%);
+    transition: 0.5s;
+  }
+  &:hover {
+    transition-delay: 0.1s;
+    background: rgba(0, 0, 0, 0.4);
+    &::before {
+      transform: skewX(30deg) translateX(300%);
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .result-container {
+    font-size: 14px;
+  }
+}
+@keyframes bg {
+  to {
+    background-position-x: -100%;
+  }
+}
