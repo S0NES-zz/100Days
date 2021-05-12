@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#8c9dff, #4340ff);
+    cursor: none;
+}
+#title{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 7rem;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        background: rgba(126, 34, 255, .3);
+    }
+}
