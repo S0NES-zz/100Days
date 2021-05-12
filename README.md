@@ -93,7 +93,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 063 | [Pixel Effect](https://sones-100days.netlify.app/day61to70/pixeleffect/)              |
 | 064 | [Glass Effect](https://sones-100days.netlify.app/day61to70/hoverglamorph/)            |
 | 065 | [Password](https://sones-100days.netlify.app/day61to70/password/)                     |
-| 066 | |
+| 066 | [Particles Effect](https://sones-100days.netlify.app/day61to70/particles/)            |
 | 067 | |
 | 068 | |
 | 069 | |
