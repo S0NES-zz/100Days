@@ -94,7 +94,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 064 | [Glass Effect](https://sones-100days.netlify.app/day61to70/hoverglamorph/)            |
 | 065 | [Password](https://sones-100days.netlify.app/day61to70/password/)                     |
 | 066 | [Particles Effect](https://sones-100days.netlify.app/day61to70/particles/)            |
-| 067 | |
+| 067 | [Image Slider](https://sones-100days.netlify.app/day61to70/imageslider/)              |
 | 068 | |
 | 069 | |
 | 070 | |
