@@ -97,4 +97,4 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 067 | [Image Slider](https://sones-100days.netlify.app/day61to70/imageslider/)               |
 | 068 | [Draw app](https://sones-100days.netlify.app/day61to70/Draw/)                          |
 | 069 | [Random color](https://sones-100days.netlify.app/day61to70/randomcolor/)               |
-| 070 |                                                                                        |
+| 070 | [Glow Dot](https://sones-100days.netlify.app/day61to70/backgroundmouse/)               |
