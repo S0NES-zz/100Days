@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ece9e6;
+  overflow: hidden;
+}
+.btn {
+  background: none;
+  color: #111;
+  cursor: pointer;
+  padding: 15px 60px;
+  display: block;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #111;
+  font-size: 1.8rem;
+  transition: 0.5s;
+  max-height: 80px;
+  margin: 20px auto;
+  max-width: 300px;
+  font-weight: 700;
+  &:hover {
+    background: #111;
+    color: #ece9e6;
+    outline: none;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow-y: auto;
+  min-height: 90%;
+  scrollbar-color: #000 transparent;
+  scrollbar-width: thin;
+  .box {
+    flex: 0 0 250px;
+    margin: 5px 10px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #222;
+    font-weight: 400;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      opacity: 0.9;
+      color: #fff;
+      border-radius: 50px;
+    }
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 20px;
+  }
+  &::-webkit-scrollbar {
+    width: 7px;
+    // background: #ece9e6;
+  }
+}

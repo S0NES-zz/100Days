@@ -26,76 +26,75 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 
 ## Projetos Feitos
 
-| Day | Project                                                                               |
-| --- | ------------------------------------------------------------------------------------- |
-| 001 | [bin2dec](https://sones-100days.netlify.app/day1to10/bin2dec/)                        |
-| 002 | [random number generator](https://sones-100days.netlify.app/day1to10/randomNumber)    |
-| 003 | [Christmas Lights](https://sones-100days.netlify.app/day1to10/christmaslights)        |
-| 004 | [Pomodoro Timer](https://sones-100days.netlify.app/day1to10/pomodoro)                 |
-| 005 | [Calculadora](https://sones-100days.netlify.app/day1to10//calculator)                 |
-| 006 | [Dice](https://sones-100days.netlify.app/day1to10/dice)                               |
-| 007 | [Border Radius](https://sones-100days.netlify.app/day1to10/border-radius)             |
-| 008 | [Drum Kit](https://sones-100days.netlify.app/day1to10/drumkit)                        |
-| 009 | [Key Value](https://sones-100days.netlify.app/day1to10/keyvalue)                      |
-| 010 | [Color on Mouse](https://sones-100days.netlify.app/day1to10/coloronmouse)             |
-| 011 | [Polygons](https://sones-100days.netlify.app/day11to20/polygons)                      |
-| 012 | [Background Cube](https://sones-100days.netlify.app/day11to20/bgcube)                 |
-| 013 | [Lorem ipsum generator](https://sones-100days.netlify.app/day11to20/lipsum)           |
-| 014 | [Random mealGenerator](https://sones-100days.netlify.app/day11to20/mealgenerator)     |
-| 015 | [Dynamic Css](https://sones-100days.netlify.app/day11to20/dynamicss)                  |
-| 016 | [Simon Game](https://sones-100days.netlify.app/day11to20/simongame)                   |
-| 017 | [Romano to decimal](https://sones-100days.netlify.app/day11to20/romand2decimal)       |
-| 018 | [New Year timer](https://sones-100days.netlify.app/day11to20/timer)                   |
-| 019 | [Vigenere cypher](https://sones-100days.netlify.app/day11to20/vigenere)               |
-| 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                    |
-| 021 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)               |
-| 022 | [Hero page](https://sones-100days.netlify.app/day21to30/curvedsection)                |
-| 023 | [Interactive Price](https://sones-100days.netlify.app/day21to30/interactiveprice/)    |
-| 024 | [Theme Switch](https://sones-100days.netlify.app/day21to30/themeswitch/)              |
-| 025 | [Grid Testimonial](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)     |
-| 026 | [FAQ accordion card](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)   |
-| 027 | [Slider testimonial](https://sones-100days.netlify.app/day21to30/slidertestimonial/)  |
-| 028 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)             |
-| 029 | [Email Verification](https://sones-100days.netlify.app/day21to30/emailverification/)  |
-| 030 | [Preview Component](https://sones-100days.netlify.app/day21to30/previewcomponent/)    |
-| 031 | [Memory Card](https://sones-100days.netlify.app/day31to40/memorygame/)                |
-| 032 | [Social Proof](https://sones-100days.netlify.app/day31to40/social-proof/)             |
-| 033 | [Flash Math](https://sones-100days.netlify.app/day31to40/flash-math/)                 |
-| 034 | [Snake Game](https://sones-100days.netlify.app/day31to40/snake-game/)                 |
-| 035 | [Space Invaders](https://sones-100days.netlify.app/day31to40/space-invaders/)         |
-| 036 | [Tetris](https://sones-100days.netlify.app/day31to40/tetris/)                         |
-| 037 | [Dino Game](https://sones-100days.netlify.app/day31to40/dino-game/)                   |
-| 038 | [Tic Tac Toe](https://sones-100days.netlify.app/day31to40/tik-tak-toe/)               |
-| 039 | [Wack a mole](https://sones-100days.netlify.app/day31to40/wack-mole/)                 |
-| 040 | [Rock paper scissors](https://sones-100days.netlify.app/day31to40/rock-paper-scissor/)|
-| 041 | [Employee manager Back-end](https://github.com/S0NES/EmployeeManager)                 |
-| 042 | [Currency Converter](https://sones-100days.netlify.app/day41to50/currencyconverter/)  |
-| 043 | [Flip Card](https://sones-100days.netlify.app/day41to50/flipcard/)                    |
-| 044 | [Git Status](https://sones-100days.netlify.app/day41to50/gitstatus/)                  |
-| 045 | [Background blur](https://sones-100days.netlify.app/day41to50/focuseffect/)           |
-| 046 | [Ink Effect](https://sones-100days.netlify.app/day41to50/inkcss/)                     |
-| 047 | [Podcastr](https://github.com/S0NES/Podcastrl)                                        |
-| 048 | [Parallax Effect](https://sones-100days.netlify.app/day41to50/parallax/)              |
-| 049 | [Papper Fold](https://sones-100days.netlify.app/day41to50/paperfold/)                 |
-| 050 | [Dynamic calendar](https://sones-100days.netlify.app/day41to50/dynamiccalendar)       |
-| 051 | [Water Effect](https://sones-100days.netlify.app/day51to60/parallaxwater)             |
-| 052 | [QR Code generator](https://sones-100days.netlify.app/day51to60/qrcode)               |
-| 053 | [Draggable Nav](https://sones-100days.netlify.app/day51to60/draggablemenu)            |
-| 054 | [Toggle Flip](https://sones-100days.netlify.app/day51to60/toggleflip)                 |
-| 055 | [Neon Color](https://sones-100days.netlify.app/day51to60/neoneffect)                  |
-| 056 | [Smoke Effect](https://sones-100days.netlify.app/day51to60/animatedtext/)             |
-| 057 | [Planet Animation](https://sones-100days.netlify.app/day51to60/planetanimation/)      |
-| 058 | [Light Saber](https://sones-100days.netlify.app/day51to60/lightsaber/)                |
-| 059 | [Battery Level](https://sones-100days.netlify.app/day51to60/batterylevel/)            |
-| 060 | [Git Profiles Search](https://sones-100days.netlify.app/day51to60/gitsearch/)         |
-| 061 | [Pytagoras Theorem](https://sones-100days.netlify.app/day61to70/teorema/)             |
-| 062 | [Book Api](https://sones-100days.netlify.app/day61to70/bookapi/)                      |
-| 063 | [Pixel Effect](https://sones-100days.netlify.app/day61to70/pixeleffect/)              |
-| 064 | [Glass Effect](https://sones-100days.netlify.app/day61to70/hoverglamorph/)            |
-| 065 | [Password](https://sones-100days.netlify.app/day61to70/password/)                     |
-| 066 | [Particles Effect](https://sones-100days.netlify.app/day61to70/particles/)            |
-| 067 | [Image Slider](https://sones-100days.netlify.app/day61to70/imageslider/)              |
-| 068 | |
-| 069 | |
-| 070 | |
-
+| Day | Project                                                                                |
+| --- | -------------------------------------------------------------------------------------- |
+| 001 | [bin2dec](https://sones-100days.netlify.app/day1to10/bin2dec/)                         |
+| 002 | [random number generator](https://sones-100days.netlify.app/day1to10/randomNumber)     |
+| 003 | [Christmas Lights](https://sones-100days.netlify.app/day1to10/christmaslights)         |
+| 004 | [Pomodoro Timer](https://sones-100days.netlify.app/day1to10/pomodoro)                  |
+| 005 | [Calculadora](https://sones-100days.netlify.app/day1to10//calculator)                  |
+| 006 | [Dice](https://sones-100days.netlify.app/day1to10/dice)                                |
+| 007 | [Border Radius](https://sones-100days.netlify.app/day1to10/border-radius)              |
+| 008 | [Drum Kit](https://sones-100days.netlify.app/day1to10/drumkit)                         |
+| 009 | [Key Value](https://sones-100days.netlify.app/day1to10/keyvalue)                       |
+| 010 | [Color on Mouse](https://sones-100days.netlify.app/day1to10/coloronmouse)              |
+| 011 | [Polygons](https://sones-100days.netlify.app/day11to20/polygons)                       |
+| 012 | [Background Cube](https://sones-100days.netlify.app/day11to20/bgcube)                  |
+| 013 | [Lorem ipsum generator](https://sones-100days.netlify.app/day11to20/lipsum)            |
+| 014 | [Random mealGenerator](https://sones-100days.netlify.app/day11to20/mealgenerator)      |
+| 015 | [Dynamic Css](https://sones-100days.netlify.app/day11to20/dynamicss)                   |
+| 016 | [Simon Game](https://sones-100days.netlify.app/day11to20/simongame)                    |
+| 017 | [Romano to decimal](https://sones-100days.netlify.app/day11to20/romand2decimal)        |
+| 018 | [New Year timer](https://sones-100days.netlify.app/day11to20/timer)                    |
+| 019 | [Vigenere cypher](https://sones-100days.netlify.app/day11to20/vigenere)                |
+| 020 | [Weather App](https://sones-100days.netlify.app/day11to20/weather)                     |
+| 021 | [Profile card](https://sones-100days.netlify.app/day21to30/cardprofile)                |
+| 022 | [Hero page](https://sones-100days.netlify.app/day21to30/curvedsection)                 |
+| 023 | [Interactive Price](https://sones-100days.netlify.app/day21to30/interactiveprice/)     |
+| 024 | [Theme Switch](https://sones-100days.netlify.app/day21to30/themeswitch/)               |
+| 025 | [Grid Testimonial](https://sones-100days.netlify.app/day21to30/testimonialsgrid/)      |
+| 026 | [FAQ accordion card](https://sones-100days.netlify.app/day21to30/faqaccordioncard/)    |
+| 027 | [Slider testimonial](https://sones-100days.netlify.app/day21to30/slidertestimonial/)   |
+| 028 | [3 Column Card](https://sones-100days.netlify.app/day21to30/3columncard/)              |
+| 029 | [Email Verification](https://sones-100days.netlify.app/day21to30/emailverification/)   |
+| 030 | [Preview Component](https://sones-100days.netlify.app/day21to30/previewcomponent/)     |
+| 031 | [Memory Card](https://sones-100days.netlify.app/day31to40/memorygame/)                 |
+| 032 | [Social Proof](https://sones-100days.netlify.app/day31to40/social-proof/)              |
+| 033 | [Flash Math](https://sones-100days.netlify.app/day31to40/flash-math/)                  |
+| 034 | [Snake Game](https://sones-100days.netlify.app/day31to40/snake-game/)                  |
+| 035 | [Space Invaders](https://sones-100days.netlify.app/day31to40/space-invaders/)          |
+| 036 | [Tetris](https://sones-100days.netlify.app/day31to40/tetris/)                          |
+| 037 | [Dino Game](https://sones-100days.netlify.app/day31to40/dino-game/)                    |
+| 038 | [Tic Tac Toe](https://sones-100days.netlify.app/day31to40/tik-tak-toe/)                |
+| 039 | [Wack a mole](https://sones-100days.netlify.app/day31to40/wack-mole/)                  |
+| 040 | [Rock paper scissors](https://sones-100days.netlify.app/day31to40/rock-paper-scissor/) |
+| 041 | [Employee manager Back-end](https://github.com/S0NES/EmployeeManager)                  |
+| 042 | [Currency Converter](https://sones-100days.netlify.app/day41to50/currencyconverter/)   |
+| 043 | [Flip Card](https://sones-100days.netlify.app/day41to50/flipcard/)                     |
+| 044 | [Git Status](https://sones-100days.netlify.app/day41to50/gitstatus/)                   |
+| 045 | [Background blur](https://sones-100days.netlify.app/day41to50/focuseffect/)            |
+| 046 | [Ink Effect](https://sones-100days.netlify.app/day41to50/inkcss/)                      |
+| 047 | [Podcastr](https://github.com/S0NES/Podcastrl)                                         |
+| 048 | [Parallax Effect](https://sones-100days.netlify.app/day41to50/parallax/)               |
+| 049 | [Papper Fold](https://sones-100days.netlify.app/day41to50/paperfold/)                  |
+| 050 | [Dynamic calendar](https://sones-100days.netlify.app/day41to50/dynamiccalendar)        |
+| 051 | [Water Effect](https://sones-100days.netlify.app/day51to60/parallaxwater)              |
+| 052 | [QR Code generator](https://sones-100days.netlify.app/day51to60/qrcode)                |
+| 053 | [Draggable Nav](https://sones-100days.netlify.app/day51to60/draggablemenu)             |
+| 054 | [Toggle Flip](https://sones-100days.netlify.app/day51to60/toggleflip)                  |
+| 055 | [Neon Color](https://sones-100days.netlify.app/day51to60/neoneffect)                   |
+| 056 | [Smoke Effect](https://sones-100days.netlify.app/day51to60/animatedtext/)              |
+| 057 | [Planet Animation](https://sones-100days.netlify.app/day51to60/planetanimation/)       |
+| 058 | [Light Saber](https://sones-100days.netlify.app/day51to60/lightsaber/)                 |
+| 059 | [Battery Level](https://sones-100days.netlify.app/day51to60/batterylevel/)             |
+| 060 | [Git Profiles Search](https://sones-100days.netlify.app/day51to60/gitsearch/)          |
+| 061 | [Pytagoras Theorem](https://sones-100days.netlify.app/day61to70/teorema/)              |
+| 062 | [Book Api](https://sones-100days.netlify.app/day61to70/bookapi/)                       |
+| 063 | [Pixel Effect](https://sones-100days.netlify.app/day61to70/pixeleffect/)               |
+| 064 | [Glass Effect](https://sones-100days.netlify.app/day61to70/hoverglamorph/)             |
+| 065 | [Password](https://sones-100days.netlify.app/day61to70/password/)                      |
+| 066 | [Particles Effect](https://sones-100days.netlify.app/day61to70/particles/)             |
+| 067 | [Image Slider](https://sones-100days.netlify.app/day61to70/imageslider/)               |
+| 068 | [Draw app](https://sones-100days.netlify.app/day61to70/Draw/)                          |
+| 069 | [Random color](https://sones-100days.netlify.app/day61to70/randomcolor/)               |
+| 070 |                                                                                        |
