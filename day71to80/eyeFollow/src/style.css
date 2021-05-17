@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+
+.dino {
+  background-image: url(dino.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: 50%;
+  left: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.sockets {
+  position: absolute;
+  top: 240px;
+  width: 60px;
+  height: 60px;
+}
+
+.sockets .eyes {
+  background: #000;
+  width: 10px;
+  position: absolute;
+  border-radius: 60%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.sockets:first-of-type {
+  left: 150px;
+}
+
+.sockets:first-of-type .eyes {
+  height: 30px;
+}
+
+.sockets:last-of-type {
+  left: 255px;
+}
+
+.sockets:last-of-type .eyes {
+  height: 20px;
+}
+/*# sourceMappingURL=style.css.map */
