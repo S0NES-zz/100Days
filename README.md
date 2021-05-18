@@ -99,3 +99,4 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 069 | [Random color](https://sones-100days.netlify.app/day61to70/randomcolor/)               |
 | 070 | [Glow Dot](https://sones-100days.netlify.app/day61to70/backgroundmouse/)               |
 | 071 | [Eye Follow](https://sones-100days.netlify.app/day71to80/eyefollow/)                   |
+| 072 | [Clock](https://sones-100days.netlify.app/day71to80/clock/)                            |
