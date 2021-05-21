@@ -1,4 +1,4 @@
-# Background change
+# Background changer
 
 **Tier:** 1-Beginner
 
