@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.likes {
+  background-color: #03d537;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 25px;
+  width: 350px;
+}
+
+.likes:focus {
+  outline: none;
+}
+
+.likes .icon-container {
+  background-color: #fff;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: 1px solid #eee;
+  color: #03d537;
+  padding: 20px 25px;
+  position: relative;
+}
+
+.likes .text {
+  padding: 0 25px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.likes .grey-text {
+  display: block;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.fa-redo {
+  margin-left: 10px;
+}
+
+.hand {
+  position: absolute;
+  color: #018021;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: fly 3s linear forwards;
+          animation: fly 3s linear forwards;
+}
+
+@-webkit-keyframes fly {
+  to {
+    -webkit-transform: translate(-50%, -50px);
+            transform: translate(-50%, -50px);
+  }
+}
+
+@keyframes fly {
+  to {
+    -webkit-transform: translate(-50%, -50px);
+            transform: translate(-50%, -50px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
