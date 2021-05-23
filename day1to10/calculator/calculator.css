@@ -50,7 +50,7 @@ body {
   word-break: break-all;
 }
 #display #previousOperation {
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 }
 #display #currentOperation {
@@ -65,7 +65,7 @@ body {
   font-size: 1.2em;
 }
 
-.button:hover { 
+.button:hover {
   color: #fdfffc;
   background-color: #101218;
 }
@@ -78,29 +78,82 @@ body {
 #div,
 #minus,
 #plus,
-#equals {font-size: 2em;}
+#equals {
+  font-size: 2em;
+}
 
-#clear {grid-area: clear;}
-#del {grid-area: del;}
-#div {grid-area: div;}
-#mult {grid-area: mult;}
-#minus {grid-area: minus;}
-#plus {grid-area: plus;}
-#equals {grid-area: equals;}
-#one {grid-area: one;}
-#two {grid-area: two;}
-#three {grid-area: three;}
-#four {grid-area: four;}
-#five {grid-area: five;}
-#six {grid-area: six;}
-#seven {grid-area: seven;}
-#eight {grid-area: eight;}
-#nine {grid-area: nine;}
-#dot {grid-area: dot;}
-#zero {grid-area: zero;}
+#clear {
+  grid-area: clear;
+}
+#del {
+  grid-area: del;
+}
+#div {
+  grid-area: div;
+}
+#mult {
+  grid-area: mult;
+}
+#minus {
+  grid-area: minus;
+}
+#plus {
+  grid-area: plus;
+}
+#equals {
+  grid-area: equals;
+}
+#one {
+  grid-area: one;
+}
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+#four {
+  grid-area: four;
+}
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
+}
+#seven {
+  grid-area: seven;
+}
+#eight {
+  grid-area: eight;
+}
+#nine {
+  grid-area: nine;
+}
+#dot {
+  grid-area: dot;
+}
+#zero {
+  grid-area: zero;
+}
 
-@media (max-width: 800px){
-  .grid-calculator{
+@media (max-width: 800px) {
+  .grid-calculator {
     width: 80%;
   }
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #52f;
 }

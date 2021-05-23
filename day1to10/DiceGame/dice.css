@@ -42,7 +42,8 @@ body {
 #dice2 {
   grid-area: dice2;
 }
-#img1, #img2{
+#img1,
+#img2 {
   max-width: 35%;
 }
 #jogar {
@@ -64,4 +65,18 @@ body {
 }
 #jogar:focus {
   outline: none;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #52f;
 }

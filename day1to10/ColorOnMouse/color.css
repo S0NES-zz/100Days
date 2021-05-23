@@ -1,31 +1,45 @@
-body{
-    background: #3b3b3b;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+body {
+  background: #3b3b3b;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-section{
-    align-items: center;
-    cursor: pointer;
-    border-radius: 10px;
-    display: flex;
-    box-shadow: 5px 5px 50px #000;
-    height: 80vh;
-    justify-content: center;
-    margin: 5% auto;
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-    width: 70%;
+section {
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 5px 5px 50px #000;
+  height: 80vh;
+  justify-content: center;
+  margin: 5% auto;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  width: 70%;
 }
-p{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 4em;
-    text-shadow: 5px 5px 40px #000;
-    text-align: center;
-    display: none;
-    color: #fff;
+p {
+  font-family: "Permanent Marker", cursive;
+  font-size: 4em;
+  text-shadow: 5px 5px 40px #000;
+  text-align: center;
+  display: none;
+  color: #fff;
 }
 section:hover p {
-    display: block;
-    transform: translateZ(80px);  
+  display: block;
+  transform: translateZ(80px);
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #52f;
 }

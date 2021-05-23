@@ -1,51 +1,78 @@
-body{
-    background-color: #9BF3F0;
-    height: 100vh;
-    overflow: hidden;
+body {
+  background-color: #9bf3f0;
+  height: 100vh;
+  overflow: hidden;
 }
-.grid-container{
-    align-items: center;
-    background: #f7f0f5;
-    -webkit-box-shadow: 0px 0px 18px 6px rgba(36,35,49,0.57); 
-    box-shadow: 0px 0px 18px 6px rgba(36,35,49,0.57);
-    display: grid;
-    border-radius: 50px;
-    grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-    grid-template-areas:
-        "titulo titulo"
-        "labelDecimal inputDecimal"
-        "labelBinario inputBinario";
-    height: 50%;
-    left: 50%;
-    position: absolute;
-    padding: 10px 35px 35px 15px;
-    top: 50%;
-    transform: translate(-50%, -60%);
-    width: 35%;
+.grid-container {
+  align-items: center;
+  background: #f7f0f5;
+  -webkit-box-shadow: 0px 0px 18px 6px rgba(36, 35, 49, 0.57);
+  box-shadow: 0px 0px 18px 6px rgba(36, 35, 49, 0.57);
+  display: grid;
+  border-radius: 50px;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  grid-template-areas:
+    "titulo titulo"
+    "labelDecimal inputDecimal"
+    "labelBinario inputBinario";
+  height: 50%;
+  left: 50%;
+  position: absolute;
+  padding: 10px 35px 35px 15px;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  width: 35%;
 }
-.titulo{
-    color: #FF6B35;
-    font-size: 1.9em;
-    font-family: 'DotGothic16', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    grid-area: titulo; 
+.titulo {
+  color: #ff6b35;
+  font-size: 1.9em;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  grid-area: titulo;
 }
-.labelDecimal { grid-area: labelDecimal; }
-.inputDecimal { grid-area: inputDecimal; }
-.labelBinario { grid-area: labelBinario; }
-.inputBinario { grid-area: inputBinario; }
+.labelDecimal {
+  grid-area: labelDecimal;
+}
+.inputDecimal {
+  grid-area: inputDecimal;
+}
+.labelBinario {
+  grid-area: labelBinario;
+}
+.inputBinario {
+  grid-area: inputBinario;
+}
 
-#inputBinario, #inputDecimal, .labelBinario, .labelDecimal{
-    font-size: 1em;
-    font-family: 'DotGothic16', sans-serif;
-    text-align: center;
+#inputBinario,
+#inputDecimal,
+.labelBinario,
+.labelDecimal {
+  font-size: 1em;
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
 }
-#inputBinario, #inputDecimal{
-    border: 0;
-    border-radius: 10px;
+#inputBinario,
+#inputDecimal {
+  border: 0;
+  border-radius: 10px;
 }
-#inputBinario:focus, #inputDecimal:focus{
-    outline: none;
+#inputBinario:focus,
+#inputDecimal:focus {
+  outline: none;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 70px);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #52f;
 }

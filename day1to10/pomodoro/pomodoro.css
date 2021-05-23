@@ -15,7 +15,7 @@ body {
   margin: auto;
   width: 50%;
 }
-#pomodoroImg{
+#pomodoroImg {
   position: fixed;
   top: 25%;
   left: 35%;
@@ -46,7 +46,7 @@ body {
   display: none;
 }
 
-.btnArea{ 
+.btnArea {
   align-items: center;
   display: flex;
   height: 12%;
@@ -71,6 +71,20 @@ body {
   background: #f7ebe8;
   color: #f60000;
 }
-#stop{
+#stop {
   margin-top: 20%;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #52f;
 }
