@@ -2,7 +2,7 @@
 
 **Tier:** 2-Intermediate
 
-The Dinosaur Game, also known as the T-Rex Game or Dino Runner[citation needed] and initially codenamed Project Bolan, is a built-in browser game in the Google Chrome web browser.
+The Dinosaur Game, also known as the T-Rex Game or Dino Runner and initially codenamed Project Bolan, is a built-in browser game in the Google Chrome web browser.
 
 ## User Stories
 
