@@ -5,7 +5,7 @@ likes.forEach((like) => {
     like.style.background = "#fff";
     like.style.color = "#03d537";
     like.querySelector(".text").innerHTML =
-      '<span class="grey-text">Sent to:</span> FLORIN';
+      '<span class="grey-text">Sent to:</span> SONES';
 
     createLikes(like.querySelector(".icon-container"));
   });
