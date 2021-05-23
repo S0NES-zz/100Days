@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  margin: 30px auto;
+  font-size: 2rem;
+}
+
+.container {
+  border-radius: 50px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  height: 70px;
+  width: 350px;
+}
+
+.container a {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.container .git {
+  background-color: #383838;
+}
+
+.container .git:hover {
+  background-color: #282828;
+}
+
+.container .twt {
+  background-color: #1da1f2;
+}
+
+.container .twt:hover {
+  background-color: #007bb5;
+}
+
+.container .lin {
+  background-color: #007bb5;
+}
+
+.container .lin:hover {
+  background-color: #1da1f2;
+}
+
+.container .ins {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.container .ins:hover {
+  background: linear-gradient(45deg, #dc882f 0%, #c55932 25%, #bd2239 50%, #b11e59 75%, #94136b 100%);
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #52f;
+}
+/*# sourceMappingURL=style.css.map */
