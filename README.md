@@ -104,4 +104,5 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 074 | [Background changer](https://sones-100days.netlify.app/day71to80/backgroundchanger/)   |
 | 075 | [404 Error](https://sones-100days.netlify.app/day71to80/404error/)                     |
 | 076 | [Send like](https://sones-100days.netlify.app/day71to80/sendlike/)                     |
-| 077 | [linktree](https://sones-100days.netlify.app/day71to80/linktree/)                     |
+| 077 | [linktree](https://sones-100days.netlify.app/day71to80/linktree/)                      |
+| 077 | [Auto Text](https://sones-100days.netlify.app/day71to80/autotext/)                     |

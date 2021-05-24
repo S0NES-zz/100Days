@@ -1,4 +1,4 @@
-# 404 error
+# Sen like
 
 **Tier:** 1-Beginner
 
