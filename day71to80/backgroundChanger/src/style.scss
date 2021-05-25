@@ -43,3 +43,17 @@ body {
     background: rgba(255, 255, 255, 0.3);
   }
 }
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #52f;
+}
