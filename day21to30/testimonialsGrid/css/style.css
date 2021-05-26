@@ -222,4 +222,21 @@ body {
         grid-template-areas: "comment1" "comment1" "comment2" "comment3" "comment4" "comment4" "comment5" "comment5";
   }
 }
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #52f;
+}
 /*# sourceMappingURL=style.css.map */

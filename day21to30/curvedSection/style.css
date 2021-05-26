@@ -331,7 +331,9 @@ body {
 }
 /*Media 2 Cell*/
 @media (max-width: 500px) {
-  .attribution{ display: none; }
+  .attribution {
+    display: none;
+  }
   .container {
     max-width: 100%;
   }
@@ -416,4 +418,20 @@ body {
   #newsletter {
     display: none;
   }
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 50%;
+  left: -7%;
+  transform: translate(0, 50%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  transition: 1s;
+}
+.home:hover {
+  background: #52f;
+  left: 0;
 }

@@ -121,8 +121,8 @@ main {
 .attribution {
   position: absolute;
   bottom: 0;
-  right: 0;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 @media screen and (max-width: 500px) {
   .attribution {
@@ -168,4 +168,19 @@ main {
     text-align: center;
     width: 90%;
   }
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.home:hover {
+  background: #52f;
 }

@@ -168,3 +168,17 @@ main section figure img {
     top: 75%;
   }
 }
+.home {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.home:hover {
+  background: #52f;
+}
