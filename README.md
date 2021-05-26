@@ -107,3 +107,4 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 077 | [linktree](https://sones-100days.netlify.app/day71to80/linktree/)                      |
 | 078 | [Auto Text](https://sones-100days.netlify.app/day71to80/autotext/)                     |
 | 079 | [Auto Text](https://sones-100days.netlify.app/day71to80/countapi/)                     |
+| 080 | [Auto Text](https://sones-100days.netlify.app/day71to80/imagereflection/)              |
