@@ -106,5 +106,6 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 076 | [Send like](https://sones-100days.netlify.app/day71to80/sendlike/)                     |
 | 077 | [linktree](https://sones-100days.netlify.app/day71to80/linktree/)                      |
 | 078 | [Auto Text](https://sones-100days.netlify.app/day71to80/autotext/)                     |
-| 079 | [Count Visited](https://sones-100days.netlify.app/day71to80/countapi/)                     |
-| 080 | [Image Reflection](https://sones-100days.netlify.app/day71to80/imagereflection/)              |
+| 079 | [Count Visited](https://sones-100days.netlify.app/day71to80/countapi/)                 |
+| 080 | [Image Reflection](https://sones-100days.netlify.app/day71to80/imagereflection/)       |
+| 081 | [Wave](https://sones-100days.netlify.app/day81to90/wave/)                              |
