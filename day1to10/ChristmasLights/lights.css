@@ -3,9 +3,9 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background:  linear-gradient(to top, #dbdddd, #fff);
 }
 .grid-container {
-  background: url("background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   display: grid;
@@ -115,53 +115,115 @@ body {
 #red {
   top: 29%;
   left: 17%;
-  width: 6.5%;
-  height: 13%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
   background: #737574;
+}
+#red::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  height: 300px;
+  background: #a8b5ca;
+  bottom: 100%;
+  left: 47%;
 }
 /* ---------------------------------------------- ORANGE BALL ----------------------------------------------*/
 
 #orange {
   top: 27.5%;
   left: 26.7%;
-  width: 4%;
-  height: 8%;
+  width: 90px;
+  height: 90px;
   background: #737574;
+}
+#orange::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  height: 300px;
+  background: #876e52;
+  bottom: 100%;
+  left: 47%;
 }
 /* ---------------------------------------------- YELLOW BALL ----------------------------------------------*/
 
 #yellow {
   top: 22%;
   left: 68.55%;
-  width: 7.5%;
-  height: 15%;
+  width: 150px;
+  height: 150px;
   background: #737574;
+}
+#yellow::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  height: 300px;
+  background: #876e52;
+  bottom: 100%;
+  left: 47%;
 }
 /* ---------------------------------------------- BLUE BALL ----------------------------------------------*/
 #blue {
   top: 18.5%;
   left: 21.7%;
-  width: 6%;
-  height: 12%;
+  width: 120px;
+  height: 120px;
   background: #737574;
+}
+#blue::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  height: 300px;
+  background: #876e52;
+  bottom: 100%;
+  left: 47%;
 }
 /* ---------------------------------------- DARK BLUE BALL ----------------------------------------------*/
 #darkBlue {
   top: 17%;
   left: 75.85%;
-  width: 6%;
-  height: 12%;
+  width: 90px;
+  height: 90px;
   background: #737574;
+}
+#darkBlue::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  height: 300px;
+  background: #876e52;
+  bottom: 100%;
+  left: 47%;
 }
 /* ----------------------------------------- GREEN BALL ----------------------------------------------*/
 #green {
   top: 34.8%;
   left: 73.7%;
-  width: 6%;
-  height: 12%;
+  width:  120px;
+  height:  120px;
   background: #737574;
 }
 
+#green::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  height: 400px;
+  background: #a8b5ca;
+  z-index: -1;
+  bottom: 100%;
+  left: 47%;
+}
 /*---------------------------------------------- UTILITIES ----------------------------------------------*/
 .utilities {
   display: grid;
@@ -219,7 +281,7 @@ body {
   border-radius: 15px;
   font-size: 1em;
   grid-area: 2 / 4 / 3 / 5;
-  height: fit-content;
+  height: 30px;
   padding: 3px 20px;
   width: 20%;
 }
