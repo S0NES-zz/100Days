@@ -109,3 +109,4 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 079 | [Count Visited](https://sones-100days.netlify.app/day71to80/countapi/)                 |
 | 080 | [Image Reflection](https://sones-100days.netlify.app/day71to80/imagereflection/)       |
 | 081 | [Wave](https://sones-100days.netlify.app/day81to90/wave/)                              |
+| 082 | [Traffic Lights](https://sones-100days.netlify.app/day81to90/trafficlights/)                              |
