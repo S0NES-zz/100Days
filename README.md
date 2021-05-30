@@ -33,7 +33,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 003 | [Christmas Lights](https://sones-100days.netlify.app/day1to10/christmaslights)         |
 | 004 | [Pomodoro Timer](https://sones-100days.netlify.app/day1to10/pomodoro)                  |
 | 005 | [Calculadora](https://sones-100days.netlify.app/day1to10//calculator)                  |
-| 006 | [Dice](https://sones-100days.netlify.app/day1to10/dicegame)                                |
+| 006 | [Dice](https://sones-100days.netlify.app/day1to10/dicegame)                            |
 | 007 | [Border Radius](https://sones-100days.netlify.app/day1to10/border-radius)              |
 | 008 | [Drum Kit](https://sones-100days.netlify.app/day1to10/drumkit)                         |
 | 009 | [Key Value](https://sones-100days.netlify.app/day1to10/keyvalue)                       |
@@ -109,4 +109,5 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 079 | [Count Visited](https://sones-100days.netlify.app/day71to80/countapi/)                 |
 | 080 | [Image Reflection](https://sones-100days.netlify.app/day71to80/imagereflection/)       |
 | 081 | [Wave](https://sones-100days.netlify.app/day81to90/wave/)                              |
-| 082 | [Traffic Lights](https://sones-100days.netlify.app/day81to90/trafficlights/)                              |
+| 082 | [Traffic Lights](https://sones-100days.netlify.app/day81to90/trafficlights/)           |
+| 083 | [Pulse effect](https://sones-100days.netlify.app/day81to90/pulse/)                     |

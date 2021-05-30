@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.center {
+  position: absolute;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.pulse {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #42f;
+  -webkit-transition: 10s;
+  transition: 10s;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9);
+          box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9);
+  -webkit-animation: animate 3s linear infinite;
+          animation: animate 3s linear infinite;
+}
+
+.home {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 2rem;
+  position: relative;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0.9);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0.9);
+  }
+  40% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 50px rgba(30, 15, 192, 0.2);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 50px rgba(30, 15, 192, 0.2);
+  }
+  80% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 100px rgba(30, 15, 192, 0);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 100px rgba(30, 15, 192, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0.9);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0.9);
+  }
+  40% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 50px rgba(30, 15, 192, 0.2);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 50px rgba(30, 15, 192, 0.2);
+  }
+  80% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 100px rgba(30, 15, 192, 0);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 100px rgba(30, 15, 192, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0);
+            box-shadow: inset -10px 2px 10px rgba(116, 107, 214, 0.9), 0 0 0 0 rgba(30, 15, 192, 0);
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+}
+body {
+  background: #272727;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  h1 {
+    font-size: 3rem;
+  }
+  button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    background: rgb(253, 1, 1);
+    cursor: pointer;
+    transform: rotateX(40deg);
+    box-shadow: 0px 20px 1px #d50101, 0px 20px 1px #d50101, 0px 30px 1px #d50101;
+  }
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  &:hover {
+    background: #32f;
+  }
+}
+.momo{
+    background: url(momo.jpg) no-repeat;
+    position: absolute;
+    width: 99%;
+    background-position: center;
+    background-size: cover;
+    height: 99%;
+    z-index:  10;
+    margin: 0 auto;
+}
+.jeff{
+    background: url(jeff.jpg) no-repeat;
+    position: absolute;
+    width: 99%;
+    background-position: center;
+    background-size: cover;
+    height: 99%;
+    z-index:  10;
+    margin: 0 auto;
+}
+.active {
+  animation: animate 100ms linear;
+}
+@keyframes animate {
+  0% {
+    transform: rotateX(40deg);
+    box-shadow: 0px 20px 1px #d50101, 0px 20px 1px #d50101, 0px 30px 1px #d50101;
+  }
+  50% {
+    transform: rotateX(40deg) translate(0, 40px);
+    box-shadow: 0px 0px 1px #d50101;
+  }
+  0% {
+    transform: rotateX(40deg);
+    box-shadow: 0px 20px 1px #d50101, 0px 20px 1px #d50101, 0px 30px 1px #d50101;
+  }
+}

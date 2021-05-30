@@ -17,8 +17,9 @@ body {
 }
 #pomodoroImg {
   position: fixed;
-  top: 25%;
-  left: 35%;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 .grid-container {
@@ -50,9 +51,13 @@ body {
   align-items: center;
   display: flex;
   height: 12%;
+  width: 400px;
   justify-content: space-evenly;
   position: relative;
   top: 35%;
+  left:  50%;
+  transform: translate(-50%, 0%);
+  /* background: black; */
 }
 .btn {
   align-items: center;
@@ -61,6 +66,7 @@ body {
   color: #f7ebe8;
   display: flex;
   height: 100%;
+  padding:  0 13px;
   font-size: 1.1em;
   justify-content: center;
   text-transform: uppercase;
@@ -68,8 +74,8 @@ body {
   width: 13%;
 }
 .btn:hover {
-  background: #f7ebe8;
-  color: #f60000;
+  background: rgba(240, 240, 240, .8);
+  color: #252525;
 }
 #stop {
   margin-top: 20%;
