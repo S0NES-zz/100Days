@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background: #e2e2e2;
+  height: 100vh;
+}
+
+.littlePrince {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 4px;
+  -webkit-transition: 0.3;
+  transition: 0.3;
+  height: 600px;
+  -webkit-animation: animate 3s linear infinite;
+          animation: animate 3s linear infinite;
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #32f;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-clip-path: circle(1.6% at 100% 0);
+            clip-path: circle(1.6% at 100% 0);
+  }
+  25% {
+    -webkit-clip-path: circle(56.6% at 100% 0);
+            clip-path: circle(56.6% at 100% 0);
+  }
+  50% {
+    -webkit-clip-path: circle(136.5% at 100% 0);
+            clip-path: circle(136.5% at 100% 0);
+  }
+  75% {
+    -webkit-clip-path: circle(56.6% at 100% 0);
+            clip-path: circle(56.6% at 100% 0);
+  }
+  100% {
+    -webkit-clip-path: circle(1.6% at 100% 0);
+            clip-path: circle(1.6% at 100% 0);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-clip-path: circle(1.6% at 100% 0);
+            clip-path: circle(1.6% at 100% 0);
+  }
+  25% {
+    -webkit-clip-path: circle(56.6% at 100% 0);
+            clip-path: circle(56.6% at 100% 0);
+  }
+  50% {
+    -webkit-clip-path: circle(136.5% at 100% 0);
+            clip-path: circle(136.5% at 100% 0);
+  }
+  75% {
+    -webkit-clip-path: circle(56.6% at 100% 0);
+            clip-path: circle(56.6% at 100% 0);
+  }
+  100% {
+    -webkit-clip-path: circle(1.6% at 100% 0);
+            clip-path: circle(1.6% at 100% 0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
