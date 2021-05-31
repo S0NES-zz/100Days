@@ -111,5 +111,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 081 | [Wave](https://sones-100days.netlify.app/day81to90/wave/)                              |
 | 082 | [Traffic Lights](https://sones-100days.netlify.app/day81to90/trafficlights/)           |
 | 083 | [Pulse effect](https://sones-100days.netlify.app/day81to90/pulse/)                     |
-| 084 | [Pulse effect](https://sones-100days.netlify.app/day81to90/notbutton/)                     |
+| 084 | [Not Button](https://sones-100days.netlify.app/day81to90/notbutton/)                     |
+| 084 | [Little Prince](https://sones-100days.netlify.app/day81to90/littleprince/)                     |
+
 
