@@ -4,27 +4,31 @@
   outline: none;
   background: none;
   font-family: "Arvo", cursive;
+  box-sizing: border-box;
 }
 body {
   text-align: center;
-  background-color: #E4E7F1;
+  background-color: #1f1f1f;
   height: 100vh;
   overflow: hidden;
 }
 
 h1 {
   font-size: 5rem;
-  color: #111518;
+  color: rgb(231, 230, 230);
 }
 .set {
-  margin: 0 auto;
+  margin: 0  auto;
   height: 100%;
+  padding:  50px;
+  width:  800px;
+  position: relative;
   background: url("images/drum.png") no-repeat;
-  background-position: center bottom;
+  background-position: center bottom 15%;
 }
 .drum {
   display: inline-block;
-  color: black;
+  color: rgb(231, 230, 230);
   font-size: 3rem;
   position: absolute;
   font-family: "Arvo", cursive;
@@ -34,32 +38,32 @@ h1 {
   cursor: pointer;
 }
 #w{
-  top: 40%;
-  left: 32%;
+  top: 510px;
+  left: 170px;
 }
 #a{
-  top: 40%;
-  right: 31%;
+  top: 510px;
+  right: 150px;
 }
 #s{
-  top: 66%;
-  left: 32%;
+  top: 680px;
+  left: 150px;
 }
 #d{
-  top: 66%;
-  right: 31%;
+  top: 680px;
+  right: 150px;
 }
 #j{
-  top: 65%;
-  left: 45%;
+  top: 680px;
+  left: 338px;
 }
 #k{
-  top: 64%;
-  right: 24%;
+  top: 670px;
+  right: 60px;
 }
 #l{
-  top: 20%;
-  left: 25%;
+  top: 390px;
+  left: 80px;
 }
 .home {
   text-decoration: none;

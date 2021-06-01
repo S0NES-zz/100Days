@@ -24,12 +24,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
   justify-content: center;
   background-color: var(--very-pale-blue);
   color: var(--grayish-blue);
   background: url(../images/bg-pattern.svg) no-repeat top left;
 }
-
 .strong-text {
   color: var(--dark-saturated-blue);
   font-size: 1.25rem;
