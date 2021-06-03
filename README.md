@@ -115,5 +115,6 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 084 | [Little Prince](https://sones-100days.netlify.app/day81to90/littleprince/)                     |
 | 085 | [Pulse Effect](https://sones-100days.netlify.app/day81to90/pulse/)                     |
 | 086 | [Background Generator](https://sones-100days.netlify.app/day81to90/bggenerator/)                     |
+| 087 | [Loading Blur](https://codepen.io/vinicius-de-souza-scarabelli/pen/qBrxJGg)                     |
 
 
