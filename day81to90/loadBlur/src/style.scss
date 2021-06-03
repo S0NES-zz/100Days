@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+  overflow: hidden;
+}
+
+.bg {
+	background-image: url('bg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	width: calc(100vw + 60px);
+	height: calc(100vh + 60px);
+	z-index: -1;
+	filter: blur(0px);
+}
+
+.loading {
+	color: #fff;
+	font-size: 50px;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  &:hover {
+    background: #32f;
+  }
+}
