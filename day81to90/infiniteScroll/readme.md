@@ -2,8 +2,7 @@
 
 **Tier:** 1-Beginner
 
-This is a simple challenge only to have fun with clip path aniamtions
-
+This is a simple challenge only to have fun with js infinite functions
 ## User Stories
 
 -   [✔️] User can never reach the end

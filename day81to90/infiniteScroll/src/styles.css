@@ -68,4 +68,22 @@ img {
 .post-info {
   margin-left: 20px;
 }
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+  font-size: 15px;
+}
+
+.home:hover {
+  background: #32f;
+}
 /*# sourceMappingURL=styles.css.map */

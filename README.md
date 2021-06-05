@@ -118,5 +118,6 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 087 | [Loading Blur](https://sones-100days.netlify.app/day81to90/loadblur/)                     |
 | 088 | [Button change Font size](https://sones-100days.netlify.app/day81to90/buttonfontsize/)                     |
 | 089 | [Infinite scroll](https://sones-100days.netlify.app/day81to90/infinitescroll/)                     |
+| 090 | [Infinite scroll](https://sones-100days.netlify.app/day81to90/google2/)                     |
 
 
