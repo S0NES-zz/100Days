@@ -119,7 +119,7 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 088 | [Button change Font size](https://sones-100days.netlify.app/day81to90/buttonfontsize/)                     |
 | 089 | [Infinite scroll](https://sones-100days.netlify.app/day81to90/infinitescroll/)                     |
 | 090 | [Google 2](https://sones-100days.netlify.app/day81to90/google2/)                     |
-| 091 | [Patience is virtue](https://sones-100days.netlify.app/day81to90/partience/)                     |
+| 091 | [Patience is virtue](https://sones-100days.netlify.app/day91to99/partience/)                     |
 
 
 
