@@ -113,14 +113,13 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 083 | [Pulse effect](https://sones-100days.netlify.app/day81to90/pulse/)                     |
 | 084 | [Not Button](https://sones-100days.netlify.app/day81to90/notbutton/)                   |
 | 085 | [Little Prince](https://sones-100days.netlify.app/day81to90/littleprince/)             |
-| 086 | [Pulse Effect](https://sones-100days.netlify.app/day81to90/pulse/)                     |
-| 087 | [Background Generator](https://sones-100days.netlify.app/day81to90/bggenerator/)       |
-| 088 | [Loading Blur](https://sones-100days.netlify.app/day81to90/loadblur/)                  |
-| 089 | [Button change Font size](https://sones-100days.netlify.app/day81to90/buttonfontsize/) |
-| 090 | [Infinite scroll](https://sones-100days.netlify.app/day81to90/infinitescroll/)         |
-| 091 | [Google 2](https://sones-100days.netlify.app/day81to90/google2/)                       |
-| 092 | [Patience is virtue](https://sones-100days.netlify.app/day91to99/patience/)            |
-| 093 | [3d background](https://sones-100days.netlify.app/day91to99/3dbackground/)             |
+| 086 | [Background Generator](https://sones-100days.netlify.app/day81to90/bggenerator/)       |
+| 087 | [Loading Blur](https://sones-100days.netlify.app/day81to90/loadblur/)                  |
+| 088 | [Button change Font size](https://sones-100days.netlify.app/day81to90/buttonfontsize/) |
+| 089 | [Infinite scroll](https://sones-100days.netlify.app/day81to90/infinitescroll/)         |
+| 090 | [Google 2](https://sones-100days.netlify.app/day81to90/google2/)                       |
+| 091 | [Patience is virtue](https://sones-100days.netlify.app/day91to99/patience/)            |
+| 092 | [3d background](https://sones-100days.netlify.app/day91to99/3dbackground/)             |
 
 
 
