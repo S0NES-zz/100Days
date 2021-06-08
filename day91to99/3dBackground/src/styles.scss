@@ -1,0 +1,112 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.transform {
+	background-color: #0044ff;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 0 3px rgba(36, 103, 249, 0.5);
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	padding: 12px 20px;
+	position: fixed;
+	letter-spacing: 1px;
+	top: 20px;
+	z-index: 100;
+}
+
+.transform:active {
+	transform: translateY(2px);
+	box-shadow: none;
+}
+
+.transform:focus {
+	outline: none;
+}
+
+.boxes {
+display: flex;
+	flex-wrap: wrap;
+	align-items: space-around;
+	justify-content: space-around;
+	position: relative;
+	transition: .4s ease;
+	height: 500px;
+	width: 500px;
+}
+
+.boxes.big {
+	height: 600px;
+	width: 600px;
+}
+
+.box {
+	background-image: url(https://media0.giphy.com/media/NRWFU8lq7hCXS/giphy.gif?cid=ecf05e47ey58vfzzx5hsoxmyzk4k3pgqhm4c4jnnogv5stg8&rid=giphy.gif&ct=g);
+	background-repeat: no-repeat;
+	background-size: 500px 500px;
+	position: relative;
+	transition: .4s ease;
+	width: 125px;
+	height: 125px;
+}
+
+.boxes.big .box {
+	transform: rotateZ(360deg);
+}
+
+.box::after  {
+	background-color: #504f4f;
+	content: '';
+	position: absolute;
+	top: 8px;
+	right: -15px;
+	height: 100%;
+	width: 15px;
+	transform: skewY(45deg);
+}
+
+.box::before {
+	background-color: #2e2e2e;
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 8px;
+	height: 15px;
+	width: 100%;
+	transform: skewX(45deg);
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #52f;
+}
