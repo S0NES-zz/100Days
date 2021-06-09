@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>Form validation</title>
+  </head>
+  <body>
+    <div class="register-box">
+      <h2>Register your account</h2>
+      <div class="user-box">
+        <input type="text" name="" required="" id="name" />
+        <label>Nome completo</label>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="user-box">
+        <input type="email" name="" required="" id="email" />
+        <label>Email</label>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="" id="password" />
+        <label>Senha</label>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="" id="password2" />
+        <label>Confirmar Senha</label>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <button id="submit">
+        Sign Up
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    <a href="https://sones-100days.netlify.app/" class="home"
+      >#100Days100Projects</a
+    >
+    <script src="src/main.js"></script>
+  </body>
+</html>

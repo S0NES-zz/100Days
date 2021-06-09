@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(50deg, #009fff 0%, #ec2f4b 100%);
+  overflow: none;
+}
+.register-box {
+  width: 450px;
+  height: 600px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(58, 58, 59, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 600;
+    width: 80%;
+  }
+  .user-box {
+    position: relative;
+    width: 80%;
+
+    input {
+      background: transparent;
+      border: none;
+      width: 100%;
+      padding: 5px 25px;
+      outline: none;
+      border-bottom: 1px solid #222;
+    }
+    label {
+      position: absolute;
+      top: 0;
+      left: 25px;
+      font-size: 20px;
+      pointer-events: none;
+      transition: 0.5s;
+    }
+
+    input:focus ~ label,
+    input:valid ~ label {
+      top: -20px;
+      left: 0;
+      color: rgb(88, 87, 88);
+      font-size: 12px;
+    }
+    i {
+      visibility: hidden;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    small {
+      color: #e74c3c;
+      position: absolute;
+      left: 0;
+      bottom: -20px;
+      visibility: hidden;
+    }
+  }
+  button {
+    color: #222;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 80%;
+    outline: none;
+    background: none;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+      color: #ec2f4b;
+      background: rgba(255, 255, 255, 0.18);
+    }
+  }
+}
+.user-box.success {
+  i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  input {
+    border-color: #2ecc71;
+  }
+}
+.user-box.error {
+  input {
+    border-color: #e74c3c;
+  }
+  small {
+    visibility: visible;
+  }
+  i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #52f;
+}
