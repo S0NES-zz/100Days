@@ -122,8 +122,9 @@ This challenge was proposed by [@florinpop1705](https://twitter.com/florinpop170
 | 092 | [3d background](https://sones-100days.netlify.app/day91to99/3dbackground/)             |
 | 093 | [Validation](https://sones-100days.netlify.app/day91to99/validation/)                  |
 | 094 | [Rain effect](https://sones-100days.netlify.app/day91to99/raineffect/)                 |
-| 095 | [Liquid](https://sones-100days.netlify.app/day91to99/liquid/)                 |
-| 096 | [Direction Aware](https://sones-100days.netlify.app/day91to99/directionaware/)                 |
+| 095 | [Liquid](https://sones-100days.netlify.app/day91to99/liquid/)                          |
+| 096 | [Direction Aware](https://sones-100days.netlify.app/day91to99/directionaware/)         |
+| 097 | [Pokedex](https://sones-100days.netlify.app/day91to99/pokedex/)                        |
 
 
 
