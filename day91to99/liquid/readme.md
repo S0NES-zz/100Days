@@ -8,6 +8,6 @@ This is a simple challenge with the objective to have fun with gsap animations
 
 -   [✔️] User can see a liquid effect
 
-## 91/100 4/6/2021 - DONE
+## 95/100 4/10/2021 - DONE
 
 ## #100DAYSCHALLENGE
