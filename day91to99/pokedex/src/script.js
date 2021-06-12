@@ -25,7 +25,7 @@ const colors = {
 const main_types = Object.keys(colors);
 
 btn.addEventListener("click", () => {
-  getPokemon(search.value);
+  getPokemon(search.value.toLowerCase());
 });
 
 const getPokemon = async (id) => {
