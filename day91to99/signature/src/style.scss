@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(31, 31, 31);
+  overflow: none;
+
+  display: grid;
+  place-items: center;
+}
+.signature {
+  stroke: #f2f2f2;
+  animation: sign 1s ease-in;
+}
+#secondDot,
+#firstDot {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+#init {
+  stroke-dasharray: 9;
+}
+#letterV {
+  stroke-dasharray: 599;
+  stroke-dashoffset: 599;
+  animation-fill-mode: forwards;
+}
+#FirstI {
+  stroke-dasharray: 29;
+  stroke-dashoffset: 29;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+#letterN {
+  stroke-dasharray: 70;
+  stroke-dashoffset: 70;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+#SecondI {
+  stroke-dasharray: 14;
+  stroke-dashoffset: 14;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+#firstS {
+  stroke-dasharray: 579;
+  stroke-dashoffset: 579;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+#secondS {
+  stroke-dasharray: 792;
+  stroke-dashoffset: 792;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #52f;
+}

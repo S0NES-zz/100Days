@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #1f1f1f;
+  overflow: none;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.signature {
+  stroke: #f2f2f2;
+  -webkit-animation: sign 1s ease-in;
+          animation: sign 1s ease-in;
+}
+
+#secondDot,
+#firstDot {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#init {
+  stroke-dasharray: 9;
+}
+
+#letterV {
+  stroke-dasharray: 599;
+  stroke-dashoffset: 599;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#FirstI {
+  stroke-dasharray: 29;
+  stroke-dashoffset: 29;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#letterN {
+  stroke-dasharray: 70;
+  stroke-dashoffset: 70;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#SecondI {
+  stroke-dasharray: 14;
+  stroke-dashoffset: 14;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#firstS {
+  stroke-dasharray: 579;
+  stroke-dashoffset: 579;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#secondS {
+  stroke-dasharray: 792;
+  stroke-dashoffset: 792;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #52f;
+}
+/*# sourceMappingURL=style.css.map */
