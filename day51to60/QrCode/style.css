@@ -6,8 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: url(bg.jpeg) no-repeat;
-  background-size: center;
+  background: url(bg.jpeg) repeat;
+  background-size: cover;
   background-position: center;
   width: 100vh;
   height: 100vh;
@@ -49,4 +49,18 @@ input {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #32f;
 }

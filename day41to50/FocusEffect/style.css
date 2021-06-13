@@ -62,3 +62,18 @@ section .box h2 {
   box-shadow: 0 5px 25px rgb(39, 39, 39, 0.25);
   transform: translate(var(--x), var(--y));
 }
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.home:hover {
+  background: #32f;
+}

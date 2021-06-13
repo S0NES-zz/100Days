@@ -75,4 +75,21 @@ body {
             transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
   }
 }
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #32f;
+}
 /*# sourceMappingURL=style.css.map */

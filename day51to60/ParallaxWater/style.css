@@ -94,4 +94,24 @@ section #wave4 {
             transform: translateY(0px);
   }
 }
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  left: -3%;
+  top: 120%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.home:hover {
+  background: #32f;
+  left: 4%;
+}
 /*# sourceMappingURL=style.css.map */

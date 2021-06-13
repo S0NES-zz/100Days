@@ -14,10 +14,10 @@
   </head>
   <body>
     <section>
-        <div class="wave" id="wave1" style="--i:1"></div>
-        <div class="wave" id="wave2" style="--i:2"></div>
-        <div class="wave" id="wave3" style="--i:3"></div>
-        <div class="wave" id="wave4" style="--i:4"></div>
+      <div class="wave" id="wave1" style="--i: 1"></div>
+      <div class="wave" id="wave2" style="--i: 2"></div>
+      <div class="wave" id="wave3" style="--i: 3"></div>
+      <div class="wave" id="wave4" style="--i: 4"></div>
     </section>
     <div class="sec">
       <h2>Water Effect</h2>
@@ -25,42 +25,45 @@
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
         praesentium provident dolor, laborum fuga aliquam fugit delectus id
         ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
-        Expedita, ratione.<br><br>
+        Expedita, ratione.<br /><br />
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
         praesentium provident dolor, laborum fuga aliquam fugit delectus id
         ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
-        Expedita, ratione.<br>
+        Expedita, ratione.<br />
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
         praesentium provident dolor, laborum fuga aliquam fugit delectus id
         ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
-        Expedita, ratione.<br><br>
+        Expedita, ratione.<br /><br />
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
         praesentium provident dolor, laborum fuga aliquam fugit delectus id
         ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
-        Expedita, ratione.<br>
+        Expedita, ratione.<br />
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
         praesentium provident dolor, laborum fuga aliquam fugit delectus id
         ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
-        Expedita, ratione.<br><br>
+        Expedita, ratione.<br /><br />
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
         praesentium provident dolor, laborum fuga aliquam fugit delectus id
         ipsum, at velit blanditiis porro eligendi officia labore aliquid quos!
-        Expedita, ratione.<br>
+        Expedita, ratione.<br />
       </p>
     </div>
+    <a href="https://sones-100days.netlify.app/" class="home"
+      >#100Days100Projects</a
+    >
     <script>
-        const wave1 = document.getElementById('wave1');
-        const wave2 = document.getElementById('wave2');
-        const wave3 = document.getElementById('wave3');
-        const wave4 = document.getElementById('wave4');
-        let time = 3;
-        window.addEventListener('scroll', ()=>{
-            let value = window.scrollY;
-            wave1.style.backgroundPositionX = `${400 + value * time}px`;
-            wave2.style.backgroundPositionX = `${200 + value * time}px`;
-            wave3.style.backgroundPositionX = `${100 + value * time}px`;
-            wave4.style.backgroundPositionX = `${10  + value * time}px`;
-        })
+      const wave1 = document.getElementById("wave1");
+      const wave2 = document.getElementById("wave2");
+      const wave3 = document.getElementById("wave3");
+      const wave4 = document.getElementById("wave4");
+      let time = 3;
+      window.addEventListener("scroll", () => {
+        let value = window.scrollY;
+        wave1.style.backgroundPositionX = `${400 + value * time}px`;
+        wave2.style.backgroundPositionX = `${200 + value * time}px`;
+        wave3.style.backgroundPositionX = `${100 + value * time}px`;
+        wave4.style.backgroundPositionX = `${10 + value * time}px`;
+      });
     </script>
   </body>
 </html>

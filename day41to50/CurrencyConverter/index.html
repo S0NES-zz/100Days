@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='stylesheet' href='style.css'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Conversor de Moeda</title>
-</head>
-<body>
-    <div id='container'>
-        <h1>Convert your coin</h1>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Convert your coin</h1>
 
-        <div id='fromForm' class='formContainer'> 
-            <p id='fromName'></p>
-            <p id='errorMessage'>Input must be a number</p>
-            <form class='info'>
-                <select class='currencySelector' id='fromCurrency'></select>
-                <input type='text' id='fromValue' maxlength="9" class='valueInput'>
-            </form>
-        </div>
-    
-        <button id='swapButton'>Swap
-        </button>
-    
-        <div id='toForm' class='formContainer'> 
-            <p id='toName'></p>
-            <form  class='info'>
-                <select class='currencySelector' id='toCurrency'></select>
-                <input type='text' id='toValue' class='valueInput' disabled>
-            </form>
-            
-        </div>
+      <div id="fromForm" class="formContainer">
+        <p id="fromName"></p>
+        <p id="errorMessage">Input must be a number</p>
+        <form class="info">
+          <select class="currencySelector" id="fromCurrency"></select>
+          <input type="text" id="fromValue" maxlength="9" class="valueInput" />
+        </form>
+      </div>
+
+      <button id="swapButton">Swap</button>
+
+      <div id="toForm" class="formContainer">
+        <p id="toName"></p>
+        <form class="info">
+          <select class="currencySelector" id="toCurrency"></select>
+          <input type="text" id="toValue" class="valueInput" disabled />
+        </form>
+      </div>
     </div>
-    <script type='text/javascript' src='index.js'></script>
-</body>
+    <a href="https://sones-100days.netlify.app/" class="home">#100Days100Projects</a>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>

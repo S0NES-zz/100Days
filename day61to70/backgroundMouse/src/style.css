@@ -62,4 +62,21 @@ section span::before {
   -webkit-box-shadow: 0 0 10px #fb8626, 0 0 20px #fb8626, 0 0 30px #fb8626, 0 0 40px #fb8626, 0 0 50px #fb8626, 0 0 60px #fb8626;
           box-shadow: 0 0 10px #fb8626, 0 0 20px #fb8626, 0 0 30px #fb8626, 0 0 40px #fb8626, 0 0 50px #fb8626, 0 0 60px #fb8626;
 }
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #32f;
+}
 /*# sourceMappingURL=style.css.map */
