@@ -1,0 +1,143 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2f302f;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins";
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.generate {
+  outline: none;
+  border: none;
+  background: transparent;
+  position: relative;
+  padding: 10px 30px;
+  -webkit-transform: rotateX(18deg);
+          transform: rotateX(18deg);
+  color: #f2f2f2;
+  font-size: 2rem;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.generate::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: #bd341c;
+  bottom: 0;
+  border-radius: 0 0 5px 5px;
+  left: 0;
+  z-index: -10;
+}
+
+.generate::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background: #e33d20;
+  border-radius: 5px;
+  -webkit-transform: rotateX(22deg);
+          transform: rotateX(22deg);
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12px 8px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.result img {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 5px;
+}
+
+.result .info {
+  padding: 0 20px;
+  font-weight: 300;
+}
+
+.result .info h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.result .info h2 span {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.result .info p {
+  font-size: 1rem;
+}
+
+.result .info span {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 10px 20px;
+  background: #42f;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.home:hover {
+  background: #52f;
+}
+
+.click::after {
+  top: 5px;
+}
+/*# sourceMappingURL=style.css.map */
