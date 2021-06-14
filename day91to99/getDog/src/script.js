@@ -27,7 +27,7 @@ function createDog(dog) {
 
   const img = dog[0].url;
 
-  const doggyInnerHtml = `<img src=${img} alt=${name} />;
+  const doggyInnerHtml = `<img src=${img} alt=${name} />
            <div class="info">
              <h2 class="name">Name: <span>${name}</span></h2>
              <p class="lifespan">Lives: <span>Around ${life_span}</span></p>
