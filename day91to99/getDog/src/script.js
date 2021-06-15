@@ -23,11 +23,11 @@ function createDog(dog) {
   result.classList.add("result");
   const breed = dog[0].breeds;
   const { name, temperament, life_span } = breed[0];
-  replaced = temperament.replaceAll(',', ' - ');
+  let replaced = temperament.replaceAll(',', ' - ');
 
   const img = dog[0].url;
 
-  const doggyInnerHtml = `<img src=${img} alt=${name} />;
+  const doggyInnerHtml = `<img src=${img} alt=${name} />
            <div class="info">
              <h2 class="name">Name: <span>${name}</span></h2>
              <p class="lifespan">Lives: <span>Around ${life_span}</span></p>
